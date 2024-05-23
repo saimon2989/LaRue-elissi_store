@@ -545,6 +545,7 @@
           "cat_Eg9Caf": {
             "type": "cat",
             "settings": {
+              "image": "shopify:\/\/shop_images\/MG_0723-min-scaled.jpg",
               "cat_design": "6",
               "hoverz": true,
               "collection": "body",
