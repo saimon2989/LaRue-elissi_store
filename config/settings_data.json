@@ -4151,7 +4151,7 @@
           "about-top-0": {
             "type": "1",
             "settings": {
-              "col": "4",
+              "col": "6",
               "title": "Our Story",
               "color-title": "#333333",
               "sp-title": 8,
@@ -4162,7 +4162,7 @@
           "about-top-1": {
             "type": "2",
             "settings": {
-              "col": "8",
+              "col": "6",
               "image": "shopify:\/\/shop_images\/Larue_Banner_about-us_2.jpg"
             }
           }
