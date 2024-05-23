@@ -1,0 +1,291 @@
+{%- liquid 
+  assign sid = section.id
+  assign se_bks = section.blocks
+  assign se_stts = section.settings -%}
+
+<div class="nt_se_{{sid}} {{se_stts.layout}}">
+    <div class="row">
+        <div class="col-md-{{se_stts.col}} col-12">
+            {%- if se_stts.title -%}
+                <h3 style="color:{{se_stts.color-title}};font-size: 19px;margin:0 0 20px 0">{{se_stts.title}}</h3>
+            {%- endif -%}
+            {%- if se_bks.size > 0 -%}
+            <div class="group-question-content">
+                {%- for block in se_bks %}{% assign bk_stts = block.settings %}{% assign title = bk_stts.title %}{% assign is_first = forloop.first -%}
+
+                  {%- if title == blank %}{% continue %}{% endif -%}
+                  <div class="group-question{% if is_first %} active{% endif %}">
+                      <label>{{ title }}</label>
+                      <div class="content" style="display:{% if is_first %}block{% else %}none{% endif %}">{{ bk_stts.content }}</div>
+                  </div>
+                {%- endfor -%}
+            </div>
+            {%- endif -%}
+        </div>
+        {%- if se_stts.show_space %}<div class="col-md-{{se_stts.col3}} col-12"></div>{% endif -%}
+        <div class="col-md-{{se_stts.col2}} col-12 operation-contact">
+            {%- if se_stts.title-hour %}<h3 style="color:{{se_stts.color-op}};font-size: 17px;">{{se_stts.title-hour}}</h3>{% endif -%}
+            {%- if se_stts.hour-content %}<div class="hour_content">{{se_stts.hour-content}}</div>{% endif -%}
+            {%- if se_stts.title-bottom %}<h3 style="color:{{se_stts.color-ca}};font-size: 17px;margin:70px 0 15px">{{se_stts.title-bottom}}</h3>{% endif -%}
+            {%- if se_stts.text-bt %}<div class="text_bt">{{se_stts.text-bt}}</div>{% endif -%}
+        </div>
+    </div>
+</div>
+{%- style -%}
+  .group-question .content p:last-child {magrin-bottom:0}
+  .hour_content table, .hour_content th, .hour_content td {border: 0}
+  .operation-contact{
+      font-weight: 600;color: #333;
+  }
+  .nt_se_{{sid}} h3 {font-weight:{{settings.fw_se_tt}}}
+  .nt_se_{{sid}} table tr th, .nt_se_{{sid}} table tr td {
+    padding: .62069em 0em;
+    font-size: 1.06897em;
+    line-height: 1.24138em;
+    color: #333;
+    font-weight: 600;
+  }
+  .group-question a{color: {{settings.color_primary}};}
+  @media(max-width:767px){
+   .nt_se_{{sid}} .operation-contact h3{margin-top:15px}
+  }
+  .nt_se_{{sid}} td:last-child{text-align:right}th,td{padding:6px 10px}.group-question{margin:0 0 15px}.group-question label{font-weight:700;padding:15px 15px 15px 40px;line-height:1.4;display:block;width:100%;border:1px solid #ececec;cursor:pointer;position:relative;color: #555;}.group-question .content{padding:15px;border:1px solid #ececec;border-top:none}.group-question label:before{-webkit-transition:all 350ms ease;-moz-transition:all 350ms ease;-o-transition:all 350ms ease;transition:all 350ms ease;display:inline-block;content:"";position:absolute;width:12px;height:1px;margin-top:-1px;top:50%;left:15px;border-top:2px solid #999;color:#999;-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.group-question label:after{display:inline-block;content:"";position:absolute;width:12px;height:1px;margin-top:-1px;top:50%;left:15px;border-top:2px solid #999;color:#999;    -webkit-transition: all 350ms ease;
+  -moz-transition: all 350ms ease;
+  -o-transition: all 350ms ease;
+  transition: all 350ms ease;}
+  .nt_se_{{sid}} .group-question.active label:before{border-top:2px solid {{settings.color_primary}};-webkit-transform:rotate(0);-moz-transform:rotate(0);-o-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}.group-question.check-active label{color:{{settings.color_primary}}}
+  .nt_se_{{sid}} .group-question.active label:after{border-top: 2px solid {{settings.color_primary}};}
+{%- endstyle -%}
+{%- render 'section_css' -%}
+
+{%- schema -%}
+  {
+    "name": "QA, Infomation",
+    "class": "question",
+    "settings": [
+      {
+            "type": "header",
+            "content": "== Setting Question & answer"
+      },
+      {
+          "type": "select",
+          "id": "col",
+          "default": "8",
+          "options": [
+                  { "value": "1", "label": "Col 1 (8.3333 %)"},
+                  { "value": "2", "label": "Col 2 (16.666 %)"},
+                  { "value": "15", "label": "20%"},
+                  { "value": "3", "label": "Col 3 (25 %)"},
+                  { "value": "4", "label": "Col 4 (33.3333 %)"},
+                  { "value": "5", "label": "Col 5 (41.6667 %)"},
+                  { "value": "6", "label": "Col 6 (50 %)"},
+                  { "value": "7", "label": "Col 7 (58.3333 %)"},
+                  { "value": "8", "label": "Col 8 (66.6666 %)"},
+                  { "value": "9", "label": "Col 9 (75 %)"},
+                  { "value": "10", "label": "Col 10 (83.3333 %)"},
+                  { "value": "11", "label": "Col 11 (91.6666 %)"},
+                  { "value": "12", "label": "Col 12 (100 %)"}
+              ],
+          "label": "Custom Width"
+      },
+      {
+          "type":"text",
+          "id":"title",
+          "label":"Title",
+          "default":"What can we do for you ?"
+      },
+      {
+        "type": "color",
+        "id": "color-title",
+        "label": "Color Title",
+        "default": "#333"
+      },
+      {
+        "type": "header",
+        "content": "== Column space"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_space",
+        "label": "Show Column space?",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "col3",
+        "default": "1",
+        "options": [
+                { "value": "1", "label": "Col 1 (8.3333 %)"},
+                { "value": "2", "label": "Col 2 (16.666 %)"},
+                { "value": "15", "label": "20%"},
+                { "value": "3", "label": "Col 3 (25 %)"},
+                { "value": "4", "label": "Col 4 (33.3333 %)"},
+                { "value": "5", "label": "Col 5 (41.6667 %)"},
+                { "value": "6", "label": "Col 6 (50 %)"},
+                { "value": "7", "label": "Col 7 (58.3333 %)"},
+                { "value": "8", "label": "Col 8 (66.6666 %)"},
+                { "value": "9", "label": "Col 9 (75 %)"},
+                { "value": "10", "label": "Col 10 (83.3333 %)"},
+                { "value": "11", "label": "Col 11 (91.6666 %)"},
+                { "value": "12", "label": "Col 12 (100 %)"}
+            ],
+        "label": "Custom Width"
+        },
+      {
+        "type": "header",
+        "content": "== Infomation"
+      },
+      {
+        "type": "checkbox",
+        "id": "show-operation",
+        "label": "Show Infomation?",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "col2",
+        "default": "3",
+        "options": [
+                { "value": "1", "label": "Col 1 (8.3333 %)"},
+                { "value": "2", "label": "Col 2 (16.666 %)"},
+                { "value": "15", "label": "20%"},
+                { "value": "3", "label": "Col 3 (25 %)"},
+                { "value": "4", "label": "Col 4 (33.3333 %)"},
+                { "value": "5", "label": "Col 5 (41.6667 %)"},
+                { "value": "6", "label": "Col 6 (50 %)"},
+                { "value": "7", "label": "Col 7 (58.3333 %)"},
+                { "value": "8", "label": "Col 8 (66.6666 %)"},
+                { "value": "9", "label": "Col 9 (75 %)"},
+                { "value": "10", "label": "Col 10 (83.3333 %)"},
+                { "value": "11", "label": "Col 11 (91.6666 %)"},
+                { "value": "12", "label": "Col 12 (100 %)"}
+            ],
+        "label": "Custom Width"
+        },
+        {
+          "type": "paragraph",
+          "content": "—————————————————"
+        },
+        {
+          "type":"text",
+          "id":"title-hour",
+          "label":"Title Hour Of Operation",
+          "default":"Hour Of Operation"
+       },
+       {
+        "type": "color",
+        "id": "color-op",
+        "label": "Color Operation",
+        "default": "#333"
+      },
+       {
+         "type":"html",
+          "id":"hour-content",
+          "label":"Time Operation",
+          "default":"<table>\n<tr>\n<td>Monday:<\/td>\n<td>12-6PM<\/td>\n<\/tr>\n<tr>\n<td>Tuesday:<\/td>\n<td>12-6PM<\/td>\n<\/tr>\n<tr>\n<td>Wednesday:<\/td>\n<td>12-6PM<\/td>\n<\/tr>\n<tr>\n<td>Thursday:<\/td>\n<td>12-6PM<\/td>\n<\/tr>\n<tr>\n<td>Friday:<\/td>\n<td>12-6PM<\/td>\n<\/tr>\n<tr>\n<td>Saturday:<\/td>\n<td>12-6PM<\/td>\n<\/tr>\n<tr>\n<td>Sunday:<\/td>\n<td>Closed<\/td>\n<\/tr>\n<\/table>"
+       },
+      {
+        "type": "paragraph",
+        "content": "—————————————————"
+      },
+       {
+        "type":"text",
+        "id":"title-bottom",
+        "label":"Title Bottom",
+        "default":"Career"
+      },
+      {
+        "type": "color",
+        "id": "color-ca",
+        "label": "Color Title Bottom",
+        "default": "#333"
+      },
+      {
+       "type":"richtext",
+        "id":"text-bt",
+        "label":"Text content",
+        "default": "<p>If you’re interested in employment opportunities at Elessi, please email us: contact@yourstore.com<\/p>"
+       },
+      {
+        "type": "header",
+        "content": "== Design Options"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+         {
+            "value": "container",
+            "label": "Container"
+         },
+         {
+            "value": "nt_full",
+            "label": "Full Width"
+          }
+        ],
+        "label": "Layout"
+      },
+      {
+        "type": "color",
+        "id": "cl_bg",
+        "label": "Background color"
+      },
+      {
+        "type": "text",
+        "id": "mg",
+        "label": "Margin",
+        "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank",
+        "default": "60px,,40px,",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd",
+        "label": "Padding",
+        "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+        "placeholder": "50px,,50px,"
+      },
+     {
+        "type": "header",
+        "content": "== Design Mobile Options"
+      },
+      {
+        "type": "text",
+        "id": "mg_mb",
+        "label": "Margin",
+        "placeholder": "40px,,40px,"
+      },
+      {
+        "type": "text",
+        "id": "pd_mb",
+        "label": "Padding",
+        "placeholder": "50px,,50px,"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "1",
+        "name": "Question",
+        "settings": [
+            {
+              "type":"text",
+              "id":"title",
+              "label":"Question",
+              "default":"Lorem ipsum"
+            },
+            {
+              "type":"richtext",
+              "id":"content",
+              "label":"Answer",
+              "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. </p>"
+            }
+        ]
+      }
+    ],
+    "default": {
+      "blocks": [
+        { "type": "1" },{ "type": "1" },{ "type": "1" },{ "type": "1" },{ "type": "1" }
+      ]
+    }
+  }
+{% endschema %}

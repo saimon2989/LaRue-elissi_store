@@ -1,0 +1,235 @@
+{%- liquid 
+  assign sid = section.id
+  assign se_bks = section.blocks
+  assign se_stts = section.settings
+  assign form_id = 'contact_form_se'
+  if se_stts.show_map and se_stts.map != blank
+    assign class = 'col-md-7'
+  else
+    assign class = 'col-md-12'
+  endif -%}
+
+<div class="mt__30 mb__70 se_contact_page container"><div class="row">
+	{%- if se_stts.show_map and se_stts.map != blank %}<div class="col-12 col-md-5">{{se_stts.map}}</div>{% endif -%}
+    <div class="col-12 {{class}}"><div class="row">
+  	   {%- for block in se_bks %}{% assign bk_stts = block.settings -%}
+  	      {%- case block.type -%}
+  	         {%- when '1' -%}
+              <div class="col-md-{{bk_stts.col}} col-12 contact_page_block">
+                {%- if bk_stts.title != blank %}<h3 class="fw_sett">{{ bk_stts.title }}</h3>{% endif -%}
+                {%- if bk_stts.description != blank %}<div class="content">{{ bk_stts.description }}</div>{% endif -%}
+              </div>
+
+  	         {%- when '2' -%}
+  	           {%- unless bk_stts.show %}{% continue %}{% endunless -%}
+              <div class="col-md-6 col-12 contact_page_block contact_social">
+                {%- if bk_stts.title != blank %}<h3 class="fw_sett">{{ bk_stts.title }}</h3>{% endif -%}
+                {%- render 'social-sharing', social-sharing:'mt__15',share_permalink:shop.url,share_title:shop.name,share_image:share_image,follow_social:true -%}
+              </div>
+
+  	         {%- when '3' -%}
+  	           {%- unless bk_stts.show %}{% continue %}{% endunless -%}
+               <div class="col-12 contact_page_block contact-form">
+			         {%- form 'contact', id: formId -%}
+			           {%- render 'form-status', form: form, form_id: formId -%}
+			           
+			           <h3 class="mg__0 mt__20 fw_sett">{{ 'contact.form.title' | t }}</h3>
+			           <div class="row">
+				           <div class="col-md-6 col-12 mt__35">
+				               <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
+				               <input required="required" type="text" id="{{ formId }}-name" name="contact[name]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+				           </div>
+				           <div class="col-md-6 col-12 mt__35">
+				               <label for="{{ formId }}-email">{{ 'contact.form.email' | t }}</label>
+				               <input
+				                 required="required"
+				                 type="email"
+				                 id="{{ formId }}-email"
+				                 name="contact[email]"
+				                 autocorrect="off"
+				                 autocapitalize="off"
+				                 value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+				                 aria-required="true"
+				                 required="required"
+				                 {%- if form.errors contains 'email' -%}
+				                   class="input--error"
+				                   aria-invalid="true"
+				                   aria-describedby="{{ formId }}-email-error"
+				                 {%- endif -%}
+				                 >
+				               {%- if form.errors contains 'email' -%}
+				                 <span id="{{ formId}}-email-error" class="input-error-message"><i class="facl facl-attention cr mr__5"></i>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+				               {%- endif -%}
+				            </div>
+
+				           {%- if bk_stts.show_phone -%}
+				           <div class="col-12 mt__35">
+				           <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
+				           <input type="tel" id="{{ formId }}-phone" name="contact[phone]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+				           </div>
+				           {%- endif -%}
+				           
+				           <div class="col-12 mt__35">
+				           <label for="{{ formId }}-message">{{ 'contact.form.message' | t }}</label>
+				           <textarea rows="20" id="{{ formId }}-message" name="contact[body]" required="required">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+				           </div>
+			           </div>
+			           <input type="submit" class="button button_primary mt__35" value="{{ 'contact.form.submit' | t }}">
+
+			         {%- endform -%}
+			      </div>
+
+  	         {%- when '4' -%}
+  	         <div class="slt4_space dn_md col-12" style="height:{{bk_stts.sp_mb}}px"></div><div class="slt4_space dn db_md col-12" style="height:{{bk_stts.sp}}px"></div>
+
+  	      {%- endcase -%}
+  	   {%- endfor -%}
+    </div></div>
+</div></div>
+<style>input.button.button_primary {padding: 6px 40px;font-size: 12px;letter-spacing: 2px;}</style>
+
+{%- schema -%}
+  {
+    "name": "Contact Page",
+    "settings": [
+         {
+             "type": "checkbox",
+             "id": "show_map",
+             "label": "Show Iframe Google Map?",
+             "default": true
+         },
+        {
+           "type":"html",
+           "id":"map",
+           "label":"Iframe Google Map",
+           "default": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m21!1m12!1m3!1d3023.232793267196!2d-74.0009089!3d40.7534198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d40.753685399999995!2d-73.9991637!5e0!3m2!1sen!2s!4v1564375530455!5m2!1sen!2s\" width=\"600\" height=\"740\" frameborder=\"0\" style=\"border: 0px; pointer-events: none;\" allowfullscreen=\"\"><\/iframe>",
+           "info": "[Guide add Map To Web](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en)"
+        }
+    ],
+    "blocks": [
+      {
+        "type": "1",
+        "name": "Content",
+        "settings": [
+		      {
+		          "type": "select",
+		          "id": "col",
+		          "default": "6",
+		          "options": [
+		                  { "value": "3", "label": "Col 3 (25 %)"},
+		                  { "value": "4", "label": "Col 4 (33.3333 %)"},
+		                  { "value": "5", "label": "Col 5 (41.6667 %)"},
+		                  { "value": "6", "label": "Col 6 (50 %)"},
+		                  { "value": "7", "label": "Col 7 (58.3333 %)"},
+		                  { "value": "8", "label": "Col 8 (66.6666 %)"},
+		                  { "value": "9", "label": "Col 9 (75 %)"},
+		                  { "value": "10", "label": "Col 10 (83.3333 %)"},
+		                  { "value": "11", "label": "Col 11 (91.6666 %)"},
+		                  { "value": "12", "label": "Col 12 (100 %)"}
+		              ],
+		          "label": "Custom Width Desktop"
+		      },
+            {
+                "type":"text",
+                "id":"title",
+                "label":"Title",
+                "default":"Address"
+            },
+            {
+                "type":"richtext",
+                "id":"description",
+                "label":"Content Text",
+                "default":"<p>6th Forrest Ray,<br>Manhattan NYC 10001, USA</p>"
+            }
+        ]
+      },
+      {
+        "type": "2",
+        "name": "Social Follow",
+        "limit": 1,
+        "settings": [
+            {
+                "type":"checkbox",
+                "id":"show",
+                "label":"Show Social Follow?",
+                "default":true
+            },
+		      {
+		          "type": "select",
+		          "id": "col",
+		          "default": "6",
+		          "options": [
+		                  { "value": "3", "label": "Col 3 (25 %)"},
+		                  { "value": "4", "label": "Col 4 (33.3333 %)"},
+		                  { "value": "5", "label": "Col 5 (41.6667 %)"},
+		                  { "value": "6", "label": "Col 6 (50 %)"},
+		                  { "value": "7", "label": "Col 7 (58.3333 %)"},
+		                  { "value": "8", "label": "Col 8 (66.6666 %)"},
+		                  { "value": "9", "label": "Col 9 (75 %)"},
+		                  { "value": "10", "label": "Col 10 (83.3333 %)"},
+		                  { "value": "11", "label": "Col 11 (91.6666 %)"},
+		                  { "value": "12", "label": "Col 12 (100 %)"}
+		              ],
+		          "label": "Custom Width Desktop"
+		      },
+            {
+                "type":"text",
+                "id":"title",
+                "label":"Title",
+                "default":"Social"
+            }
+        ]
+      },
+      {
+        "type": "3",
+        "name": "Show Form Contact",
+        "limit": 1,
+        "settings": [
+            {
+                "type":"checkbox",
+                "id":"show",
+                "label":"Show Form Contact?",
+                "default":true
+            },
+            {
+                "type":"checkbox",
+                "id":"show_phone",
+                "label":"Show Phone Contact?",
+                "default":false
+            }
+        ]
+      },
+      {
+        "type": "4",
+        "name": "Space between",
+        "settings": [
+            {
+              "type": "range",
+              "id": "sp",
+              "min": 0,
+              "max": 100,
+              "step": 1,
+              "label": "Space",
+              "unit": "px",
+              "default": 40
+            },
+            {
+              "type": "range",
+              "id": "sp_mb",
+              "min": 0,
+              "max": 50,
+              "step": 0.5,
+              "label": "Space (mobile)",
+              "unit": "px",
+              "default": 10
+            }
+          ]
+      }
+    ],
+    "default": {
+      "blocks": [
+        { "type": "1" },{ "type": "1" },{ "type": "1" },{ "type": "2" },{ "type": "3" }
+      ]
+    }
+  }
+{% endschema %}

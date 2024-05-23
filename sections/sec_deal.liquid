@@ -1,0 +1,329 @@
+{%- liquid
+  assign sid = section.id
+  assign se_blocks = section.blocks
+  assign se_stts = section.settings
+  assign show_vendor = se_stts.show_vendor
+  assign layout = se_stts.layout
+  assign image = se_stts.image
+  assign sid = section.id
+  assign inc_price = settings.price_format 
+  assign use_rating = settings.use_pr_rating 
+  assign inc_rating = settings.app_review 
+  assign ck_noPr = true
+  assign show_pr_img = settings.show_pr_img
+  assign placeholder_img = settings.placeholder_img
+  assign hide_btns = settings.hide_btns 
+  assign show_stock_bar = se_stts.show_stock_bar
+  assign txt_sold = se_stts.txt_sold
+  assign txt_avai = se_stts.txt_avai
+  assign class_cd = 'des_secd_' | append:se_stts.cdt_des |append:' size_secd_' | append:se_stts.cdt_size
+  if layout == 'wrap'
+   assign html_layout = '<div class="container">__</div>' |split:"__"
+  else
+   assign html_layout = '__' |split:"__"
+  endif
+  render 'section_css' -%}
+<div class="nt_se_{{sid}}">
+<div class="nt_se_wrap pb__5 pr oh">
+<div class="prs_special_deal_bg nt2_se_{{sid}} {{layout}}{%- if image != blank %} hide_bgimg_{{se_stts.hide_bgimg}} lazyloadt4s se_t4_bg nt_parallax_{{se_stts.use_pr}}{%- endif -%}"{% if image != blank %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"{% endif %}>
+   {{-html_layout[0]-}}
+   <div class="prs_special_deal_wrap">
+      <div class="row no-gutters">
+         <div class="prs_special_deal_list col-12 col-lg">
+            <div data-t4s-thumbX-none data-t4s-thumbY class="js_carousel row fl_nowrap t4s-carousel__main carousel__main--{{sid}}" data-flickitycus='{ "t4sid":"{{sid}}","fade":0,"cellAlign": "center","imagesLoaded": 0,"lazyload": 0,"freeScroll": 0,"wrapAround": false,"autoPlay" : 0,"pauseAutoPlayOnHover" : true, "rightToLeft": {{settings.use_rtl}}, "prevNextButtons": false,"pageDots": false, "contain" : 1,"adaptiveHeight" : 1,"dragThreshold" : 5,"percentPosition": 1 }'>
+               {%- if se_blocks.size > 0 -%}
+                  {%- for block in se_blocks %}{% assign bk_stts = block.settings %}{% assign link = bk_stts.product %}{% if link.type != "product_link" or link == blank %}{% continue %}{% endif %}{% assign ck_noPr = false -%}
+                     <div id="nt_{{block.id}}" class="col-12 carousel-deal-itemt4 t4s-carousel__main--item" {{ block.shopify_attributes }}>
+                        <div class="row no-gutters">
+                           <div class="col-md-6 col-12 nt_pr">
+
+                              {%- liquid 
+                                assign product = link.object
+                                assign pr_id = product.id
+                                assign pr_url = product.url | within: collection
+                                assign images_0 = product.images[0] | default:placeholder_img
+                                assign total = bk_stts.total
+                                assign available = bk_stts.available -%}
+                              {%- if images_0 != blank -%}
+                              <div class="product-image pr oh">
+                                 {%- capture url_last -%}{{product.url }}{%- endcapture -%}
+                                 {%- if show_pr_img == '2' -%}{%- render 'pr_img_2',product:product,url_last:url_last -%}{%- else -%}{%- render 'pr_img',product:product,url_last:url_last -%}{%- endif -%}
+                              </div>
+                              {%- endif -%}
+                           </div>
+                           <div class="col-md-6 col-12">
+                              <div class="product-deal-special-wrap-info">
+                                 {%- if product.vendor.size > 0 and show_vendor -%}<div class="product-brand"><a class="cg chp" href="{{ product.vendor | url_for_vendor }}">{{ product.vendor }}</a></div>{%- endif -%}
+                                 <h3 class="product-title pr fs__14 mg__0 fwm"><a class="cd chp" href="{{product.url | within: collection}}">{{product.title}}</a></h3>
+                                 {%- if use_rating -%}{%- render 'rating',product:product,inc_rating:inc_rating -%}{%- endif -%}
+                                 <div class="price">{%- render 'product_price',product:product,inc_price:inc_price -%}</div>
+                                 {%- if show_stock_bar -%}
+                                    {%- assign sold = total | minus: available | times: 100 | divided_by: total | ceil -%}
+                                    <div class="product-deal-special-progress"> 
+                                       <div class="deal-stock-label flex wrap fl_between"> 
+                                          <span class="stock-available">{{txt_avai}} <strong>{{available}}</strong></span> 
+                                          <span class="stock-sold">{{txt_sold}} <strong>{{total | minus: available}}</strong></span> 
+                                       </div> 
+                                       <div class="deal-progress"><span class="deal-progress-bar" style="width: {{sold}}%">t4s</span></div> 
+                                    </div>
+                                 {%- endif -%}
+                                 {%- if bk_stts.date != blank %}<div class="product-deal-special-countdown2 sepr_coun_dt_wrap {{class_cd}} mt__10 mb__10"><div class="sepr_coun_dt" data-date="{{bk_stts.date}}"></div></div>{% endif -%}
+                                 {%- unless hide_btns %}<div class="product-deal-special-buttons mt__30">{%- render 'nt_add_btn',product:product,tooltip:'',url_last:pr_url -%}</div>{% endunless -%}
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  {%- endfor -%}
+               {%- endif -%}
+               {%- if ck_noPr -%}
+                  <div class="col-12 carousel-deal-itemt4 t4s-carousel__main--item t4s-dt-demo">
+                     <div class="row no-gutters">
+                        <div class="col-md-6 col-12 nt_pr">
+                           <div class="product-image pr oh">
+                              <span class="tc nt_labels pa pe_none cw"></span>
+                              <a class="db" href="/products/coats-holder">
+                                 <div class="pr_lazy_img main-img nt_img_ratio lazyloadt4s nt_bg_lz" style="padding-top:100%" data-bg="{{ 'product-1.jpg' | asset_url }}"></div>
+                              </a>
+                              <div class="hover_img pa pe_none t__0 l__0 r__0 b__0 op__0">
+                                 <div class="pr_lazy_img back-img pa lazyloadt4s nt_bg_lz" style="padding-top:100%" data-bg="{{ 'product-2.jpg' | asset_url }}"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                           <div class="product-deal-special-wrap-info">
+                              <h3 class="product-title pr fs__14 mg__0 fwm"><a class="cd chp" href="/admin/products">{{ 'homepage.onboarding.product_title' | t }}</a></h3>
+                              <div class="price"><del>$12.00</del><ins>$99.00</ins></div>
+                              <div class="product-deal-special-progress">
+                                 <div class="deal-stock-label flex wrap fl_between"> 
+                                    <span class="stock-available">Available: <strong>6</strong></span> 
+                                    <span class="stock-sold">Already Sold: <strong>94</strong></span> 
+                                 </div>
+                                 <div class="deal-progress"><span class="deal-progress-bar" style="width: 94%">t4s</span></div>
+                              </div>
+                              <div class="product-deal-special-countdown sepr_coun_dt_wrap {{class_cd}} mt__10 mb__10"><div class="sepr_coun_dt" data-date="{{'now' | date:'%Y/%m/%d'}}"></div></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               {%- endif -%}
+            </div>
+         </div>
+         {%- unless ck_noPr %}<div class="prs_special_deal_nav col-12 col-lg-auto"><div class="row no-gutters equal_nt t4s-carousel__nav carousel__nav--{{sid}} t4s__thumbY"></div></div>{% endunless -%}
+      </div>
+      <div class="t4s-btn__wrap">
+            <button type="button" class="t4s-btn__thumb t4s-btn__prev btn__prev--{{sid}}" aria-label="{{ 'sections.prev_deal' | t }}"><i class="pegk pe-7s-angle-left"></i> {{ 'sections.prev_deal' | t }}</button>
+            <button type="button" class="t4s-btn__thumb t4s-btn__next btn__next--{{sid}}" aria-label="{{ 'sections.next_deal' | t }}">{{ 'sections.next_deal' | t }} <i class="pegk pe-7s-angle-right"></i></button>
+      </div>
+   </div>
+   {{-html_layout[1]-}}
+</div>
+</div>
+</div>
+{%- style -%}
+.nt_se_{{sid}} .product-deal-special-progress .deal-progress {background: {{se_stts.cl_stock_1}}} .nt_se_{{sid}} .product-deal-special-progress .deal-progress .deal-progress-bar {background: {{se_stts.cl_stock_2}} }
+{%- endstyle -%}
+{%- render 'section_css' -%}
+{%- schema -%}
+  {
+    "name": "Products Special Deal",
+    "class": "nt_section type_prs_special_deal tp_flickitycus tp_se_cdt2",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_vendor",
+        "label": "Show product vendors",
+        "default": false
+      },
+     {
+        "type": "header",
+        "content": "== Countdown timer Options"
+      },
+      {
+        "type": "select",
+        "id": "cdt_des",
+        "label": "Countdown Design:",
+        "default": "1",
+        "options": [
+          {
+            "value": "1",
+            "label": "Design 1"
+          },
+          {
+            "value": "2",
+            "label": "Design 2"
+          },
+          {
+            "value": "3",
+            "label": "Design 3"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "cdt_size",
+        "label": "Countdown Size:",
+        "default": "medium",
+        "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "== stock Bar"
+      },
+      {
+       "type": "checkbox",
+       "id": "show_stock_bar",
+       "label": "Show stock bar?",
+       "default": true
+      },
+      {
+        "type": "text",
+        "id": "txt_sold",
+        "label": "Text sold",
+        "default": "Already Sold:"
+      },
+      {
+        "type": "text",
+        "id": "txt_avai",
+        "label": "Text available",
+        "default": "Available:"
+      },
+      {
+        "type": "color",
+        "id": "cl_stock_1",
+        "label": "Background color 1:",
+        "default": "#efefef"
+      },
+      {
+        "type": "color",
+        "id": "cl_stock_2",
+        "label": "Background color 2:",
+        "default": "#f76b6a"
+      },
+      {
+        "type": "header",
+        "content": "== Design Options"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_pr",
+        "label": "Enable parallax scroll?",
+        "default": false
+      },
+      {
+        "type": "select","id": "layout","default": "wrap","label": "Layout",
+        "options": [
+            { "value": "container", "label": "Container"},
+            { "value": "wrap", "label": "Wrapped Container"},
+            { "value": "nt_full", "label": "Full Width"}
+        ]
+      },
+      {
+        "type": "color","id": "cl_bg","label": "Background color"
+      },
+      {
+        "type": "image_picker","id": "image","label": "Background Image"
+      },
+      {
+        "type": "text",
+        "id": "mg",
+        "label": "Margin",
+        "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank",
+        "default": "50px,,50px,",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd",
+        "label": "Padding",
+        "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+        "placeholder": "50px,,50px,"
+      },
+     {
+        "type": "header",
+        "content": "== Design Mobile Options"
+      },
+      {
+        "type": "text",
+        "id": "mg_mb",
+        "label": "Margin",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd_mb",
+        "label": "Padding",
+        "placeholder": "50px,,50px,"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "info": "Only show on admin editor, a key word reminiscent of the selected product.",
+            "label": "Title (optional)"
+          },
+          {
+            "type": "url",
+            "id": "product",
+            "info": "Only active when choose link product",
+            "label": "Choose Product"
+          },
+          {
+            "type": "paragraph",
+            "content": "We use the link instead of the product type because to avoid the limit of 20 products per shopify page"
+          },
+         {
+            "type": "header",
+            "content": "== Stock Options"
+          },
+          {
+             "type": "number",
+             "id": "total",
+             "label": "Total Stock:",
+             "default": 100
+          },
+          {
+             "type": "number",
+             "id": "available",
+             "label": "Available Stock:",
+             "default": 75
+          },
+           {
+              "type": "header",
+              "content": "== Countdown timer Options"
+            },
+            {
+              "type": "text",
+              "id": "date",
+              "label": "Date countdown",
+              "default": "2021\/12\/20",
+              "info": "Countdown to the end sale date will be shown.( 2021\/04\/19 )"
+            }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "1. Products Special Deal",
+        "category": "VIIII. Products"
+      }
+    ]
+  }
+{% endschema %}

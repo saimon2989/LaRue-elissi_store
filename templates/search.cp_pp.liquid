@@ -1,0 +1,36 @@
+{%- liquid
+  layout none
+  assign limit = 6
+  assign results_count = search.results_count
+  assign pr_results = search.results
+  assign placeholder_img = settings.placeholder_img -%}
+
+{%- paginate search.results by limit -%}
+
+   <div class="t4s-compare-list container">
+      <div class="row al_center">
+         <div class="col-12 col-md-auto">
+            <h5 class="tc t4s-compare-label"><span class="db compare_label_heading">{{ 'general.compare.title_popup' | t }}</span><span class="color-gray db"> {{ 'general.compare.results_with_count_html' | t: count: results_count }}</span></h5>
+         </div>
+         <div class="col-12 col-md">
+            <div class="row al_center fl_center compare_mini_list">
+              {%- if results_count > 0 %}{% for product in pr_results %}{% assign image = product.images[0] | default:placeholder_img -%}
+               <div class="col-4 col-md-3 col-lg-2 compare_mini_item compare_id_{{product.id}}">
+                  <div class="t4s-compare-wrap-item">
+                     <a href="{{product.url}}" class="compare_link_item ttip_nt tooltip_top_left"><span class="tt_txt">{{product.title | escape}}</span>{%- if image != blank %}{% assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[80, 160, 320, 640]" data-sizes="auto" class="w__100 lazyloadt4s lz_op_ef" alt="{{image.alt | escape }}">{% endif -%}</a>
+                     <a href="/" data-no-instant rel="nofollow" class="cpt4_remve compare_remove_item dib" data-id="{{product.id}}"><i class="pegk pe-7s-close"></i></a>
+                  </div>
+               </div>
+               {%- endfor %}{% endif -%}
+            </div>
+         </div>
+         <div class="col-12 col-md-auto">
+            <div class="t4s-compare-bottom">
+               <a data-no-instant rel="nofollow" data-cpt4_remve_all class="t4s-compare-clear-all ml__10 mr__10 t4s-hover-underline color-gray" href="/">{{ 'general.compare.clear_all' | t }}</a>
+               <a data-no-instant rel="nofollow" class="t4s-compare-view button button_primary cpt4_added" href="{{ routes.search_url }}/?view=compe">{{ 'general.compare.let_compare' | t }}</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <button class="t4s-close-compare"></button>
+{%- endpaginate -%}

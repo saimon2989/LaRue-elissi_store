@@ -1,0 +1,257 @@
+{%- liquid
+  assign sid = section.id
+  assign se_stts = section.settings -%}
+
+<div class="nt_se_{{sid}} {{se_stts.layout}}">
+  <div class="row">
+      {%- if section.blocks.size > 0 -%}
+          {%- for block in section.blocks %}{% assign bk_stts = block.settings %}{% assign image = bk_stts.image -%}
+              {%- case block.type -%}
+                  {%- when '1' -%}
+                  <div class="our-story-title col-md-{{ bk_stts.col }} col-12 tc {{bk_stts.align}}_md">
+                      <div class="content-text">
+                          <h3 class="fw_sett">{{ bk_stts.title }}</h3>
+                          <div class="text">{{bk_stts.description}}</div>
+                      </div>
+                       {%- if image != blank %}{% assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                           <img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" class="lazyloadt4s lz_op_ef w__100 mt__60" alt="{{image.alt}}" style="max-width:100%">
+                       {%- endif -%}
+                  </div>
+
+              {%- when '2' -%}
+                  <div class="our-story-image col-md-{{ bk_stts.col }} col-12 tc {{bk_stts.align}}_md">
+                      {%- if image != blank %}{% assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                      <img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-sizes="auto" class="lazyloadt4s lz_op_ef w__100 mb__40" alt="{{image.alt}}" style="max-width:100%">
+                      {%- endif -%}
+                      <div class="content-text">
+                          <div class="text">
+                            {{- bk_stts.description -}}
+
+                            {%- liquid
+                            if block.settings.show_social
+                               render 'social-sharing', social-sharing:'mt__15',share_permalink:shop.url,share_title:shop.name,share_image:share_image,follow_social:true
+                            endif -%}
+                          </div>
+                      </div>
+                  </div>
+              {%- endcase -%}
+          {%- endfor -%}
+      {%- endif -%}
+  </div>
+</div>
+
+<style>
+   .content-text h3 {font-size: 26.4px;margin-top: 0;margin-bottom: 14px;}
+   .content-text strong {
+       font-size: 1.17241em;
+       margin-bottom: -1em;
+       display: block;color: #333;font-weight: {{settings.fw_se_tt}};
+   }
+   .content-text p {
+       font-weight: 400;font-size: 100%;line-height: 1.6;
+       margin-bottom: 1.37931em;text-rendering: optimizeLegibility;
+   }
+   .content-text .nt-social a {color: #333 }
+   .content-text .nt-social a:first-child {margin-left: 0 }
+   .content-text .nt-social a:last-child {margin-right: 0 }
+   @media (min-width: 768px) {
+      .content-text {padding: 10px}
+      .tr_md .content-text {padding-right: 60px}
+      .tl_md .content-text {padding-left: 60px}
+   }
+</style>
+
+{%- render 'section_css' -%}
+
+{%- schema -%}
+  {
+    "name": "Our Story",
+    "class": "our-story",
+    "settings": [
+      {
+        "type": "header",
+        "content": "== Design Options"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+         {
+            "value": "container",
+            "label": "Container"
+         },
+         {
+            "value": "nt_full",
+            "label": "Full Width"
+          }
+        ],
+        "label": "Layout"
+      },
+      {
+        "type": "color",
+        "id": "cl_bg",
+        "label": "Background color"
+      },
+      {
+        "type": "text",
+        "id": "mg",
+        "label": "Margin",
+        "info":"Margin top, margin right, margin bottom, margin left. If you not use to blank",
+        "default": "50px,,60px,",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd",
+        "label": "Padding",
+        "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank",
+        "placeholder": "50px,,50px,"
+      },
+     {
+        "type": "header",
+        "content": "== Design Mobile Options"
+      },
+      {
+        "type": "text",
+        "id": "mg_mb",
+        "label": "Margin",
+        "placeholder": "50px,,50px,"
+      },
+      {
+        "type": "text",
+        "id": "pd_mb",
+        "label": "Padding",
+        "placeholder": "50px,,50px,"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "1",
+        "name": "Image Text",
+        "settings": [
+             {
+                "type": "header",
+                "content": "== Setting Option"
+            },
+            {
+                "type": "select",
+                "id": "col",
+                "default": "6",
+                "options": [
+                        { "value": "1", "label": "Col 1 (8.3333 %)"},
+                        { "value": "2", "label": "Col 2 (16.666 %)"},
+                        { "value": "15", "label": "20%"},
+                        { "value": "3", "label": "Col 3 (25 %)"},
+                        { "value": "4", "label": "Col 4 (33.3333 %)"},
+                        { "value": "5", "label": "Col 5 (41.6667 %)"},
+                        { "value": "6", "label": "Col 6 (50 %)"},
+                        { "value": "7", "label": "Col 7 (58.3333 %)"},
+                        { "value": "8", "label": "Col 8 (66.6666 %)"},
+                        { "value": "9", "label": "Col 9 (75 %)"},
+                        { "value": "10", "label": "Col 10 (83.3333 %)"},
+                        { "value": "11", "label": "Col 11 (91.6666 %)"},
+                        { "value": "12", "label": "Col 12 (100 %)"}
+                    ],
+                "label": "Custom Width"
+            },
+            {
+                "type": "select",
+                "id": "align",
+                "default":"tr",
+                "options": [
+                        { "value": "tc", "label": "Center"},
+                        { "value": "tl", "label": "Left"},
+                        { "value": "tr", "label": "Right"}
+                    ],
+                "label": "Text Align"
+            },
+            {
+                "type":"text",
+                "id":"title",
+                "label":"Title",
+                "default":"Our Story"
+            },
+            {
+                "type":"richtext",
+                "id":"description",
+                "label":"Content Text",
+                "default":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            }
+        ]
+      },
+      {
+        "type": "2",
+        "name": "Image Address",
+        "settings": [
+             {
+                "type": "header",
+                "content": "== Setting Option"
+            },
+            {
+                "type": "select",
+                "id": "col",
+                "default": "6",
+                "options": [
+                        { "value": "1", "label": "Col 1 (8.3333 %)"},
+                        { "value": "2", "label": "Col 2 (16.666 %)"},
+                        { "value": "15", "label": "20%"},
+                        { "value": "3", "label": "Col 3 (25 %)"},
+                        { "value": "4", "label": "Col 4 (33.3333 %)"},
+                        { "value": "5", "label": "Col 5 (41.6667 %)"},
+                        { "value": "6", "label": "Col 6 (50 %)"},
+                        { "value": "7", "label": "Col 7 (58.3333 %)"},
+                        { "value": "8", "label": "Col 8 (66.6666 %)"},
+                        { "value": "9", "label": "Col 9 (75 %)"},
+                        { "value": "10", "label": "Col 10 (83.3333 %)"},
+                        { "value": "11", "label": "Col 11 (91.6666 %)"},
+                        { "value": "12", "label": "Col 12 (100 %)"}
+                    ],
+                "label": "Custom Width"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "select",
+                "id": "align",
+                "default":"tl",
+                "options": [
+                        { "value": "tc", "label": "Center"},
+                        { "value": "tl", "label": "Left"},
+                        { "value": "tr", "label": "Right"}
+                    ],
+                "label": "Text Align"
+            },
+            {
+                "type":"richtext",
+                "id":"description",
+                "label":"Content Text",
+                "default":"<p><strong>Address</strong></p><p>6th Forrest Ray,<br>Manhattan NYC 10001, USA</p><p><strong>Phone</strong></p><p>Phone: (+01)-800-3456-88</p><p><strong>Email</strong></p><p>Support@gmail.com</p>"
+            },
+            {
+                "type": "header",
+                "content": "== Setting Social"
+            },
+            {
+                "type": "checkbox",
+                "id": "show_social",
+                "default":true,
+                "label": "Show social Follow?"
+            }
+        ]
+      }
+    ],
+    "default": {
+      "blocks": [
+        { "type": "1" },{ "type": "2" }
+      ]
+    }
+  }
+{% endschema %}

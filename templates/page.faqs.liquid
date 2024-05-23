@@ -1,0 +1,43 @@
+{%- section 'faq_heading' -%}
+<div class="container mt__55 mb__80">{%- section 'faqs' -%}</div>
+<style>
+.sp-tab .heading{
+  background: transparent;
+}
+.sp-tab .heading>a.tab-heading {
+  text-transform: none;
+  color: #333;
+}
+.sp-tab .heading>a.tab-heading:before {
+  color: #999;
+  font-weight: 600
+}
+.sp-tab .nav_link_icon {
+    display: none;
+}
+a.button.question_faq__btn {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.question_faq {
+    border: 1px solid #ececec;
+}
+.faq_headign strong {
+    font-weight: 800;color: #333;
+    font-size: 24px;
+}
+.faq_headign p,.sp-tab p {
+    margin-bottom: 1.3em;
+    margin-bottom: .1em;
+}
+@media (max-width: 767px) {
+   .question_faq__title,.faq_headign strong {
+    font-size: 20px;
+   }
+}
+</style>

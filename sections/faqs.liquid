@@ -1,0 +1,102 @@
+{%- assign se_stts = section.settings -%}
+
+{%- if se_stts.content != blank -%}
+<div class="faq_headign mb__60 tc">{{se_stts.content}}</div>
+{%- endif -%}
+<div class="shopify-tabs sp-tabs">
+{%- assign ck = se_stts.auto -%}
+{%- if section.blocks.size > 0 -%}
+   {%- for block in section.blocks -%}
+      <div class="panel entry-content sp-tab des_mb_2 des_style_2{% if ck %} active{% assign ck = false %}{% else %} dn{% endif %}" id="tab_{{block.id}}" {{ block.shopify_attributes }}>
+        <div class="js_ck_view"></div><div class="heading bgbl dn"><a class="tab-heading flex al_center fl_between pr cd chp fwm" href="#tab_{{block.id}}"><span class="txt_h_tab">{{block.settings.title}}</span><span class="nav_link_icon ml__5"></span></a></div>
+        <div class="sp-tab-content">{{block.settings.content}}</div>
+      </div>
+   {%- endfor -%}
+{%- else -%}
+   <div class="tc">{%- render 'no-blocks'-%}</div>   
+{%- endif -%}
+</div>
+{%- if se_stts.show_ques != blank -%}
+<div class="question_faq mt__70 mb__50 pt__50 pb__50 pl__10 pr__10 tc">
+    {%- if se_stts.title_ques != blank -%}<h3 class="question_faq__title">{{se_stts.title_ques}}</h3>{%- endif -%}
+    {%- if se_stts.url_btn != blank and se_stts.title_btn != blank -%}<a href="{{se_stts.url_btn}}" class="button button_primary question_faq__btn">{{se_stts.title_btn}}</a>{%- endif -%}
+</div>
+{%- endif -%}
+
+{%- schema -%}
+  {
+    "name": "Faqs",
+    "class": "nt_section type_faq js_faq_ad",
+    "settings": [ 
+      {
+        "type": "header",
+        "content": "== FAQ options"
+      },
+      {
+      "type": "richtext",
+      "id": "content",
+      "label": "Heading",
+      "default": "<p>Frequently Asked Questions</p>"
+      },
+      {
+      "type": "checkbox",
+      "id": "auto",
+      "label": "Enable auto open?",
+      "default": true
+      },
+      {
+        "type": "header",
+        "content": "== Question more options"
+      },
+      {
+      "type": "checkbox",
+      "id": "show_ques",
+      "label": "Enable Question more?",
+      "default": true
+      },
+      {
+      "type": "text",
+      "id": "title_ques",
+      "label": "Heading",
+      "default": "Still Have Question? Contact Us"
+      },
+      {
+      "type": "text",
+      "id": "title_btn",
+      "label": "Button title",
+      "default": "CONTACT US"
+      },
+      {
+      "type": "url",
+      "id": "url_btn",
+      "label": "Button Link",
+      "default": "/"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "faq",
+        "name": "Faq",
+        "settings": [
+            {
+            "type": "text",
+            "id": "title",
+            "label": "Question",
+            "default": "Lorem ipsum dolor sit amet"
+            },
+            {
+            "type": "richtext",
+            "id": "content",
+            "label": "Answer",
+            "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed eros congue, eleifend ipsum vitae, cursus massa. Vivamus imperdiet luctus lorem. </p>"
+            }
+         ]
+      }
+    ],
+    "default": {
+      "blocks": [
+        { "type": "faq" },{ "type": "faq" },{ "type": "faq" },{ "type": "faq" }
+      ]
+    }
+  }
+{% endschema %}

@@ -1,0 +1,537 @@
+{%- liquid
+assign se_settings = section.settings
+assign use_pagination = se_settings.use_pagination
+assign use_bar_lm = se_settings.use_bar_lm
+assign limit = se_settings.limit
+assign shop_des = settings.shop_des
+assign hidden_cat = settings.use_hidden_cat
+assign nt_ck = false
+assign no_sidebar = true
+assign shop_sidebar = settings.shop_sidebar
+assign show_list_switch = settings.show_list_switch
+unless show_list_switch
+ assign on_list_view = false
+else
+ assign on_list_view = settings.default_list_view
+endunless
+if hidden_cat == false
+  case shop_sidebar
+    when 'right'
+      assign no_sidebar = false
+    when 'left'
+      assign no_sidebar = false 
+  endcase
+elsif shop_sidebar == 'left' or shop_sidebar == 'right'
+  assign no_sidebar = false 
+endif
+if shop_des == 'packery'
+  assign col = se_settings.col_pr 
+  assign col_tb = se_settings.col_pr_tb
+  assign cl_mb = se_settings.col_pr_mb 
+else
+  assign cat_dk_items_per_row = cart.attributes.cat_dk_items_per_row
+  assign cat_tb_items_per_row = cart.attributes.cat_tb_items_per_row
+  assign cat_mb_items_per_row = cart.attributes.cat_mb_items_per_row
+  assign col = cat_dk_items_per_row | default:se_settings.col_pr
+  assign col_tb = cat_tb_items_per_row | default:se_settings.col_pr_tb 
+  assign cl_mb = cat_mb_items_per_row | default:se_settings.col_pr_mb
+  if cat_dk_items_per_row == 'listt4' or cat_tb_items_per_row == 'listt4' or cat_mb_items_per_row == 'listt4'
+     assign on_list_view = show_list_switch
+  elsif cat_dk_items_per_row != blank or cat_tb_items_per_row != blank or cat_mb_items_per_row != blank
+     assign on_list_view = false
+  elsif on_list_view
+    assign col = 'listt4'
+    assign col_tb = 'listt4'
+    assign cl_mb = 'listt4'
+  endif
+endif
+
+assign col_mb = ' pr_animated done' | prepend:cl_mb 
+if collection.current_type or collection.current_vendor
+  assign nt_ck = true 
+endif 
+assign ck_packery = false
+assign inc_pr = se_settings.pr_des
+if shop_des == 'packery' and hidden_cat or no_sidebar 
+  assign ck_packery = true 
+  assign inc_pr = '1'
+elsif shop_des == 'packery' 
+  assign shop_des = 'default'
+endif
+assign sett_equal = se_settings.use_eq_height
+assign show_vendor = se_settings.show_vendor
+if hidden_cat == false and no_sidebar == false and col == '15' or col == '2'  
+  assign col = '3' 
+endif
+assign use_cdt = se_settings.use_cdt
+assign txt_cd = 'products.grid_items.offer_end_in' | t 
+assign cat_filters = collection.filters -%}
+
+{%- capture url_cat -%}/collections/{{collection.handle}}{%- endcapture -%}
+
+
+{%- paginate collection.products by limit -%}
+
+  {%- assign page_t4 = current_page -%}
+  {%- assign p_pages = paginate.pages -%}
+
+  {%- if p_pages > 1 and use_pagination != 'default' and content_for_header contains '\u0026section_id=' -%}
+
+      {%- render 'ajax_cat_load',page_t4:page_t4,on_list:true,arr_results:collection.products,use_cdt:use_cdt,txt_cd:txt_cd,paginate:paginate,col:col, col_tb:col_tb, col_mb:col_mb,shop_des:shop_des,inc_pr:inc_pr,sett_equal:sett_equal,show_vendor:show_vendor,url_cat:url_cat -%}
+  
+  {%- else -%}
+
+      {%- assign inc_price = settings.price_format -%}
+      {%- assign use_rating = settings.use_pr_rating -%}
+      {%- assign inc_rating = settings.app_review -%}
+      {%- assign show_color = settings.show_pr_color -%}
+      {%- assign show_cl_type = settings.show_color_type -%}
+      {%- assign show_size = settings.show_pr_size -%}
+      {%- assign results_count = collection.products_count -%}
+
+      {%- if nt_ck or current_tags.size > 0 and settings.type_filters == '1' -%}
+      <div class="result_clear mt__30 mb__20">
+         <div class="sp_result_html dib cb clear_filter">{{ 'collections.general.results_with_count_html' | t:count:collection.products_count}}</div>
+         {%- if current_tags.size > 0 -%}{%- for tag in current_tags -%}{%- assign txt_tag = tag | replace: '-', ' ' | replace: '_', ' ' -%}{{ txt_tag | link_to_remove_tag: tag | replace: 'title=', 'class="clear_filter dib bf_icons" aria-label=' }}{%- endfor -%}{%- endif -%}
+         {%- if current_tags.size > 1 -%}<a class="clear_filter clear_filter_all dib" href="{{collection.url}}">{{ 'collections.general.clear_filter' | t}}</a>{%- endif -%}
+      </div>
+      {%- endif -%}
+      {%- if cat_filters.size > 0 -%}
+           {%- assign total_active_values = 0 -%}
+           {%- capture result_html -%}
+              {%- for filter in cat_filters -%}
+                  {%- for value in filter.active_values -%}
+                   {%- assign total_active_values = total_active_values | plus: filter.active_values.size -%}
+                    <a href="{{ value.url_to_remove }}" class="clear_filter dib bf_icons">{{ value.label | escape }}</a>
+                  {%- endfor -%}
+                 {%- if filter.type == "price_range" %}
+                   {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
+                   {%- assign total_active_values = total_active_values | plus: 1 -%}
+                    <a href="{{ filter.url_to_remove }}" class="clear_filter dib bf_icons">{%- if filter.min_value.value -%}{{ filter.min_value.value | money }}{%- else -%}{{ 0 | money }}{%- endif -%}-{%- if filter.max_value.value -%}{{ filter.max_value.value | money }}{%- else -%}{{ filter.range_max | money }}{%- endif -%}</a>
+                   {%- endif -%}
+                 {% endif -%}
+              {%- endfor -%}
+           {%- endcapture -%}
+           {%- if total_active_values > 0 -%}
+           <div class="result_clear mt__30 mb__20">
+              <div class="sp_result_html dib cb clear_filter">{{ 'collections.general.results_with_count_html' | t:count:collection.products_count}}</div>
+              {{result_html}}
+              {%- if total_active_values > 1 -%}<a class="clear_filter clear_filter_all dib" href="{{collection.url}}">{{ 'collections.general.clear_filter' | t}}</a>{%- endif -%}
+           </div>
+           {%- endif -%}
+      {%- endif -%}
+
+      {%- if p_pages > 1 and use_pagination != 'default' and paginate.previous.is_link -%}
+        <div class="products-footer tc mt__40 mb__30 is_prev_cat_js">
+          <a data-get='{{ paginate.previous.url }}' href="{{ paginate.previous.url }}" data-id="{{section.id}}" class="pr nt_cat_lm button">{{ 'products.grid_items.load_prev' | t }}</a>
+        </div>
+      {%- endif -%}
+      <div class="nt_svg_loader dn"></div>
+
+      {%- if shop_des == 'minimasonry' -%}
+        <div data-change-url data-filterntt4='{"paginate_ntt4":"{{use_pagination}}","limit_ntt4":"{{limitstt}}","use_bar_lmntt4":"{{use_bar_lm}}"}' data-attrsntt4='{"paginate_ntt4":"{{cart.attributes.paginate_ntt4}}","limit_ntt4":"{{cart.attributes.limit_ntt4}}","use_bar_lmntt4":"{{cart.attributes.use_bar_lmntt4}}"}' class="on_list_view_{{on_list_view}} products nt_products_holder row fl_center row_pr_{{inc_pr}} cdt_des_{{se_settings.cdt_des}} round_cd_{{se_settings.round_cd}} {{se_settings.image_size}} {{se_settings.image_ratio}} position_{{se_settings.image_position}} space_{{se_settings.space}}{% if sett_equal %} equal_nt{% endif %} js_isotope nt_isotope" data-isotope='{ "itemSelector": ".pr_grid_item", "layoutMode": "masonry","columnWidth":".grid-sizer","rtl": {{settings.use_rtl}} }'>
+         <div class="col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} grid-sizer"></div>
+         {%- if show_list_switch %}{% if inc_pr == '2' %}{% assign inc_pr= '2 tc' %}{% endif -%}
+           {%- for product in collection.products -%}{%- render 'pr_loop_list',page_t4:page_t4,product:product,inc_pr:inc_pr,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}{%- endfor -%}
+         {%- elsif inc_pr == '1' or inc_pr == '1 tc' -%}
+           {%- for product in collection.products -%}{%- render 'pr_loop_grid_1',page_t4:page_t4,product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}{%- endfor -%}<!--split-->
+         {%- else -%}
+           {%- for product in collection.products -%}{%- render 'pr_loop_grid_2',page_t4:page_t4,product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}{%- endfor -%}<!--split-->
+         {%- endif -%}
+      </div>
+      {%- elsif shop_des == 'packery' -%}
+        <div data-change-url data-filterntt4='{"paginate_ntt4":"{{use_pagination}}","limit_ntt4":"{{limitstt}}","use_bar_lmntt4":"{{use_bar_lm}}"}' data-attrsntt4='{"paginate_ntt4":"{{cart.attributes.paginate_ntt4}}","limit_ntt4":"{{cart.attributes.limit_ntt4}}","use_bar_lmntt4":"{{cart.attributes.use_bar_lmntt4}}"}' class="on_list_view_{{on_list_view}} products nt_products_holder row fl_center row_pr_{{inc_pr}} cdt_des_{{se_settings.cdt_des}} round_cd_{{se_settings.round_cd}} {{se_settings.image_size}} {{se_settings.image_ratio}} position_{{se_settings.image_position}} space_{{se_settings.space}}{% if sett_equal %} equal_nt{% endif %} js_packery nt_packery"{% assign rtl = settings.use_rtl %}{% if rtl %}{% assign ltr = false %}{% else %}{% assign ltr = true %}{% endif %} data-packery='{ "itemSelector": ".pr_grid_item","columnWidth": ".pr_grid_item","gutter": 0,"percentPosition": true,"originLeft": {{ltr}} }'>
+        {%- for product in collection.products -%}{% capture col %}{% cycle '3','3','6','6','3','3','3','3','3','3' %}{% endcapture %}{%- render 'pr_loop_grid_1',product:product, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}{%- endfor -%}
+        </div>
+      {%- else -%}
+        <div data-change-url data-filterntt4='{"paginate_ntt4":"{{use_pagination}}","limit_ntt4":"{{limitstt}}","use_bar_lmntt4":"{{use_bar_lm}}"}' data-attrsntt4='{"paginate_ntt4":"{{cart.attributes.paginate_ntt4}}","limit_ntt4":"{{cart.attributes.limit_ntt4}}","use_bar_lmntt4":"{{cart.attributes.use_bar_lmntt4}}"}' class="on_list_view_{{on_list_view}} products nt_products_holder row fl_center row_pr_{{inc_pr}} cdt_des_{{se_settings.cdt_des}} round_cd_{{se_settings.round_cd}} {{se_settings.image_size}} {{se_settings.image_ratio}} position_{{se_settings.image_position}} space_{{se_settings.space}}{% if sett_equal %} equal_nt{% endif %} nt_default">
+         
+         {%- if show_list_switch %}{% if inc_pr == '2' %}{% assign inc_pr= '2 tc' %}{% endif -%}
+           {%- for product in collection.products -%}{%- render 'pr_loop_list',page_t4:page_t4,product:product,inc_pr:inc_pr,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}{%- endfor -%}
+         {%- elsif inc_pr == '1' or inc_pr == '1 tc' -%}
+           {%- for product in collection.products -%}{%- render 'pr_loop_grid_1',page_t4:page_t4,product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}{%- endfor -%}
+         {%- else -%}
+           {%- for product in collection.products -%}{%- render 'pr_loop_grid_2',page_t4:page_t4,product:product,use_cdt:use_cdt,txt_cd:txt_cd, col:col, col_tb:col_tb, col_mb:col_mb,url_cat:url_cat,sett_equal:sett_equal,show_vendor:show_vendor,inc_price:inc_price,use_rating:use_rating,inc_rating:inc_rating,show_color:show_color,show_cl_type:show_cl_type,show_size:show_size -%}{%- endfor -%}
+         {%- endif -%}
+        </div>
+      {%- endif -%}
+
+      {%- if collection.products.size == 0 -%}<div class="shopify-info cat_emty_noprs"><i class="facl facl-attention"></i>{{ 'collections.general.no_matches' | t }}</div>{%- endif -%}
+      {%- if p_pages > 1 -%}
+      <div class="products-footer tc mt__40 mb__50">
+        {%- if paginate.next.is_link and use_pagination != 'default' -%}
+          {%- if use_bar_lm -%}
+          <div class="js_progress_bar" data-tt='{{results_count}}'>
+            {%- assign current_pr_size = collection.products.size | plus:paginate.current_offset -%}
+             <p class="mg__0 progress_txt fs__15">{{ 'collections.general.bar_with_count_html' | t:current_count:current_pr_size,total_count:results_count}}</p>
+            <div class="progress_bar pr oh"><div class="current_bar pa t__0 r__0 l__0 b__0" style="width: {{current_pr_size | times:100.0 | divided_by: results_count}}%"></div></div>
+          </div>
+          {%- endif -%}
+          <a data-get='{{ paginate.next.url }}' href="{{ paginate.next.url }}" data-id="{{section.id}}" class="pr nt_cat_lm button{% if use_pagination == 'infinite' %} load-on-scroll{% endif %}">{{ 'products.grid_items.load_more' | t }}</a>
+        {%- elsif use_pagination == 'default' -%}
+        {%- render 'pagination', paginate: paginate,class:'paginate_ajax',style:'style_2' -%}
+        {%- endif -%}
+      </div>
+      {%- else -%}
+       <div class="mt__40 mb__60"></div>
+      {%- endif -%}
+  
+  {%- endif -%}
+{%- endpaginate -%}
+
+<style>
+{%- if on_list_view -%}
+  .dev_view_cat a.view_list{color: #888;--active-view-cl: #888;}
+  .dark_mode_true .dev_view_cat a.view_list{color: #fff;--active-view-cl: #fff;}
+{%- else -%}
+  .dev_view_cat.dev_desktop a.view_{{col}},.dev_view_cat.dev_tablet a.view_{{col_tb}},.dev_view_cat.dev_mobile a.view_{{cl_mb}}{color: #888;--active-view-cl: #888}
+  .dark_mode_true .dev_view_cat.dev_desktop a.view_{{col}},.dark_mode_true .dev_view_cat.dev_tablet a.view_{{col_tb}},.dark_mode_true .dev_view_cat.dev_mobile a.view_{{cl_mb}}{color: #fff;--active-view-cl: #fff}
+{%- endif -%}
+a.nt_cat_lm {padding: 9px 40px;min-height: 35px;letter-spacing: 2px;border: 1px solid #888;color: #888; border-radius: 0}
+</style>
+
+{%- schema -%}
+  {
+    "name": "Collection Page",
+    "class": "tp_se_cdt",
+    "settings": [
+      {
+        "type": "header",
+        "content": "== General Settings"
+      },
+      {
+        "type": "range",
+        "id": "limit",
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "label": "Products per page",
+        "info": "Number of products per page",
+        "default": 12
+      },
+      {
+        "type": "range",
+        "id": "space",
+        "min": 20,"max": 50,"step": 10,
+        "unit": "px",
+        "label": "Space between products",
+        "default": 30
+      },
+      {
+        "type": "select",
+        "id": "use_pagination",
+        "label": "Pagination",
+        "default": "default",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "more",
+            "label": "Load more button"
+          },
+          {
+            "value": "infinite",
+            "label": "Infinit scrolling"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "use_bar_lm",
+        "label": "Show progress bar?",
+        "info": "Only active when you use 'Load more' or 'Infinit scrolling'",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "col_pr",
+        "label": "Products per row (desktop)",
+        "info": "How many products you want to show per row",
+        "default": "3",
+        "options": [
+          {
+            "value": "6",
+            "label": "2"
+          },
+          {
+            "value": "4",
+            "label": "3"
+          },
+          {
+            "value": "3",
+            "label": "4"
+          },
+          {
+            "value": "15",
+            "label": "5 (not support when use sidebar)"
+          },
+          {
+            "value": "2",
+            "label": "6 (not support when use sidebar)"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "col_pr_tb",
+        "label": "Products per row (tablet)",
+        "default": "3",
+        "options": [
+          {
+            "value": "6",
+            "label": "2"
+          },
+          {
+            "value": "4",
+            "label": "3"
+          },
+          {
+            "value": "3",
+            "label": "4"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "col_pr_mb",
+        "label": "Products per row (mobile)",
+        "default": "6",
+        "options": [
+          {
+            "value": "12",
+            "label": "1"
+          },
+          {
+            "value": "6",
+            "label": "2"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "pr_des",
+        "label": "Design product",
+        "default": "1",
+        "options": [
+          {
+            "value": "1",
+            "label": "Design 1"
+          },
+          {
+            "value": "1 tc",
+            "label": "Design 1 (center)"
+          },
+          {
+            "value": "2",
+            "label": "Design 2"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "show_vendor",
+        "label": "Show product vendors",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "== Countdown timer"
+      },
+      {
+        "type": "paragraph",
+        "content": "Countdown to the end sale date will be shown. Be sure you have set final date of the product sale price. product.metafields.meta.countdown ( 2017\/08\/17 )"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_cdt",
+        "default": false,
+        "label": "Use countdown timer?"
+      },
+      {
+        "type": "checkbox",
+        "id": "round_cd",
+        "default": false,
+        "label": "Round countdown timer?"
+      },
+      {
+        "type": "select",
+        "id": "cdt_des",
+        "label": "Countdown Design:",
+        "default": "1",
+        "options": [
+          {
+            "value": "1",
+            "label": "Design 1"
+          },
+          {
+            "value": "2",
+            "label": "Design 2"
+          },
+          {
+            "value": "3",
+            "label": "Design 3"
+          },
+          {
+            "value": "4",
+            "label": "Design 4"
+          },
+          {
+            "value": "5",
+            "label": "Design 5"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "== Design Image"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_eq_height",
+        "label": "Use equal height images?",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "image_ratio",
+        "label": "Aspect Ratio",
+        "default": "ratio_nt",
+        "info": "Aspect Ratio Custom will settings in General panel.",
+        "options": [
+          {
+            "group": "Landscape",
+            "value": "ratio2_1",
+            "label": "2:1"
+          },
+          {
+            "group": "Landscape",
+            "value": "ratio16_9",
+            "label": "16:9"
+          },
+          {
+            "group": "Landscape",
+            "value": "ratio8_5",
+            "label": "8:5"
+          },
+          {
+            "group": "Landscape",
+            "value": "ratio3_2",
+            "label": "3:2"
+          },
+          {
+            "group": "Landscape",
+            "value": "ratio4_3",
+            "label": "4:3"
+          },
+          {
+            "group": "Landscape",
+            "value": "ratio_nt",
+            "label": "Ratio ASOS"
+          },
+          {
+            "group": "Squared",
+            "value": "ratio1_1",
+            "label": "1:1"
+          },
+          {
+            "group": "Portrait",
+            "value": "ratio2_3",
+            "label": "2:3"
+          },
+          {
+            "group": "Portrait",
+            "value": "ratio1_2",
+            "label": "1:2"
+          },
+          {
+            "group": "Custom",
+            "value": "ratio_cus1",
+            "label": "Ratio Custom 1"
+          },
+          {
+            "group": "Custom",
+            "value": "ratio_cus2",
+            "label": "Ratio Custom 2"
+          },
+          {
+            "group": "Custom",
+            "value": "ratio_cus3",
+            "label": "Ratio Custom 3"
+          },
+          {
+            "group": "Custom",
+            "value": "ratio_cus4",
+            "label": "Ratio Custom 4"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "image_size",
+        "label": "Image Size",
+        "default": "nt_cover",
+        "options": [
+          {
+            "value": "nt_cover",
+            "label": "Full"
+          },
+          {
+            "value": "nt_contain",
+            "label": "Auto"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "image_position",
+        "info": "The first value is the horizontal position and the second value is the vertical.",
+        "options": [
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "1",
+            "label": "Left Top"
+          },
+          {
+            "value": "2",
+            "label": "Left Center"
+          },
+          {
+            "value": "3",
+            "label": "Left Bottom"
+          },
+          {
+            "value": "4",
+            "label": "Right Top"
+          },
+          {
+            "value": "5",
+            "label": "Right Center"
+          },
+          {
+            "value": "6",
+            "label": "Right Bottom"
+          },
+          {
+            "value": "7",
+            "label": "Center Top"
+          },
+          {
+            "value": "8",
+            "label": "Center Center"
+          },
+          {
+            "value": "9",
+            "label": "Center Bottom"
+          }
+        ],
+        "label": "Image Position",
+        "default": "8"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,34 @@
+{%- liquid
+  assign art_url = article.url
+  assign arr_tag = article.tags 
+  if type_tg == '2' and arr_tag.size > 0
+    assign arr_tag = arr_tag | join:'|||' | split:'|||' | where: "tagt4_"
+  endif
+  assign image = article.image -%}
+
+<article class="post-{{article.id}} post_nt_loop post_1 col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} mb__40"> 
+  <div class="post-item-wrap">
+   <a class="mb__15 db pr oh" href="{{art_url}}">
+      {%- if image -%}<div class="lazyloadt4s nt_bg_lz pr_lazy_img" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto"{% if sett_equal == false %} style="padding-top:{{ 1 | divided_by: image.aspect_ratio | times: 100}}%;"{% endif %}></div>{%- endif -%}
+   </a>
+   <div class="post-info">
+      {%- if show_tg and arr_tag.size > 0 -%}
+      <div class="article_tags_wrap">
+        {%- for tag in arr_tag limit:limit_tg -%}
+           <a href="{{blog_url}}/tagged/{{ tag | handle }}">{{ tag |remove:'tagt4_' }}</a>{% unless forloop.last %}, {% endunless -%}
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+      <h4 class="article_title mg__0 fs__16 mb__10 ls__0"><a class="cd chp open" href="{{art_url}}">{{article.title}}</a></h4>
+      {%- if show_au or show_dt or show_cm -%}
+      <div class="post-at-time-cmt mb__10">
+        {%- if show_au -%}<span class="post-author mr__5 dib"><i class="las la-user-circle"></i> {{ by }} <span class="cd">{{ article.author | replace_first: 'ad clnt', 'admin' }}</span></span>{%- endif -%}
+        {%- if show_dt -%}<span class="post-time dib"><i class="las la-calendar-day"></i> {{ on }} <span class="cd">{{ article.published_at | time_tag: format: date }}</span></span>{%- endif -%}
+        {%- if show_cm -%}{%- if article.comments_count > 0 %}{% assign cm_link = '#comments' %}{% else %}{% assign cm_link = '#comment_form' %}{% endif -%}<span class="post-comment dib"><a href="{{ art_url }}{{cm_link}}"><i class="las la-comments"></i> {{ 'blogs.comments.with_count' | t: count: article.comments_count }}</a></span>{%- endif -%}
+      </div>
+      {%- endif -%}
+      {%- if show_cnt %}<div class="post-content mb__5">{%- if article.excerpt.size > 0  -%}{{ article.excerpt | strip_html }}{%- else -%}{{ article.content | strip_html | truncate: 118 }}{%- endif -%}</div>{% endif -%}
+      {%- if show_rm %}<a href="{{art_url}}" class="post-readmore db"><i class="lar la-newspaper"></i> {{ 'blogs.section.read_more' | t }}</a>{% endif -%}
+   </div>
+   </div>
+</article>
