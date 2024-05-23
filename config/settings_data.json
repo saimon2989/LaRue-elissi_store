@@ -4253,6 +4253,7 @@
         "blocks": {
           "about-our-team-0": {
             "type": "1",
+            "disabled": true,
             "settings": {
               "title": "THOMAS SNOW",
               "service": "CEO\/founder"
@@ -4260,6 +4261,7 @@
           },
           "about-our-team-1": {
             "type": "1",
+            "disabled": true,
             "settings": {
               "title": "PAMELA DOE",
               "service": "CEO\/founder"
@@ -4267,6 +4269,7 @@
           },
           "about-our-team-2": {
             "type": "1",
+            "disabled": true,
             "settings": {
               "title": "MIRINDA",
               "service": "Accountant"
@@ -4274,6 +4277,7 @@
           },
           "about-our-team-3": {
             "type": "1",
+            "disabled": true,
             "settings": {
               "title": "JONE DOE",
               "service": "Developer"
@@ -4281,6 +4285,7 @@
           },
           "about-our-team-4": {
             "type": "1",
+            "disabled": true,
             "settings": {
               "title": "NICH KON",
               "service": "Delivery Driver"
