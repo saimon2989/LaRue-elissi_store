@@ -3662,11 +3662,11 @@
           "us_heading-1"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/elessi-bg2_3350x_e0283c26-88a7-4e0d-ac04-ef7064911113.jpg",
           "parallax": true,
           "color": "#f7f7f7",
           "overlay": 54,
           "padding": 50,
+          "paddingmb": 15,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
@@ -4155,7 +4155,7 @@
               "title": "Our Story",
               "color-title": "#333333",
               "sp-title": 8,
-              "des": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<\/p>",
+              "des": "<p>La Rue es una palabra Francesa que significa “la Calle”, y escoger su nombre surgió porque en la calle es el lugar donde confluyen todo tipo de mujeres, la trabajadora, ama de casa, modelo, la empresaria, emprendedora, etc., con sus diferentes contexturas, tipo de piel y diferentes culturas, logrando el objetivo de que esta marca se identifique como una marca, moderna, seductora que reúne todo tipo de mujer resaltando su bella, personalizada y ofreciendo seguridad, confianza y confort. Además que todas se sientan identificadas, independientemente si quieren usar las prendas o no, pero que sientan un lazo, unión y\/o adn con la marca .<\/p><p>Nuestra marca es una marca 100% colombiana, trabajada, creada y confeccionada en Colombia, con productos 100% de la casa, telas, manufactura, confección 100% hecha a mano de mujeres cabeza de hogar, que representan la belleza, diversidad, empuje y empeño de la marca.<\/p>",
               "color": "#333333"
             }
           },
@@ -4163,7 +4163,7 @@
             "type": "2",
             "settings": {
               "col": "8",
-              "image": "shopify:\/\/shop_images\/about-us-1.jpg"
+              "image": "shopify:\/\/shop_images\/Larue_Banner_about-us_2.jpg"
             }
           }
         },
@@ -4254,7 +4254,6 @@
           "about-our-team-0": {
             "type": "1",
             "settings": {
-              "image": "shopify:\/\/shop_images\/team-avatar-1.jpg",
               "title": "THOMAS SNOW",
               "service": "CEO\/founder"
             }
@@ -4262,7 +4261,6 @@
           "about-our-team-1": {
             "type": "1",
             "settings": {
-              "image": "shopify:\/\/shop_images\/team-avatar-2.jpg",
               "title": "PAMELA DOE",
               "service": "CEO\/founder"
             }
@@ -4270,7 +4268,6 @@
           "about-our-team-2": {
             "type": "1",
             "settings": {
-              "image": "shopify:\/\/shop_images\/team-avatar-5.jpg",
               "title": "MIRINDA",
               "service": "Accountant"
             }
@@ -4278,7 +4275,6 @@
           "about-our-team-3": {
             "type": "1",
             "settings": {
-              "image": "shopify:\/\/shop_images\/team-avatar-4.jpg",
               "title": "JONE DOE",
               "service": "Developer"
             }
@@ -4286,7 +4282,6 @@
           "about-our-team-4": {
             "type": "1",
             "settings": {
-              "image": "shopify:\/\/shop_images\/team-avatar-31.jpg",
               "title": "NICH KON",
               "service": "Delivery Driver"
             }
