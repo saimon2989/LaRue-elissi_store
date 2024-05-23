@@ -2840,7 +2840,7 @@
           "title": "Best Sellers Set's",
           "image": "shopify:\/\/shop_images\/Larue_Banner_collection_2.jpg",
           "img_pos": "left",
-          "se_height": "full",
+          "se_height": "default",
           "se_height_tb": "800px",
           "se_height_mb": "400px",
           "collection": "sets",
