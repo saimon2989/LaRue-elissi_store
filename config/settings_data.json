@@ -469,6 +469,7 @@
           "cat_wTrBJF": {
             "type": "cat",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Body-Adele-3-scaled.gif",
               "cat_design": "6",
               "hoverz": true,
               "collection": "lingerie",
