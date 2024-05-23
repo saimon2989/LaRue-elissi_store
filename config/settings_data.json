@@ -507,6 +507,7 @@
           "cat_AAVeL7": {
             "type": "cat",
             "settings": {
+              "image": "shopify:\/\/shop_images\/DSC0465-scaled.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "beachwear",
