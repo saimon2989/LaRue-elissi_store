@@ -4187,35 +4187,35 @@
             "type": "1",
             "settings": {
               "title": "Best Quanlity",
-              "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>"
+              "content": "<p>Nuestra marca es una marca 100% colombiana, trabajada, creada y confeccionada en Colombia, con productos 100% de la casa, telas, manufactura, confección 100% hecha a mano de mujeres cabeza de hogar, que representan la belleza, diversidad, empuje y empeño de la marca.<\/p>"
             }
           },
           "about-question-1": {
             "type": "1",
             "settings": {
               "title": "Customer Care",
-              "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>"
+              "content": "<p>Nuestra marca es una marca 100% colombiana, trabajada, creada y confeccionada en Colombia, con productos 100% de la casa, telas, manufactura, confección 100% hecha a mano de mujeres cabeza de hogar, que representan la belleza, diversidad, empuje y empeño de la marca.<\/p>"
             }
           },
           "about-question-2": {
             "type": "1",
             "settings": {
               "title": "Best Quanlity",
-              "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>"
+              "content": "<p>Nuestra marca es una marca 100% colombiana, trabajada, creada y confeccionada en Colombia, con productos 100% de la casa, telas, manufactura, confección 100% hecha a mano de mujeres cabeza de hogar, que representan la belleza, diversidad, empuje y empeño de la marca.<\/p>"
             }
           },
           "about-question-3": {
             "type": "1",
             "settings": {
-              "title": "Support 24\/7",
-              "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>"
+              "title": "Support",
+              "content": "<p>Nuestra marca es una marca 100% colombiana, trabajada, creada y confeccionada en Colombia, con productos 100% de la casa, telas, manufactura, confección 100% hecha a mano de mujeres cabeza de hogar, que representan la belleza, diversidad, empuje y empeño de la marca.<\/p>"
             }
           },
           "about-question-4": {
             "type": "1",
             "settings": {
               "title": "What We Do",
-              "content": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>"
+              "content": "<p>Nuestra marca es una marca 100% colombiana, trabajada, creada y confeccionada en Colombia, con productos 100% de la casa, telas, manufactura, confección 100% hecha a mano de mujeres cabeza de hogar, que representan la belleza, diversidad, empuje y empeño de la marca.<\/p>"
             }
           }
         },
@@ -4236,7 +4236,7 @@
           "col2": "3",
           "title-hour": "Hour Of Operation",
           "color-op": "#333333",
-          "hour-content": "<table>\n<tr>\n<td>Monday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Tuesday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Wednesday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Thursday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Friday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Saturday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Sunday:<\/td>\n<td>Closed<\/td>\n<\/tr>\n<\/table>",
+          "hour-content": "<table>\n<tbody>\n<tr>\n<td>Monday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Tuesday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Wednesday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Thursday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Friday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Saturday:<\/td>\n<td>8-6PM<\/td>\n<\/tr>\n<tr>\n<td>Sunday:<\/td>\n<td>Closed<\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
           "title-bottom": "Career",
           "color-ca": "#333333",
           "text-bt": "<p>If you’re interested in employment opportunities at Elessi, please email us: contact@yourstore.com<\/p>",
