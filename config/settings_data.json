@@ -3343,11 +3343,11 @@
           "contact_heading-1"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/elessi-bg2_3350x_e0283c26-88a7-4e0d-ac04-ef7064911113.jpg",
           "parallax": true,
           "color": "#f7f7f7",
           "overlay": 54,
           "padding": 50,
+          "paddingmb": 15,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
@@ -3362,15 +3362,15 @@
             "settings": {
               "col": "6",
               "title": "Address",
-              "description": "<p>6th Forrest Ray,<br\/>Manhattan NYC 10001, USA<\/p>"
+              "description": "<p><br\/><a href=\"https:\/\/www.google.com\/maps\/place\/La+Rue\/@6.2081937,-75.5668177,15z\/data=!4m2!3m1!1s0x0:0x9abc5fdd11bd1c5c?sa=X&ved=2ahUKEwj4mIPA0fr1AhU9RDABHRceDNQQ_BJ6BAg1EAU\">Cra 37 # 8a – 110 Avenida Primavera<\/a><\/p><p>Poblado – Medellín<\/p>"
             }
           },
           "contact_page-1": {
             "type": "1",
             "settings": {
               "col": "6",
-              "title": "Address",
-              "description": "<p>Mobile 1: (+01)-212-33-6789     <br\/>Mobile 2: (+01)-212-66-8888 <br\/>Hotline: 1900 888 888<\/p>"
+              "title": "Contact Us",
+              "description": "<p>La Rue SAS – NIT. 901453613-7<\/p><p><a href=\"https:\/\/wa.me\/message\/YPVMQFESZDDAA1\">+57 3145082362<\/a><\/p><p><a href=\"http:\/\/wa.me\/+573145083643\">+57 314 5083643<\/a><\/p>"
             }
           },
           "contact_page-2": {
@@ -3378,7 +3378,7 @@
             "settings": {
               "col": "6",
               "title": "Email",
-              "description": "<p>Contact@sample.com,<br\/>Support@sample.com<\/p>"
+              "description": "<p>contactolarue@gmail.com<\/p>"
             }
           },
           "contact_page-3": {
@@ -3386,7 +3386,7 @@
             "settings": {
               "show": true,
               "col": "6",
-              "title": "Social"
+              "title": "Follow Us"
             }
           },
           "7c821918-da5d-4fc4-af4c-61f3c788ed33": {
@@ -3431,7 +3431,7 @@
         ],
         "settings": {
           "show_map": true,
-          "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m21!1m12!1m3!1d3023.232793267196!2d-74.0009089!3d40.7534198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d40.753685399999995!2d-73.9991637!5e0!3m2!1sen!2s!4v1564375530455!5m2!1sen!2s\" width=\"600\" height=\"894\" frameborder=\"0\" style=\"border: 0px; pointer-events: none;\" allowfullscreen=\"\"><\/iframe>"
+          "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d15865.680269052593!2d-75.5668177!3d6.2081937!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429e4936cf9ad%3A0x9abc5fdd11bd1c5c!2sLa%20Rue!5e0!3m2!1ses-419!2sco!4v1716498243809!5m2!1ses-419!2sco\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>"
         }
       },
       "sea_heading": {
