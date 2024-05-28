@@ -1521,7 +1521,8 @@
           "1585640154849": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slider1-scaled.jpg",
+              "image": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-desktop.jpg",
+              "image_mb": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-mobile.jpg",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
               "link_img1": "",
@@ -1625,7 +1626,8 @@
           "1585640159361": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slidelr-scaled.jpg",
+              "image": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-desktop-2.jpg",
+              "image_mb": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-mobile-2.jpg",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
               "link_img1": "",
