@@ -161,7 +161,7 @@
     "space_sidebar": 30,
     "ajax_shop": true,
     "ajax_scroll_top": false,
-    "show_column_switch": true,
+    "show_column_switch": false,
     "show_list_switch": true,
     "sort_enable": false,
     "cat_sticky": true,
