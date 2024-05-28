@@ -164,7 +164,7 @@
     "show_column_switch": true,
     "show_list_switch": true,
     "sort_enable": false,
-    "cat_sticky": false,
+    "cat_sticky": true,
     "shop_filters": true,
     "pop_style": "pop_default",
     "type_filters": "2",
@@ -883,8 +883,8 @@
           "a18c31d2-aa93-4782-a618-bd2bb356cd56": {
             "type": "simple",
             "settings": {
-              "title": "BUY",
-              "url": "https:\/\/themeforest.net\/cart\/configure_before_adding\/22629398?license=regular&ref=the4&size=source&support=bundle_12month",
+              "title": "Nueva Colección",
+              "url": "shopify:\/\/collections\/nueva-coleccion",
               "open_link": "_blank",
               "icon": "shopping-bag",
               "cus_cl": true,
