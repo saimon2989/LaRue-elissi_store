@@ -4651,15 +4651,30 @@
           "img_pNfWGp": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/VESTIDO-ATENEA---NEGRO---1.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
             }
           },
+          "pr_Jw7FnN": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 45,
+              "pos_l": 38,
+              "type": "1",
+              "shorttxt": "$59",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#f76b6a",
+              "product": "body-anbar-1"
+            }
+          },
           "img_9cXmNQ": {
             "type": "img",
             "settings": {
-              "col_pr": "6",
+              "col_pr": "3",
               "col_pr_tb": "6",
               "col_pr_mb": "12"
             }
@@ -4679,22 +4694,14 @@
               "col_pr_tb": "3",
               "col_pr_mb": "6"
             }
-          },
-          "img_wehTPM": {
-            "type": "img",
-            "settings": {
-              "col_pr": "3",
-              "col_pr_tb": "3",
-              "col_pr_mb": "6"
-            }
           }
         },
         "block_order": [
           "img_pNfWGp",
+          "pr_Jw7FnN",
           "img_9cXmNQ",
           "img_K7daPR",
-          "img_fAhg7Q",
-          "img_wehTPM"
+          "img_fAhg7Q"
         ],
         "settings": {
           "title": "New Collection",
