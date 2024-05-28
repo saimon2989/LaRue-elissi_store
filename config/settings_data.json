@@ -437,8 +437,22 @@
               "col": "4"
             }
           },
+          "a18c31d2-aa93-4782-a618-bd2bb356cd56": {
+            "type": "simple",
+            "settings": {
+              "title": "Nueva Colección",
+              "url": "shopify:\/\/collections\/nueva-coleccion",
+              "open_link": "_blank",
+              "icon": "shopping-bag",
+              "cus_cl": true,
+              "cl": "#f76b6a",
+              "lb": "",
+              "lb_cl": "#f76b6a"
+            }
+          },
           "simple_kc8AVV": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Inicio",
               "url": "shopify:\/\/collections\/frontpage",
@@ -880,23 +894,11 @@
               "title": "Beachwear",
               "col": "4"
             }
-          },
-          "a18c31d2-aa93-4782-a618-bd2bb356cd56": {
-            "type": "simple",
-            "settings": {
-              "title": "Nueva Colección",
-              "url": "shopify:\/\/collections\/nueva-coleccion",
-              "open_link": "_blank",
-              "icon": "shopping-bag",
-              "cus_cl": true,
-              "cl": "#f76b6a",
-              "lb": "",
-              "lb_cl": "#f76b6a"
-            }
           }
         },
         "block_order": [
           "cat_iXfwf8",
+          "a18c31d2-aa93-4782-a618-bd2bb356cd56",
           "simple_kc8AVV",
           "mega_cexptF",
           "cat_wTrBJF",
@@ -929,8 +931,7 @@
           "01b60149-2a80-471f-999e-6bc67b169527",
           "4cfd53bb-3ec6-4324-afa0-56e1bf76ca6d",
           "8fff24f3-3382-413c-96cd-31a30ad9f177",
-          "cat_QQBirP",
-          "a18c31d2-aa93-4782-a618-bd2bb356cd56"
+          "cat_QQBirP"
         ],
         "settings": {
           "height": 80,
