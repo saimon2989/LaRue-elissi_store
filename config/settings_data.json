@@ -2790,7 +2790,7 @@
               "source": "1",
               "al": "tl",
               "wimg": 66,
-              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
+              "svg": "american_express,maestro,master,paypal,visa",
               "height": 50
             }
           },
