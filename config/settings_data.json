@@ -3191,7 +3191,7 @@
             "type": "collection",
             "settings": {
               "title": "Best Selling",
-              "collection": "best-sellers",
+              "collection": "estampados",
               "limit": 3,
               "order": "1",
               "cl": "4",
@@ -3217,6 +3217,7 @@
           "1609319010ff225412-2",
           "1609319010ff225412-3"
         ],
+        "disabled": true,
         "settings": {
           "layout": "container",
           "cl_bg": "#ffffff",
@@ -4729,13 +4730,13 @@
     "content_for_index": [
       "1581505806578",
       "1609309946e9a4fcbc",
-      "16093167150a6c9334",
+      "lookbook_packery_r8ciwR",
       "1609316786356facc8",
+      "16093167150a6c9334",
       "1609318528643ba452",
       "1609319010ff225412",
       "1609319025ad9ef8b0",
-      "featured_collection_owl_cbEUiE",
-      "lookbook_packery_r8ciwR"
+      "featured_collection_owl_cbEUiE"
     ],
     "blocks": {
       "6588702529468458379": {
