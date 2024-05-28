@@ -393,6 +393,7 @@
           },
           "header_top-2": {
             "type": "cur",
+            "disabled": true,
             "settings": {
               "hide": true,
               "col": "6"
