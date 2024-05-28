@@ -1333,6 +1333,7 @@
           },
           "1585642780875": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "baby",
               "title": "Toys, Kids & Baby",
@@ -1346,6 +1347,7 @@
           },
           "1585642130935": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "men",
               "title": "Men’s Clothing",
@@ -1359,6 +1361,7 @@
           },
           "1585642450066": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "best-selling",
               "title": "",
@@ -1372,6 +1375,7 @@
           },
           "1585642277236": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "",
               "title": "Acessories",
@@ -1385,6 +1389,7 @@
           },
           "1585642629333": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "jewelry",
               "title": "Jewellery",
@@ -1398,6 +1403,7 @@
           },
           "1585642167981": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "featured-watches",
               "title": "Watches",
@@ -1411,6 +1417,7 @@
           },
           "1585642644518": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "fashion",
               "title": "T-Shirt",
@@ -1424,6 +1431,7 @@
           },
           "1585642600575": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "shoes",
               "title": "Shoes",
@@ -1437,6 +1445,7 @@
           },
           "1585642798957": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "cat": "furniture",
               "title": "Decor",
