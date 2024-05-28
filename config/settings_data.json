@@ -3179,7 +3179,7 @@
             "type": "collection",
             "settings": {
               "title": "Top Rated",
-              "collection": "top-rated",
+              "collection": "beachwear",
               "limit": 3,
               "order": "1",
               "cl": "4",
@@ -3191,7 +3191,7 @@
             "type": "collection",
             "settings": {
               "title": "Best Selling",
-              "collection": "best-selling",
+              "collection": "best-sellers",
               "limit": 3,
               "order": "1",
               "cl": "4",
@@ -3203,7 +3203,7 @@
             "type": "collection",
             "settings": {
               "title": "On Sale",
-              "collection": "on-sale",
+              "collection": "swimwear",
               "limit": 3,
               "order": "1",
               "cl": "4",
@@ -4593,6 +4593,7 @@
       },
       "featured_collection_owl_cbEUiE": {
         "type": "featured_collection_owl",
+        "disabled": true,
         "settings": {
           "title": "Best Sellers",
           "sub_title": "",
