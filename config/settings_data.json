@@ -443,7 +443,7 @@
               "title": "Nueva Colección",
               "url": "shopify:\/\/collections\/nueva-coleccion",
               "open_link": "_blank",
-              "icon": "shopping-bag",
+              "icon": "",
               "cus_cl": true,
               "cl": "#f76b6a",
               "lb": "",
