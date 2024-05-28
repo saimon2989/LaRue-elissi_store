@@ -936,7 +936,7 @@
         "settings": {
           "height": 80,
           "arrow": true,
-          "align": "tl",
+          "align": "tc",
           "hover": "hover_fade_in"
         }
       },
