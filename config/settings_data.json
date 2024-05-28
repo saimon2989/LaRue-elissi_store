@@ -1272,6 +1272,7 @@
           },
           "6908ee6a-4a84-461e-81b2-2e7a872cd085": {
             "type": "compe",
+            "disabled": true,
             "settings": {
             }
           },
@@ -1294,6 +1295,7 @@
           },
           "mb_nav-8": {
             "type": "cur",
+            "disabled": true,
             "settings": {
             }
           }
