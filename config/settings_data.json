@@ -386,9 +386,9 @@
           "header_top-0": {
             "type": "text",
             "settings": {
-              "text": "<div style=\"margin: auto;\"> Envío gratis por compras iguales o superiores a $300.000. Aplican T&amp;C<\/div>",
+              "text": "<div style=\"display: flex; justify-content: center;\"> Envío gratis por compras iguales o superiores a $300.000. Aplican T&amp;C<\/div>",
               "hide": false,
-              "col": "6"
+              "col": "12"
             }
           },
           "header_top-2": {
