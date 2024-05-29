@@ -3114,6 +3114,7 @@
           "space_bTpwj6",
           "subhd_eXPi7F"
         ],
+        "disabled": true,
         "settings": {
           "title": "",
           "sub_title": "",
@@ -4825,11 +4826,11 @@
           "show_vendor": false,
           "date": "2021\/12\/20",
           "cdt_des": "1",
-          "cdt_size": "large",
-          "loop": true,
+          "cdt_size": "small",
+          "loop": false,
           "au_time": 0,
           "au_hover": true,
-          "button": true,
+          "button": false,
           "dot": false,
           "dot_owl": "1",
           "dot_color": "1",
@@ -4842,7 +4843,51 @@
           "cl_bg": "",
           "image": "shopify:\/\/shop_images\/FB_0608-scaled.jpg",
           "mg": "50px,,50px,",
+          "pd": "50px,,50px",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "sec_deal_FBQtQr": {
+        "type": "sec_deal",
+        "settings": {
+          "show_vendor": false,
+          "cdt_des": "1",
+          "cdt_size": "small",
+          "show_stock_bar": true,
+          "txt_sold": "Already Sold:",
+          "txt_avai": "Available:",
+          "cl_stock_1": "#efefef",
+          "cl_stock_2": "#f76b6a",
+          "use_pr": false,
+          "layout": "container",
+          "cl_bg": "",
+          "image": "shopify:\/\/shop_images\/FB_0608-scaled.jpg",
+          "mg": "50px,,50px,",
           "pd": "",
+          "mg_mb": "",
+          "pd_mb": "100px,,100px"
+        }
+      },
+      "sec_deal2_JrnDjx": {
+        "type": "sec_deal2",
+        "settings": {
+          "title": "Deal of the Day",
+          "show_vendor": false,
+          "bd_stock": "#f76b6a",
+          "cdt_des": "1",
+          "cdt_size": "small",
+          "show_stock_bar": true,
+          "txt_sold": "Already Sold:",
+          "txt_avai": "Available:",
+          "cl_stock_1": "#efefef",
+          "cl_stock_2": "#f76b6a",
+          "use_pr": false,
+          "layout": "wrap",
+          "cl_bg": "#ffffff",
+          "image": "shopify:\/\/shop_images\/FB_0608-scaled.jpg",
+          "mg": "50px,,50px,",
+          "pd": "100px,,100px,",
           "mg_mb": "",
           "pd_mb": ""
         }
@@ -4858,7 +4903,9 @@
       "1609318528643ba452",
       "1609319010ff225412",
       "1609319025ad9ef8b0",
-      "sec_deal3_R4BNMy"
+      "sec_deal3_R4BNMy",
+      "sec_deal_FBQtQr",
+      "sec_deal2_JrnDjx"
     ],
     "blocks": {
       "6588702529468458379": {
