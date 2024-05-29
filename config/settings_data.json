@@ -2824,6 +2824,7 @@
           },
           "84d0ecf0-c5c1-4c2f-b7ce-ce9d2abb689f": {
             "type": "meta",
+            "disabled": true,
             "settings": {
               "show_pr_vendor": true,
               "show_sku": true,
