@@ -2021,6 +2021,7 @@
           },
           "cat_heading-1": {
             "type": "2",
+            "disabled": true,
             "settings": {
               "color": "#333333"
             }
