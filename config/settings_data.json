@@ -1187,8 +1187,8 @@
           "cart_widget-7": {
             "type": "btn",
             "settings": {
-              "title": "Return To Shop",
-              "url": "",
+              "title": "Seguir Comprando",
+              "url": "shopify:\/\/collections\/frontpage",
               "style": "primary tu"
             }
           }
