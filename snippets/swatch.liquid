@@ -46,7 +46,7 @@ endif -%}
 				<ul class="swatches-select swatch__list_pr" data-id="{{ option_index }}" data-size="{{size}}">
 			   	   {%- for value in option.values -%}
 			   	      {%- assign vh = value | handle -%}{%- assign sclass = '' -%}{%- if selected_value == value -%}{%- assign sclass = bclass -%}{%- endif -%}
-			   		   <li data-index="{{ forloop.index0 }}" data-value='{{ variant.id }}' class="nt-swatch swatch_pr_item pr bg_css_{{ vh }} {{sclass}}" data-escape="{{ value | escape }}"><span class="swatch__value_pr">{{ value }}</span></li>
+			   		   <li data-index="{{ forloop.index0 }}" data-value='{{ vh }}' class="nt-swatch swatch_pr_item pr bg_css_{{ vh }} {{sclass}}" data-escape="{{ value | escape }}"><span class="swatch__value_pr">{{ value }}</span></li>
 			   	   {%- endfor -%}
 				</ul>
 			</div>
