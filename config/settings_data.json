@@ -127,7 +127,7 @@
     "ship_bar2": "#79b530",
     "ship_bar3": "#79b530",
     "font_source": "2",
-    "fnt_bd": "nunito_sans_n4",
+    "fnt_bd": "playfair_display_n4",
     "fnt_heading": "nunito_sans_n4",
     "fnt_sub_tt": "nunito_sans_n4",
     "fnt_bd2": "Nunito Sans",
@@ -182,13 +182,13 @@
     "pr_sidebar": "none",
     "pr_sidebar_full": false,
     "pr_size_sidebar": "2",
-    "pr_curent": "2",
+    "pr_curent": "1",
     "show_first_img": false,
     "use_vimg": true,
     "sticky_atc": true,
     "social_pr": true,
     "enable_vlooping": true,
-    "use_fimg": true,
+    "use_fimg": false,
     "color_ck": "Color, Colors, Couleur, Colour",
     "use_clicking_vimg": false,
     "enable_his": false,
@@ -214,7 +214,7 @@
     "use_quickshop": true,
     "use_buy_qs": true,
     "swatch_design": "2",
-    "style_color": "2",
+    "style_color": "1",
     "swatch_style": "1",
     "swatch_size": "medium",
     "show_pr_color": true,
@@ -2021,6 +2021,7 @@
           },
           "cat_heading-1": {
             "type": "2",
+            "disabled": true,
             "settings": {
               "color": "#333333"
             }
@@ -2035,7 +2036,7 @@
           "use_specify_image": false,
           "parallax": false,
           "color": "#ffffff",
-          "overlay": 0,
+          "overlay": 100,
           "padding": 10,
           "paddingmb": 15,
           "bg_pos": "center center",
@@ -2110,7 +2111,7 @@
           "col_pr": "3",
           "col_pr_tb": "3",
           "col_pr_mb": "6",
-          "pr_des": "1",
+          "pr_des": "1 tc",
           "show_vendor": false,
           "use_cdt": false,
           "round_cd": false,
@@ -2855,6 +2856,7 @@
       },
       "1609309946e9a4fcbc": {
         "type": "banner_collection2",
+        "disabled": true,
         "settings": {
           "title": "Best Sellers Set's",
           "image": "shopify:\/\/shop_images\/Larue_Banner_collection_2.jpg",
@@ -3113,6 +3115,7 @@
           "space_bTpwj6",
           "subhd_eXPi7F"
         ],
+        "disabled": true,
         "settings": {
           "title": "",
           "sub_title": "",
@@ -3177,6 +3180,7 @@
         "block_order": [
           "4a6ea43c-12be-441c-b2b1-c531cb4e8673"
         ],
+        "disabled": true,
         "settings": {
           "layout": "nt_full",
           "cl_bg": "#f76b6a",
@@ -4606,56 +4610,6 @@
         "settings": {
         }
       },
-      "featured_collection_owl_cbEUiE": {
-        "type": "featured_collection_owl",
-        "disabled": true,
-        "settings": {
-          "title": "Best Sellers",
-          "sub_title": "",
-          "sub_font": "2",
-          "btn_title": "",
-          "style_title": "title_1",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "collection": "",
-          "limit": 8,
-          "space": 20,
-          "use_pagination": "none",
-          "btn_rd": false,
-          "btn_icon": false,
-          "btn_style": "primary",
-          "col_pr": "2",
-          "col_pr_tb": "3",
-          "col_pr_mb": "6",
-          "pr_des": "1",
-          "show_vendor": false,
-          "use_cdt": false,
-          "round_cd": false,
-          "cdt_des": "1",
-          "loop": true,
-          "au_time": 0,
-          "au_hover": true,
-          "button": false,
-          "btn_vi": "1",
-          "btn_owl": "1",
-          "btn_color": "0",
-          "dot": true,
-          "dot_owl": "1",
-          "dot_color": "1",
-          "use_eq_height": false,
-          "image_ratio": "ratio_nt",
-          "image_size": "nt_cover",
-          "image_position": "8",
-          "hidden": false,
-          "cp_code": false,
-          "layout": "wrap",
-          "cl_bg": "",
-          "mg": "50px,,50px,",
-          "pd": "",
-          "mg_mb": "0",
-          "pd_mb": "0"
-        }
-      },
       "nt_filter2_new": {
         "type": "nt_filter2_new",
         "settings": {
@@ -4690,25 +4644,70 @@
           "img_9cXmNQ": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BODY-ADELE---ROJO---1_b8f70386-9739-48e5-9fbf-36c11874c1ba.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "12"
             }
           },
+          "pr_jm4mC4": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "type": "1",
+              "shorttxt": "$59",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#65affa",
+              "product": "body-adele"
+            }
+          },
           "img_K7daPR": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BODY-VENUS---ROSA---1.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
             }
           },
+          "pr_axAPTa": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "type": "1",
+              "shorttxt": "$59",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#65affa",
+              "product": "body-venus"
+            }
+          },
           "img_fAhg7Q": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BODY-LEAH---VERDE---1.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
+            }
+          },
+          "pr_Eq73if": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "type": "1",
+              "shorttxt": "$59",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#65affa",
+              "product": "body-leah"
             }
           }
         },
@@ -4716,8 +4715,11 @@
           "img_pNfWGp",
           "pr_Jw7FnN",
           "img_9cXmNQ",
+          "pr_jm4mC4",
           "img_K7daPR",
-          "img_fAhg7Q"
+          "pr_axAPTa",
+          "img_fAhg7Q",
+          "pr_Eq73if"
         ],
         "settings": {
           "title": "New Collection",
@@ -4739,10 +4741,239 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "collection_list_packery_t3jwfT": {
+        "type": "collection-list_packery",
+        "blocks": {
+          "collection_hGC79M": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_UMR4Aq": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_Rc9byK": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          },
+          "collection_aTJDPx": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "img_align": "center",
+              "title": "",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection_hGC79M",
+          "collection_UMR4Aq",
+          "collection_Rc9byK",
+          "collection_aTJDPx"
+        ],
+        "settings": {
+          "title": "Collection list Packery",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "style_title": "title_2",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "hoverz": true,
+          "cat_design": "1",
+          "cat_space": "30",
+          "pr_txt": "products",
+          "cat_lay4": 1,
+          "cat_lay5": 1,
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "hide_bgimg": false,
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "sec_deal3_R4BNMy": {
+        "type": "sec_deal3",
+        "disabled": true,
+        "settings": {
+          "width": "6",
+          "color": "dark",
+          "title": "Deal of the week",
+          "sub_title": "Sale 35% for all T-Shirt products",
+          "collection": "body",
+          "limit": 6,
+          "col_pr": "6",
+          "col_pr_tb": "6",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "date": "2021\/12\/20",
+          "cdt_des": "1",
+          "cdt_size": "small",
+          "loop": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "use_pr": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "image": "shopify:\/\/shop_images\/FB_0608-scaled.jpg",
+          "mg": "50px,,50px,",
+          "pd": "50px,,50px",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "image_text_overlay_hfTeWh": {
+        "type": "image_text_overlay",
+        "blocks": {
+          "1_89zwFR": {
+            "type": "1",
+            "settings": {
+              "title": "Best shopify theme 2020",
+              "color": "#000",
+              "fw_text": 600,
+              "fs_text": 30,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 15,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "6_4APgn4": {
+            "type": "6",
+            "settings": {
+              "sp": 10,
+              "sp_mb": 10
+            }
+          },
+          "2_BK3PmB": {
+            "type": "2",
+            "settings": {
+              "font": "f__libre",
+              "title": "Elessi v1",
+              "color": "#000000",
+              "fw_text": 400,
+              "fs_text": 14,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "6_bmQUgf": {
+            "type": "6",
+            "disabled": true,
+            "settings": {
+              "sp": 10,
+              "sp_mb": 10
+            }
+          },
+          "3_L48Wt4": {
+            "type": "3",
+            "disabled": true,
+            "settings": {
+              "title": "Shop Now",
+              "btn_link": "",
+              "open_link": "_blank",
+              "title2": "Shop Now 2",
+              "btn_link2": "",
+              "open_link2": "_blank",
+              "btn_round": false,
+              "btn_icon": false,
+              "cl_txt": "#fff",
+              "cl_bg": "#222",
+              "cl_bd": "#222",
+              "fs_text": 14,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 0,
+              "bdr": 0,
+              "pd": 15,
+              "fs_mb_text": 14,
+              "h_mb": 40,
+              "ls_mb_text": 0,
+              "bdr_mb": 0,
+              "pd_mb": 15
+            }
+          },
+          "7_HriNMN": {
+            "type": "7",
+            "settings": {
+              "date": "2021\/12\/20",
+              "cdt_des": "1",
+              "cdt_size": "medium"
+            }
+          }
+        },
+        "block_order": [
+          "1_89zwFR",
+          "6_4APgn4",
+          "2_BK3PmB",
+          "6_bmQUgf",
+          "3_L48Wt4",
+          "7_HriNMN"
+        ],
+        "settings": {
+          "se_height": "full",
+          "use_custom_h": "1",
+          "h_des": "600px",
+          "h_tb": "500px",
+          "h_mb": "350px",
+          "image": "shopify:\/\/shop_images\/FB_0608-scaled.jpg",
+          "use_pr": false,
+          "img_align": "center",
+          "caption_w": "2",
+          "cap_v_pos": 50,
+          "cap_h_pos": 50,
+          "txt_align": "tc_md",
+          "cap_v_pos_mb": 50,
+          "cap_h_pos_mb": 50,
+          "txt_align_mb": "tl",
+          "use_shadow": false,
+          "cl_overlay": "#000",
+          "cl_opacity": 0,
+          "layout": "nt_full",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
+      "collection_list_packery_t3jwfT",
       "1609309946e9a4fcbc",
       "lookbook_packery_r8ciwR",
       "1609316786356facc8",
@@ -4750,7 +4981,8 @@
       "1609318528643ba452",
       "1609319010ff225412",
       "1609319025ad9ef8b0",
-      "featured_collection_owl_cbEUiE"
+      "sec_deal3_R4BNMy",
+      "image_text_overlay_hfTeWh"
     ],
     "blocks": {
       "6588702529468458379": {
