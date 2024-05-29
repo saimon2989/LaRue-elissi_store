@@ -3551,7 +3551,7 @@
             "type": "btn",
             "settings": {
               "title": "Seguir comprando",
-              "url": "",
+              "url": "shopify:\/\/collections\/frontpage",
               "style": "primary tu"
             }
           }
