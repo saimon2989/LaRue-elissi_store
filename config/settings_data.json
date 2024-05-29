@@ -4748,11 +4748,11 @@
           "collection_hGC79M": {
             "type": "collection",
             "settings": {
-              "collection": "",
+              "collection": "body",
               "image": "shopify:\/\/shop_images\/DSC9559-1365x2048.jpg",
               "img_align": "center",
               "title": "Body's",
-              "url": ""
+              "url": "shopify:\/\/collections\/body"
             }
           },
           "collection_UMR4Aq": {
