@@ -4759,6 +4759,7 @@
             "type": "collection",
             "settings": {
               "collection": "",
+              "image": "shopify:\/\/shop_images\/Larue_Banner_collection_2_a36df538-4a6c-4941-9cc7-3e016b05fc29.jpg",
               "img_align": "center",
               "title": "Nueva Colección",
               "url": "shopify:\/\/collections\/nueva-coleccion"
@@ -4768,6 +4769,7 @@
             "type": "collection",
             "settings": {
               "collection": "beachwear",
+              "image": "shopify:\/\/shop_images\/martina-falda-brenda1-6413756dca2191d6d716099458963777-1024-1024.jpg",
               "img_align": "center",
               "title": "Beachwear",
               "url": "shopify:\/\/collections\/beachwear"
@@ -4777,6 +4779,7 @@
             "type": "collection",
             "settings": {
               "collection": "",
+              "image": "shopify:\/\/shop_images\/Larue_Banner_collection_2_copia.jpg",
               "img_align": "center",
               "title": "Set's",
               "url": "shopify:\/\/collections\/sets"
