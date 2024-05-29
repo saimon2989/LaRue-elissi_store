@@ -3518,13 +3518,13 @@
           "wis_heading-0": {
             "type": "1",
             "settings": {
-              "color": "#333"
+              "color": "#333333"
             }
           },
           "wis_heading-1": {
             "type": "2",
             "settings": {
-              "color": "#333"
+              "color": "#333333"
             }
           }
         },
@@ -3537,6 +3537,7 @@
           "color": "#f7f7f7",
           "overlay": 54,
           "padding": 50,
+          "paddingmb": 15,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
@@ -3549,7 +3550,8 @@
           "wishlist_page-0": {
             "type": "btn",
             "settings": {
-              "title": "Return To Shop",
+              "title": "Seguir comprando",
+              "url": "",
               "style": "primary tu"
             }
           }
