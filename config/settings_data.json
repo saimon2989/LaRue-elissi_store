@@ -4808,6 +4808,44 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "sec_deal3_R4BNMy": {
+        "type": "sec_deal3",
+        "settings": {
+          "width": "6",
+          "color": "dark",
+          "title": "Deal of the week",
+          "sub_title": "Sale 35% for all T-Shirt products",
+          "collection": "body",
+          "limit": 6,
+          "col_pr": "6",
+          "col_pr_tb": "6",
+          "col_pr_mb": "6",
+          "pr_des": "1",
+          "show_vendor": false,
+          "date": "2021\/12\/20",
+          "cdt_des": "1",
+          "cdt_size": "large",
+          "loop": true,
+          "au_time": 0,
+          "au_hover": true,
+          "button": true,
+          "dot": false,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "use_pr": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "image": "shopify:\/\/shop_images\/FB_0608-scaled.jpg",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -4819,7 +4857,8 @@
       "16093167150a6c9334",
       "1609318528643ba452",
       "1609319010ff225412",
-      "1609319025ad9ef8b0"
+      "1609319025ad9ef8b0",
+      "sec_deal3_R4BNMy"
     ],
     "blocks": {
       "6588702529468458379": {
