@@ -189,7 +189,7 @@
     "social_pr": true,
     "enable_vlooping": true,
     "use_fimg": false,
-    "color_ck": "Black",
+    "color_ck": "Color",
     "use_clicking_vimg": false,
     "enable_his": false,
     "pr_incoming_mess": false,
