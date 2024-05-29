@@ -3179,6 +3179,7 @@
         "block_order": [
           "4a6ea43c-12be-441c-b2b1-c531cb4e8673"
         ],
+        "disabled": true,
         "settings": {
           "layout": "nt_full",
           "cl_bg": "#f76b6a",
