@@ -2035,7 +2035,7 @@
           "use_specify_image": false,
           "parallax": false,
           "color": "#ffffff",
-          "overlay": 0,
+          "overlay": 100,
           "padding": 10,
           "paddingmb": 15,
           "bg_pos": "center center",
