@@ -4812,6 +4812,7 @@
       },
       "sec_deal3_R4BNMy": {
         "type": "sec_deal3",
+        "disabled": true,
         "settings": {
           "width": "6",
           "color": "dark",
