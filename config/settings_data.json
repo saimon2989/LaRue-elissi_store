@@ -188,7 +188,7 @@
     "sticky_atc": true,
     "social_pr": true,
     "enable_vlooping": true,
-    "use_fimg": false,
+    "use_fimg": true,
     "color_ck": "",
     "use_clicking_vimg": false,
     "enable_his": false,
