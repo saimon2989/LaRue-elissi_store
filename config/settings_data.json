@@ -1865,7 +1865,7 @@
           "1585640524232"
         ],
         "settings": {
-          "se_height": "cus_h",
+          "se_height": "adapt_f",
           "use_custom_h": "1",
           "h_des": "666px",
           "h_tb": "500px",
