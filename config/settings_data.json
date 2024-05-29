@@ -4848,46 +4848,121 @@
           "pd_mb": ""
         }
       },
-      "sec_deal_FBQtQr": {
-        "type": "sec_deal",
+      "image_text_overlay_hfTeWh": {
+        "type": "image_text_overlay",
+        "blocks": {
+          "1_89zwFR": {
+            "type": "1",
+            "settings": {
+              "title": "Best shopify theme 2020",
+              "color": "#000",
+              "fw_text": 600,
+              "fs_text": 30,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 15,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "6_4APgn4": {
+            "type": "6",
+            "settings": {
+              "sp": 10,
+              "sp_mb": 10
+            }
+          },
+          "2_BK3PmB": {
+            "type": "2",
+            "settings": {
+              "font": "f__libre",
+              "title": "Elessi v1",
+              "color": "#000000",
+              "fw_text": 400,
+              "fs_text": 14,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "6_bmQUgf": {
+            "type": "6",
+            "disabled": true,
+            "settings": {
+              "sp": 10,
+              "sp_mb": 10
+            }
+          },
+          "3_L48Wt4": {
+            "type": "3",
+            "disabled": true,
+            "settings": {
+              "title": "Shop Now",
+              "btn_link": "",
+              "open_link": "_blank",
+              "title2": "Shop Now 2",
+              "btn_link2": "",
+              "open_link2": "_blank",
+              "btn_round": false,
+              "btn_icon": false,
+              "cl_txt": "#fff",
+              "cl_bg": "#222",
+              "cl_bd": "#222",
+              "fs_text": 14,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 0,
+              "bdr": 0,
+              "pd": 15,
+              "fs_mb_text": 14,
+              "h_mb": 40,
+              "ls_mb_text": 0,
+              "bdr_mb": 0,
+              "pd_mb": 15
+            }
+          },
+          "7_HriNMN": {
+            "type": "7",
+            "settings": {
+              "date": "2021\/12\/20",
+              "cdt_des": "1",
+              "cdt_size": "medium"
+            }
+          }
+        },
+        "block_order": [
+          "1_89zwFR",
+          "6_4APgn4",
+          "2_BK3PmB",
+          "6_bmQUgf",
+          "3_L48Wt4",
+          "7_HriNMN"
+        ],
         "settings": {
-          "show_vendor": false,
-          "cdt_des": "1",
-          "cdt_size": "small",
-          "show_stock_bar": true,
-          "txt_sold": "Already Sold:",
-          "txt_avai": "Available:",
-          "cl_stock_1": "#efefef",
-          "cl_stock_2": "#f76b6a",
-          "use_pr": false,
-          "layout": "container",
-          "cl_bg": "",
+          "se_height": "full",
+          "use_custom_h": "1",
+          "h_des": "600px",
+          "h_tb": "500px",
+          "h_mb": "350px",
           "image": "shopify:\/\/shop_images\/FB_0608-scaled.jpg",
+          "use_pr": false,
+          "img_align": "center",
+          "caption_w": "2",
+          "cap_v_pos": 50,
+          "cap_h_pos": 50,
+          "txt_align": "tc_md",
+          "cap_v_pos_mb": 50,
+          "cap_h_pos_mb": 50,
+          "txt_align_mb": "tl",
+          "use_shadow": false,
+          "cl_overlay": "#000",
+          "cl_opacity": 0,
+          "layout": "nt_full",
           "mg": "50px,,50px,",
           "pd": "",
-          "mg_mb": "",
-          "pd_mb": "100px,,100px"
-        }
-      },
-      "sec_deal2_JrnDjx": {
-        "type": "sec_deal2",
-        "settings": {
-          "title": "Deal of the Day",
-          "show_vendor": false,
-          "bd_stock": "#f76b6a",
-          "cdt_des": "1",
-          "cdt_size": "small",
-          "show_stock_bar": true,
-          "txt_sold": "Already Sold:",
-          "txt_avai": "Available:",
-          "cl_stock_1": "#efefef",
-          "cl_stock_2": "#f76b6a",
-          "use_pr": false,
-          "layout": "wrap",
-          "cl_bg": "#ffffff",
-          "image": "shopify:\/\/shop_images\/FB_0608-scaled.jpg",
-          "mg": "50px,,50px,",
-          "pd": "100px,,100px,",
           "mg_mb": "",
           "pd_mb": ""
         }
@@ -4904,8 +4979,7 @@
       "1609319010ff225412",
       "1609319025ad9ef8b0",
       "sec_deal3_R4BNMy",
-      "sec_deal_FBQtQr",
-      "sec_deal2_JrnDjx"
+      "image_text_overlay_hfTeWh"
     ],
     "blocks": {
       "6588702529468458379": {
