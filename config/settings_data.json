@@ -2855,6 +2855,7 @@
       },
       "1609309946e9a4fcbc": {
         "type": "banner_collection2",
+        "disabled": true,
         "settings": {
           "title": "Best Sellers Set's",
           "image": "shopify:\/\/shop_images\/Larue_Banner_collection_2.jpg",
@@ -4690,25 +4691,70 @@
           "img_9cXmNQ": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BODY-ADELE---ROJO---1_b8f70386-9739-48e5-9fbf-36c11874c1ba.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "12"
             }
           },
+          "pr_jm4mC4": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "type": "1",
+              "shorttxt": "$59",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#65affa",
+              "product": ""
+            }
+          },
           "img_K7daPR": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BODY-VENUS---ROSA---1.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
             }
           },
+          "pr_axAPTa": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "type": "1",
+              "shorttxt": "$59",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#65affa",
+              "product": "body-venus"
+            }
+          },
           "img_fAhg7Q": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/BODY-LEAH---VERDE---1.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
+            }
+          },
+          "pr_Eq73if": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "type": "1",
+              "shorttxt": "$59",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#65affa",
+              "product": "body-leah"
             }
           }
         },
@@ -4716,8 +4762,11 @@
           "img_pNfWGp",
           "pr_Jw7FnN",
           "img_9cXmNQ",
+          "pr_jm4mC4",
           "img_K7daPR",
-          "img_fAhg7Q"
+          "pr_axAPTa",
+          "img_fAhg7Q",
+          "pr_Eq73if"
         ],
         "settings": {
           "title": "New Collection",
