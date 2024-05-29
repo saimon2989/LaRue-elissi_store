@@ -4749,8 +4749,9 @@
             "type": "collection",
             "settings": {
               "collection": "",
+              "image": "shopify:\/\/shop_images\/DSC9559-1365x2048.jpg",
               "img_align": "center",
-              "title": "",
+              "title": "Body's",
               "url": ""
             }
           },
@@ -4759,17 +4760,17 @@
             "settings": {
               "collection": "",
               "img_align": "center",
-              "title": "",
-              "url": ""
+              "title": "Nueva Colección",
+              "url": "shopify:\/\/collections\/nueva-coleccion"
             }
           },
           "collection_Rc9byK": {
             "type": "collection",
             "settings": {
-              "collection": "",
+              "collection": "beachwear",
               "img_align": "center",
-              "title": "",
-              "url": ""
+              "title": "Beachwear",
+              "url": "shopify:\/\/collections\/beachwear"
             }
           },
           "collection_aTJDPx": {
@@ -4777,8 +4778,8 @@
             "settings": {
               "collection": "",
               "img_align": "center",
-              "title": "",
-              "url": ""
+              "title": "Set's",
+              "url": "shopify:\/\/collections\/sets"
             }
           }
         },
@@ -4858,7 +4859,7 @@
             "type": "1",
             "settings": {
               "title": "Best shopify theme 2020",
-              "color": "#000",
+              "color": "#000000",
               "fw_text": 600,
               "fs_text": 30,
               "lh_text": 0,
@@ -4911,9 +4912,9 @@
               "open_link2": "_blank",
               "btn_round": false,
               "btn_icon": false,
-              "cl_txt": "#fff",
-              "cl_bg": "#222",
-              "cl_bd": "#222",
+              "cl_txt": "#ffffff",
+              "cl_bg": "#222222",
+              "cl_bd": "#222222",
               "fs_text": 14,
               "fw_text": 600,
               "h": 40,
@@ -4961,7 +4962,7 @@
           "cap_h_pos_mb": 50,
           "txt_align_mb": "tl",
           "use_shadow": false,
-          "cl_overlay": "#000",
+          "cl_overlay": "#000000",
           "cl_opacity": 0,
           "layout": "nt_full",
           "mg": "50px,,50px,",
