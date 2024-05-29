@@ -2787,8 +2787,8 @@
               "ani": "none",
               "time": 6,
               "btn_des": "1",
-              "btn_txt": "3",
-              "swatch_design": "2",
+              "btn_txt": "0",
+              "swatch_design": "8",
               "style_color": "1",
               "swatch_style": "1",
               "swatch_size": "medium",
@@ -2801,12 +2801,12 @@
             "type": "img",
             "settings": {
               "mess": "",
-              "size": 16,
+              "size": 17,
               "source": "1",
               "al": "tl",
-              "wimg": 66,
-              "svg": "american_express,maestro,master,paypal,visa",
-              "height": 50
+              "wimg": 47,
+              "svg": "mercado pago, addi, paypal",
+              "height": 30
             }
           },
           "product-template-4": {
