@@ -11,7 +11,8 @@
       "wishlist": "Favoritos",
       "search": "Buscar",
       "login_register": "Ingreso \/ Registro",
-      "my_account": "Mi cuenta"
+      "my_account": "Mi cuenta",
+      "compare": ""
     },
     "password_page": {
       "opening_soon": "Abrimos pronto",
@@ -69,7 +70,10 @@
       "follow_tu": "Seguir en Tumblr",
       "follow_yt": "Seguir en YouTube",
       "follow_bh": "Seguir en Behance",
-      "follow_sc": "Seguir en Soundcloud"
+      "follow_sc": "Seguir en Soundcloud",
+      "added_text_compare": "",
+      "share_wa": "",
+      "follow_tt": ""
     },
     "catelog": {
       "title": "La hora actual es {{now_count}}",
@@ -132,7 +136,36 @@
     "meta": {
       "wishlist": "Mi página de favoritos",
       "page": "Página {{ page }}",
-      "tags": "Etiquetado con \"{{ tags }}\""
+      "tags": "Etiquetado con \"{{ tags }}\"",
+      "compare": ""
+    },
+    "accessibility": {
+      "skip_to_content": ""
+    },
+    "check_map": "",
+    "language": "",
+    "swatch_limit": "",
+    "swatch_limit_less": "",
+    "bannerCountdown": "",
+    "prItemCountdown": "",
+    "compare": {
+      "title": "",
+      "empty": "",
+      "empty_html": "",
+      "remove": "",
+      "in_stock": "",
+      "outofstock": "",
+      "title_popup": "",
+      "results_with_count_html": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      },
+      "let_compare": "",
+      "clear_all": ""
+    },
+    "cart": {
+      "title": ""
     }
   },
   "gift_cards": {
@@ -274,7 +307,8 @@
       "wishlist": "Favoritos",
       "dashboard": "Centro de control",
       "title": "Mi cuenta",
-      "hello_html": "Hola <strong>{{name}}<\/strong> (¿no eres <strong>{{name}}<\/strong>? <a href=\"{{link}}\">Salir<\/a>)\n"
+      "hello_html": "Hola <strong>{{name}}<\/strong> (¿no eres <strong>{{name}}<\/strong>? <a href=\"{{link}}\">Salir<\/a>)\n",
+      "manage_subs": ""
     },
     "make_order": "Haz tu primera orden",
     "login_here": "¿Ya tienes una cuenta? Ingresa aquí",
@@ -349,7 +383,9 @@
       "note": "Agregar notas a la orden",
       "remove": "Eliminar",
       "title": "Bolsa de compras",
-      "rate_value": "[rate_title] en [rate]"
+      "rate_value": "[rate_title] en [rate]",
+      "fbt_title": "",
+      "recurring_mess": ""
     }
   },
   "products": {
@@ -394,7 +430,14 @@
       "new": "Nuevo",
       "hot": "¡Destacado!",
       "back_to": "Atrás a {{title}}",
-      "choose_an_option": "Elige una opción"
+      "choose_an_option": "Elige una opción",
+      "include_taxes": "",
+      "shipping_policy_html": "",
+      "subtotal": "",
+      "Please_choose_pr_options": "",
+      "in_stock_pre_oder": "",
+      "replace_item_atc": "",
+      "replace_item_pre": ""
     },
     "fbt": {
       "this_item": "Este ítem:",
@@ -415,7 +458,8 @@
       "read_more": "Leer más",
       "select_option": "Seleccionar opciones",
       "quick_shop": "Compra rápida",
-      "quick_view": "Vista rápida"
+      "quick_view": "Vista rápida",
+      "load_prev": ""
     },
     "nt_extra": {
       "estimateTimer_2": "para recibirlo antes de",
@@ -434,7 +478,15 @@
   "collections": {
     "sorting": {
       "close": "Cerrar",
-      "title": "Filtrar por"
+      "title": "Filtrar por",
+      "featured": "",
+      "best_selling": "",
+      "az": "",
+      "za": "",
+      "price_ascending": "",
+      "price_descending": "",
+      "date_descending": "",
+      "date_ascending": ""
     },
     "general": {
       "results_with_count_html": {
@@ -450,6 +502,14 @@
       "next": "Siguiente",
       "previous": "Anterior",
       "categories": "Categorías"
+    },
+    "filter_variant": {
+      "placeholder_title": "",
+      "button_title": "",
+      "title_price": "",
+      "button_price": "",
+      "hide_outofstock": "",
+      "product_title_contains": ""
     }
   },
   "shopify": {
@@ -462,7 +522,8 @@
         "state_and_territory_label": "Departamento",
         "state_and_territory_placeholder": "Departamento",
         "address2_label": "Número o interior de casa\/apartamento, nombre de unidad o conjunto...",
-        "optional_address2_label": "Número o interior de casa\/apartamento, nombre de unidad o conjunto..."
+        "optional_address2_label": "Número o interior de casa\/apartamento, nombre de unidad o conjunto...",
+        "company_label": "Cédula"
       },
       "field_errors": {
         "address_province_blank": "Selecciona un departamento"
@@ -528,10 +589,84 @@
     "section": {
       "view_all": "Ver todo",
       "load_more": "Cargar más entradas",
-      "bar_with_count_html": "Has visto <span class = \"js_current_bar\"> {{current_count}} <\/span> de {{total_count}} publicaciones"
+      "bar_with_count_html": "Has visto <span class = \"js_current_bar\"> {{current_count}} <\/span> de {{total_count}} publicaciones",
+      "read_more": ""
     },
     "blog": {
-      "blog_title_html": "Archivar por categoría \"{{ blog_title }}\""
+      "blog_title_html": "Archivar por categoría \"{{ blog_title }}\"",
+      "breadcrumbs_article": ""
+    },
+    "article": {
+      "by": "",
+      "on": "",
+      "in": "",
+      "read_more": "",
+      "back_to": "",
+      "view_all": "",
+      "by_author": ""
+    },
+    "portfolio": {
+      "filter_all": "",
+      "category": "",
+      "author": "",
+      "tags": ""
+    },
+    "comments": {
+      "title": "",
+      "comments_note_html": "",
+      "name": "",
+      "email": "",
+      "message": "",
+      "post": "",
+      "moderated": "",
+      "success_moderated": "",
+      "success": "",
+      "unapproved": "",
+      "with_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      },
+      "with_count_2": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      },
+      "comments_title_html": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      }
     }
+  },
+  "sections": {
+    "prev_deal": "",
+    "next_deal": ""
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "",
+      "check_other_stores": "",
+      "pick_up_available": "",
+      "pick_up_currently_unavailable": "",
+      "pick_up_available_at_html": "",
+      "pick_up_unavailable_at_html": "",
+      "confirm_address": ""
+    }
+  },
+  "date_formats": {
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "",
+    "6": "",
+    "7": "",
+    "8": "",
+    "9": "",
+    "day_month": "",
+    "day_month_year": "",
+    "month_day_year": "",
+    "full_day": ""
   }
 }
