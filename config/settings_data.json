@@ -4950,6 +4950,7 @@
           "3_L48Wt4",
           "7_HriNMN"
         ],
+        "disabled": true,
         "settings": {
           "se_height": "full",
           "use_custom_h": "1",
@@ -4975,6 +4976,370 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "slideshow_8naTkB": {
+        "type": "slideshow",
+        "blocks": {
+          "img_BLrWiW": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-desktop.jpg",
+              "image_mb": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-mobile.jpg",
+              "pos_img": "center center",
+              "cl_img": "rgba(0,0,0,0)",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "tran_ef",
+              "ani_txt": "left_right",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "subhd_nfpmnb": {
+            "type": "subhd",
+            "disabled": true,
+            "settings": {
+              "font": "f_body",
+              "title": "LA RUE STORE",
+              "color": "#666666",
+              "fw_text": 800,
+              "fs_text": 16,
+              "lh_text": 0,
+              "ls_text": 10,
+              "fs_mb_text": 10,
+              "lh_mb_text": 0,
+              "ls_mb_text": 2,
+              "hide": false
+            }
+          },
+          "space_mpQ3b6": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "hd_4B8waD": {
+            "type": "hd",
+            "disabled": true,
+            "settings": {
+              "title": "MARRAKECH",
+              "color": "#333333",
+              "fw_text": 800,
+              "fs_text": 55,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 25,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_MNFCjV": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "btn_gp7b7n": {
+            "type": "btn",
+            "disabled": true,
+            "settings": {
+              "title": "SHOP NOW",
+              "btn_link": "shopify:\/\/collections\/fashion",
+              "title2": "",
+              "btn_link2": "",
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "#f76b6a",
+              "cl_bd": "#f76b6a",
+              "fs_text": 12,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 2,
+              "bdr": 0,
+              "pd": 38,
+              "fs_mb_text": 12,
+              "h_mb": 40,
+              "ls_mb_text": 2,
+              "bdr_mb": 0,
+              "pd_mb": 15
+            }
+          },
+          "img_En8mLR": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-desktop-2.jpg",
+              "image_mb": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-mobile-2.jpg",
+              "pos_img": "center center",
+              "cl_img": "rgba(0,0,0,0)",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "tran_ef",
+              "ani_txt": "left_right",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "subhd_arpDFa": {
+            "type": "subhd",
+            "disabled": true,
+            "settings": {
+              "font": "f_body",
+              "title": "NEW FASHION",
+              "color": "#666666",
+              "fw_text": 800,
+              "fs_text": 16,
+              "lh_text": 0,
+              "ls_text": 10,
+              "fs_mb_text": 10,
+              "lh_mb_text": 0,
+              "ls_mb_text": 2,
+              "hide": false
+            }
+          },
+          "space_VNDVWA": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "hd_nwgfib": {
+            "type": "hd",
+            "disabled": true,
+            "settings": {
+              "title": "Spring Summer<br>\nCollection",
+              "color": "#333333",
+              "fw_text": 800,
+              "fs_text": 55,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 25,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_TFpGGn": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "btn_Fx4mbr": {
+            "type": "btn",
+            "disabled": true,
+            "settings": {
+              "title": "SHOP NOW",
+              "btn_link": "shopify:\/\/collections\/fashion",
+              "title2": "",
+              "btn_link2": "",
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "#f76b6a",
+              "cl_bd": "#f76b6a",
+              "fs_text": 12,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 2,
+              "bdr": 0,
+              "pd": 38,
+              "fs_mb_text": 12,
+              "h_mb": 40,
+              "ls_mb_text": 2,
+              "bdr_mb": 0,
+              "pd_mb": 15
+            }
+          },
+          "img_eykYeh": {
+            "type": "img",
+            "disabled": true,
+            "settings": {
+              "pos_img": "center center",
+              "cl_img": "rgba(0,0,0,0)",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "tran_ef",
+              "ani_txt": "left_right",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "subhd_exhaBV": {
+            "type": "subhd",
+            "disabled": true,
+            "settings": {
+              "font": "f_body",
+              "title": "ELESSI STORE",
+              "color": "#666666",
+              "fw_text": 800,
+              "fs_text": 16,
+              "lh_text": 0,
+              "ls_text": 10,
+              "fs_mb_text": 10,
+              "lh_mb_text": 0,
+              "ls_mb_text": 1.9,
+              "hide": false
+            }
+          },
+          "space_dPeX3G": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "hd_mDyJhU": {
+            "type": "hd",
+            "disabled": true,
+            "settings": {
+              "title": "Looking for<br>\nthe best price",
+              "color": "#333333",
+              "fw_text": 800,
+              "fs_text": 55,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 25,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_VJYeka": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "btn_BkghaV": {
+            "type": "btn",
+            "disabled": true,
+            "settings": {
+              "title": "SHOP NOW",
+              "btn_link": "shopify:\/\/collections\/fashion",
+              "title2": "",
+              "btn_link2": "",
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "#f76b6a",
+              "cl_bd": "#f76b6a",
+              "fs_text": 12,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 2,
+              "bdr": 0,
+              "pd": 38,
+              "fs_mb_text": 12,
+              "h_mb": 40,
+              "ls_mb_text": 2,
+              "bdr_mb": 0,
+              "pd_mb": 15
+            }
+          }
+        },
+        "block_order": [
+          "img_BLrWiW",
+          "subhd_nfpmnb",
+          "space_mpQ3b6",
+          "hd_4B8waD",
+          "space_MNFCjV",
+          "btn_gp7b7n",
+          "img_En8mLR",
+          "subhd_arpDFa",
+          "space_VNDVWA",
+          "hd_nwgfib",
+          "space_TFpGGn",
+          "btn_Fx4mbr",
+          "img_eykYeh",
+          "subhd_exhaBV",
+          "space_dPeX3G",
+          "hd_mDyJhU",
+          "space_VJYeka",
+          "btn_BkghaV"
+        ],
+        "settings": {
+          "se_height": "adapt_f",
+          "use_custom_h": "1",
+          "h_des": "666px",
+          "h_tb": "500px",
+          "h_mb": "250px",
+          "effect": "1",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 8,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "2",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "3",
+          "dot_color": "3",
+          "layout": "nt_full",
+          "cl_bg": "#efefef",
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -4988,6 +5353,7 @@
       "1609319010ff225412",
       "1609319025ad9ef8b0",
       "sec_deal3_R4BNMy",
+      "slideshow_8naTkB",
       "image_text_overlay_hfTeWh"
     ],
     "blocks": {
