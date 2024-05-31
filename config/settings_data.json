@@ -1268,6 +1268,18 @@
               "lb_cl": ""
             }
           },
+          "menu_pEgqmp": {
+            "type": "menu",
+            "settings": {
+              "title": "<spam style=\"color:#f76b6a;\">SALE <i class=\"las la-ticket-alt\"><\/i> <\/spam>",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "mb_nav-4": {
             "type": "wis",
             "settings": {
@@ -1308,6 +1320,7 @@
           "mb_nav-1",
           "mb_nav-2",
           "1585642908420",
+          "menu_pEgqmp",
           "mb_nav-4",
           "6908ee6a-4a84-461e-81b2-2e7a872cd085",
           "mb_nav-5",
