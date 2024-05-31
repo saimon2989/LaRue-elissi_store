@@ -1496,7 +1496,7 @@
             "type": "shop",
             "settings": {
               "title": "Shop",
-              "link": "fashion"
+              "link": "all"
             }
           },
           "toolbar_mobile-3": {
@@ -1525,6 +1525,7 @@
           },
           "2667629b-dbf0-4c7a-a24c-acfbfbdbd3ea": {
             "type": "compe",
+            "disabled": true,
             "settings": {
               "title": "Compare"
             }
