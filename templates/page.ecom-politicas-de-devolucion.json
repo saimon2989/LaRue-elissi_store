@@ -1,6 +1,29 @@
 {
   "layout": "theme",
   "sections": {
+    "image_text_eGUqpq": {
+      "type": "image_text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PUBLICIDAD-05-scaled.jpg",
+        "img_align": "center",
+        "img_position": "1",
+        "image_ratio": "auto",
+        "text_size": "60,18",
+        "title": "",
+        "text": "<p>Clic aquí para mas información<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "open_link": "_blank",
+        "txt_align": "tc",
+        "use_shadow": false,
+        "cl_txt": "dark",
+        "layout": "container",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "ecom-politicas-de-devolucion-page": {
       "type": "ecom-politicas-de-devolucion-page",
       "settings": {
@@ -8,6 +31,7 @@
     }
   },
   "order": [
+    "image_text_eGUqpq",
     "ecom-politicas-de-devolucion-page"
   ]
 }
