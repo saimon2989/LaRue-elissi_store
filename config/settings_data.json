@@ -1507,6 +1507,7 @@
           },
           "1581912867486": {
             "type": "filter",
+            "disabled": true,
             "settings": {
               "title": "Filter"
             }
