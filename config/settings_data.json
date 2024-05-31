@@ -3954,6 +3954,7 @@
           "color": "#f7f7f7",
           "overlay": 54,
           "padding": 50,
+          "paddingmb": 15,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
@@ -4023,7 +4024,7 @@
           "525be652-70e0-4d69-9450-53f434c6b5d1"
         ],
         "settings": {
-          "content": "<p><strong>Frequently Asked Questions<\/strong><\/p><p><em>Last Updated on February 29, 2021<\/em><\/p><p><\/p>",
+          "content": "<h2>Formulario de peticiones, quejas, requerimientos o solicitudes<\/h2><h2><\/h2><p>Si tienes alguna petición, queja, reclamo o sugerencia para hacernos por favor diligencia el formulario que se encuentra a continuación.<br\/><br\/>Los datos que se solicitan en el formulario, se usarán únicamente con el objetivo de ponernos en contacto contigo y dar respuesta a tu solicitud.<\/p><p><\/p>",
           "auto": true,
           "show_ques": true,
           "title_ques": "Still Have Question? Contact Us",
