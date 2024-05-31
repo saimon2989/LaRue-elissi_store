@@ -97,7 +97,7 @@
       "link_conditions_emty": "Acepto los términos y condiciones."
     },
     "wishlist": {
-      "empty_html": "No tienes productos en tu lista de favoritos.<br \/> No tienes productos en tu lista de favoritos, tenemos muchos productos que pueden gustarte.",
+      "empty_html": "No tienes productos en tu lista de favoritos, tenemos muchos productos que pueden gustarte.",
       "empty": "Tus favoritos están vacíos.",
       "title": "FAVORITOS"
     },
