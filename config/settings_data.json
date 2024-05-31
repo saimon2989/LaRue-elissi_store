@@ -568,14 +568,17 @@
               "col": "12"
             }
           },
-          "link_xqdr3C": {
-            "type": "link",
+          "simple_naPUfY": {
+            "type": "simple",
             "settings": {
-              "tt_hd": "",
-              "url": "",
+              "title": "SALE",
+              "url": "#",
               "open_link": "_self",
-              "menu": "beauty",
-              "col": "12"
+              "icon": "las la-ticket-alt",
+              "cus_cl": true,
+              "cl": "#f76b6a",
+              "lb": "",
+              "lb_cl": ""
             }
           },
           "dropdown_BH8QGV": {
@@ -908,7 +911,7 @@
           "link_Q4qXXq",
           "mega_HqeXzN",
           "cat_Eg9Caf",
-          "link_xqdr3C",
+          "simple_naPUfY",
           "dropdown_BH8QGV",
           "dropdown_JXDnkF",
           "dropdown_bzbhnP",
