@@ -572,7 +572,7 @@
             "type": "simple",
             "settings": {
               "title": "SALE",
-              "url": "#",
+              "url": "shopify:\/\/collections\/sale",
               "open_link": "_self",
               "icon": "las la-ticket-alt",
               "cus_cl": true,
