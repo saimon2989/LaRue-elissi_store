@@ -4632,8 +4632,8 @@
           "pr_Jw7FnN": {
             "type": "pr",
             "settings": {
-              "pos_t": 45,
-              "pos_l": 38,
+              "pos_t": 70,
+              "pos_l": 70,
               "type": "1",
               "shorttxt": "",
               "pos_pin": "top",
@@ -4656,7 +4656,7 @@
             "type": "pr",
             "settings": {
               "pos_t": 50,
-              "pos_l": 50,
+              "pos_l": 60,
               "type": "1",
               "shorttxt": "",
               "pos_pin": "top",
@@ -4679,7 +4679,7 @@
             "type": "pr",
             "settings": {
               "pos_t": 50,
-              "pos_l": 50,
+              "pos_l": 60,
               "type": "1",
               "shorttxt": "",
               "pos_pin": "top",
@@ -4702,7 +4702,7 @@
             "type": "pr",
             "settings": {
               "pos_t": 50,
-              "pos_l": 50,
+              "pos_l": 60,
               "type": "1",
               "shorttxt": "",
               "pos_pin": "top",
