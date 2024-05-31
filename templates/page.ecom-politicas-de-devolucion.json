@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-politicas-de-devolucion-page": {
+      "type": "ecom-politicas-de-devolucion-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-politicas-de-devolucion-page"
+  ]
+}
