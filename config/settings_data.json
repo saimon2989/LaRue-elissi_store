@@ -3846,58 +3846,6 @@
       },
       "brand_list": {
         "type": "brand_list",
-        "blocks": {
-          "b54912d1-beee-43d9-a544-7b59ec52dad7": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "82770a8e-9b39-4aff-baba-4e5d775d3c5b": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "087fee6a-e36d-41e1-94af-2f326f8d1603": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "2ed1d6ef-1e4d-4f4f-806d-2779a4774d4e": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "12b31410-f254-4071-983a-a8fab4559bc5": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          },
-          "371ed74c-8dbb-4560-af8c-0764aa7de9a8": {
-            "type": "brand",
-            "settings": {
-              "url": "",
-              "open_link": "_blank"
-            }
-          }
-        },
-        "block_order": [
-          "b54912d1-beee-43d9-a544-7b59ec52dad7",
-          "82770a8e-9b39-4aff-baba-4e5d775d3c5b",
-          "087fee6a-e36d-41e1-94af-2f326f8d1603",
-          "2ed1d6ef-1e4d-4f4f-806d-2779a4774d4e",
-          "12b31410-f254-4071-983a-a8fab4559bc5",
-          "371ed74c-8dbb-4560-af8c-0764aa7de9a8"
-        ],
         "settings": {
           "title": "",
           "sub_title": "",
