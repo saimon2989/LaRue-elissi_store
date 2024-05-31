@@ -947,7 +947,7 @@
             "type": "logo",
             "settings": {
               "logo_width": 95,
-              "title": "Contact",
+              "title": "Contáctanos",
               "content": "<p>La Rue SAS – NIT. 901453613-7<br>\nCra 37 # 8a – 110 Avenida Primavera<\/p><p>+57 3145082362<\/p><p><a href=\"contactolarue@gmail.com\">contactolarue@gmail.com<\/a><\/p>",
               "social_mode": "3",
               "order": "1",
@@ -1002,7 +1002,7 @@
             "settings": {
               "newl_des": "3",
               "btn_icon": false,
-              "title": "Newsletter signup",
+              "title": "Suscríbete a LaRue",
               "sub_title": "Subscribe to our newsletters now and stay up-to-date with new collections.",
               "source": "1",
               "svg": "amazon_payments,american_express,bitcoin,paypal,shopify_pay,visa",
