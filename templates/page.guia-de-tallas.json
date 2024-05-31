@@ -22,10 +22,10 @@
     "custom_html_DWbwFX": {
       "type": "custom_html",
       "settings": {
-        "code": "<style>\n        .container-image-guia-tallas{\n            display: flex;\n            justify-content: center;\n            align-items: center;\n        }\n\n        .image-wrapper {\n            max-width: 100%;\n            max-height: 100%;\n            overflow: hidden;\n        }\n\n        .image-wrapper img {\n            width: 100%;\n            height: auto;\n            display: block;\n        }\n\n        \/* Estilos para dispositivos móviles *\/\n        @media (max-width: 768px) {\n            .container-image-guia-tallas {\n            }\n        }\n    <\/style>\n\n\n    <div class=\"container-image-guia-tallas\">\n        <div class=\"image-wrapper\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0872\/6796\/7266\/files\/PUBLICIDAD-06-1-scaled.jpg?v=1717127435\" alt=\"Guía de tallas LaRue\">\n        <\/div>\n    <\/div>",
+        "code": "<div class=\"container-image-guia-tallas\">\n        <div class=\"image-wrapper\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0872\/6796\/7266\/files\/PUBLICIDAD-06-1-scaled.jpg?v=1717127435\" alt=\"Guía de tallas LaRue\">\n        <\/div>\n    <\/div>",
         "layout": "nt_full",
         "mg": "",
-        "pd": "",
+        "pd": "100px, 250px, 150px, 250px",
         "mg_mb": "",
         "pd_mb": "10px, 10px, 10px, 10px"
       }
