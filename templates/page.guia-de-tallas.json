@@ -25,7 +25,7 @@
         "code": "<div class=\"container-image-guia-tallas\">\n        <div class=\"image-wrapper\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0872\/6796\/7266\/files\/PUBLICIDAD-06-1-scaled.jpg?v=1717127435\" alt=\"Guía de tallas LaRue\">\n        <\/div>\n    <\/div>",
         "layout": "nt_full",
         "mg": "",
-        "pd": "100px, 250px, 150px, 250px",
+        "pd": "10%, 30%, 15%, 30%",
         "mg_mb": "",
         "pd_mb": "10px, 10px, 10px, 10px"
       }
