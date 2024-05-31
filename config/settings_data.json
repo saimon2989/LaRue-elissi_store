@@ -3978,9 +3978,9 @@
           "content": "<h2>Formulario de peticiones, quejas, requerimientos o solicitudes<\/h2><h2><\/h2><p>Si tienes alguna petición, queja, reclamo o sugerencia para hacernos por favor diligencia el formulario que se encuentra a continuación.<br\/><br\/>Los datos que se solicitan en el formulario, se usarán únicamente con el objetivo de ponernos en contacto contigo y dar respuesta a tu solicitud.<\/p><p><\/p>",
           "auto": true,
           "show_ques": true,
-          "title_ques": "Still Have Question? Contact Us",
-          "title_btn": "CONTACT US",
-          "url_btn": "\/"
+          "title_ques": "¿Sigues teniendo dudas?",
+          "title_btn": "Contactanos",
+          "url_btn": "shopify:\/\/pages\/contacto"
         }
       },
       "list_cat_heading": {
