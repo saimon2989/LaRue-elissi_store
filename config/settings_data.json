@@ -561,7 +561,7 @@
             "type": "cat",
             "settings": {
               "image": "shopify:\/\/shop_images\/MG_0723-min-scaled.jpg",
-              "cat_design": "6",
+              "cat_design": "1",
               "hoverz": true,
               "collection": "body",
               "title": "",
