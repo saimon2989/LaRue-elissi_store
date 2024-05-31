@@ -41,10 +41,10 @@
         "cl_overlay": "#000",
         "cl_opacity": 0,
         "layout": "nt_full",
-        "mg": "50px,50px,50px,50px",
-        "pd": "",
+        "mg": "",
+        "pd": "100px,100px,100px,100px,",
         "mg_mb": "",
-        "pd_mb": ""
+        "pd_mb": "5px,5px,5px,5px,"
       }
     }
   },
