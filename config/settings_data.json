@@ -485,7 +485,7 @@
             "type": "cat",
             "settings": {
               "image": "shopify:\/\/shop_images\/Body-Adele-3-scaled.gif",
-              "cat_design": "6",
+              "cat_design": "1",
               "hoverz": true,
               "collection": "lingerie",
               "title": "",
@@ -561,21 +561,24 @@
             "type": "cat",
             "settings": {
               "image": "shopify:\/\/shop_images\/MG_0723-min-scaled.jpg",
-              "cat_design": "6",
+              "cat_design": "1",
               "hoverz": true,
               "collection": "body",
               "title": "",
               "col": "12"
             }
           },
-          "link_xqdr3C": {
-            "type": "link",
+          "simple_naPUfY": {
+            "type": "simple",
             "settings": {
-              "tt_hd": "",
-              "url": "",
+              "title": "SALE",
+              "url": "shopify:\/\/collections\/sale",
               "open_link": "_self",
-              "menu": "beauty",
-              "col": "12"
+              "icon": "las la-ticket-alt",
+              "cus_cl": true,
+              "cl": "#f76b6a",
+              "lb": "",
+              "lb_cl": ""
             }
           },
           "dropdown_BH8QGV": {
@@ -908,7 +911,7 @@
           "link_Q4qXXq",
           "mega_HqeXzN",
           "cat_Eg9Caf",
-          "link_xqdr3C",
+          "simple_naPUfY",
           "dropdown_BH8QGV",
           "dropdown_JXDnkF",
           "dropdown_bzbhnP",
@@ -947,7 +950,7 @@
             "type": "logo",
             "settings": {
               "logo_width": 95,
-              "title": "Contact",
+              "title": "Contáctanos",
               "content": "<p>La Rue SAS – NIT. 901453613-7<br>\nCra 37 # 8a – 110 Avenida Primavera<\/p><p>+57 3145082362<\/p><p><a href=\"contactolarue@gmail.com\">contactolarue@gmail.com<\/a><\/p>",
               "social_mode": "3",
               "order": "1",
@@ -959,7 +962,7 @@
           "1581507828337": {
             "type": "menu",
             "settings": {
-              "title": "Useful links",
+              "title": "Ayuda",
               "menu": "footer",
               "order": "1",
               "cl": "2",
@@ -1002,8 +1005,8 @@
             "settings": {
               "newl_des": "3",
               "btn_icon": false,
-              "title": "Newsletter signup",
-              "sub_title": "Subscribe to our newsletters now and stay up-to-date with new collections.",
+              "title": "Suscríbete a LaRue",
+              "sub_title": "Suscríbete y obtén 15% OFF en tu primera compra",
               "source": "1",
               "svg": "amazon_payments,american_express,bitcoin,paypal,shopify_pay,visa",
               "height": 30,
@@ -1265,6 +1268,18 @@
               "lb_cl": ""
             }
           },
+          "menu_pEgqmp": {
+            "type": "menu",
+            "settings": {
+              "title": "<spam style=\"color:#f76b6a; font-style: bold;\">SALE <i class=\"las la-ticket-alt\"><\/i> <\/spam>",
+              "url": "shopify:\/\/collections\/sale",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "mb_nav-4": {
             "type": "wis",
             "settings": {
@@ -1305,6 +1320,7 @@
           "mb_nav-1",
           "mb_nav-2",
           "1585642908420",
+          "menu_pEgqmp",
           "mb_nav-4",
           "6908ee6a-4a84-461e-81b2-2e7a872cd085",
           "mb_nav-5",
@@ -1480,7 +1496,7 @@
             "type": "shop",
             "settings": {
               "title": "Shop",
-              "link": "fashion"
+              "link": "all"
             }
           },
           "toolbar_mobile-3": {
@@ -1491,6 +1507,7 @@
           },
           "1581912867486": {
             "type": "filter",
+            "disabled": true,
             "settings": {
               "title": "Filter"
             }
@@ -1509,6 +1526,7 @@
           },
           "2667629b-dbf0-4c7a-a24c-acfbfbdbd3ea": {
             "type": "compe",
+            "disabled": true,
             "settings": {
               "title": "Compare"
             }
@@ -4632,10 +4650,10 @@
           "pr_Jw7FnN": {
             "type": "pr",
             "settings": {
-              "pos_t": 45,
-              "pos_l": 38,
+              "pos_t": 50,
+              "pos_l": 60,
               "type": "1",
-              "shorttxt": "$59",
+              "shorttxt": "",
               "pos_pin": "top",
               "pos_size": "medium",
               "effect": "fade",
@@ -4656,13 +4674,13 @@
             "type": "pr",
             "settings": {
               "pos_t": 50,
-              "pos_l": 50,
+              "pos_l": 60,
               "type": "1",
-              "shorttxt": "$59",
+              "shorttxt": "",
               "pos_pin": "top",
               "pos_size": "medium",
               "effect": "fade",
-              "bg_cl": "#65affa",
+              "bg_cl": "#f76b6a",
               "product": "body-adele"
             }
           },
@@ -4679,13 +4697,13 @@
             "type": "pr",
             "settings": {
               "pos_t": 50,
-              "pos_l": 50,
+              "pos_l": 60,
               "type": "1",
-              "shorttxt": "$59",
+              "shorttxt": "",
               "pos_pin": "top",
               "pos_size": "medium",
               "effect": "fade",
-              "bg_cl": "#65affa",
+              "bg_cl": "#f76b6a",
               "product": "body-venus"
             }
           },
@@ -4702,13 +4720,13 @@
             "type": "pr",
             "settings": {
               "pos_t": 50,
-              "pos_l": 50,
+              "pos_l": 60,
               "type": "1",
-              "shorttxt": "$59",
+              "shorttxt": "",
               "pos_pin": "top",
               "pos_size": "medium",
               "effect": "fade",
-              "bg_cl": "#65affa",
+              "bg_cl": "#f76b6a",
               "product": "body-leah"
             }
           }
@@ -4724,8 +4742,8 @@
           "pr_Eq73if"
         ],
         "settings": {
-          "title": "New Collection",
-          "sub_title": "Spring summer 2024 lookbook",
+          "title": "Outfits La Rue",
+          "sub_title": "Siéntete hermosa siempre utilizando nuestras prendas para exterior con estas ideas de looks.",
           "sub_font": "2",
           "style_title": "title_1",
           "ic_tt": "gem",
@@ -4781,7 +4799,7 @@
             "type": "collection",
             "settings": {
               "collection": "",
-              "image": "shopify:\/\/shop_images\/Larue_Banner_collection_2_copia.jpg",
+              "image": "shopify:\/\/shop_images\/Set-Tayra-scaled.gif",
               "img_align": "center",
               "title": "Set's",
               "url": "shopify:\/\/collections\/sets"
@@ -4863,7 +4881,7 @@
           "1_89zwFR": {
             "type": "1",
             "settings": {
-              "title": "Best shopify theme 2020",
+              "title": "Mejores Ofertas",
               "color": "#000000",
               "fw_text": 600,
               "fs_text": 30,
@@ -4885,7 +4903,7 @@
             "type": "2",
             "settings": {
               "font": "f__libre",
-              "title": "Elessi v1",
+              "title": "LaRue",
               "color": "#000000",
               "fw_text": 400,
               "fs_text": 14,
@@ -4950,6 +4968,7 @@
           "3_L48Wt4",
           "7_HriNMN"
         ],
+        "disabled": true,
         "settings": {
           "se_height": "full",
           "use_custom_h": "1",
@@ -4975,6 +4994,370 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "slideshow_8naTkB": {
+        "type": "slideshow",
+        "blocks": {
+          "img_BLrWiW": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-desktop.jpg",
+              "image_mb": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-mobile.jpg",
+              "pos_img": "center center",
+              "cl_img": "rgba(0,0,0,0)",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "tran_ef",
+              "ani_txt": "left_right",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "subhd_nfpmnb": {
+            "type": "subhd",
+            "disabled": true,
+            "settings": {
+              "font": "f_body",
+              "title": "LA RUE STORE",
+              "color": "#666666",
+              "fw_text": 800,
+              "fs_text": 16,
+              "lh_text": 0,
+              "ls_text": 10,
+              "fs_mb_text": 10,
+              "lh_mb_text": 0,
+              "ls_mb_text": 2,
+              "hide": false
+            }
+          },
+          "space_mpQ3b6": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "hd_4B8waD": {
+            "type": "hd",
+            "disabled": true,
+            "settings": {
+              "title": "MARRAKECH",
+              "color": "#333333",
+              "fw_text": 800,
+              "fs_text": 55,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 25,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_MNFCjV": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "btn_gp7b7n": {
+            "type": "btn",
+            "disabled": true,
+            "settings": {
+              "title": "SHOP NOW",
+              "btn_link": "shopify:\/\/collections\/fashion",
+              "title2": "",
+              "btn_link2": "",
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "#f76b6a",
+              "cl_bd": "#f76b6a",
+              "fs_text": 12,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 2,
+              "bdr": 0,
+              "pd": 38,
+              "fs_mb_text": 12,
+              "h_mb": 40,
+              "ls_mb_text": 2,
+              "bdr_mb": 0,
+              "pd_mb": 15
+            }
+          },
+          "img_En8mLR": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-desktop-2.jpg",
+              "image_mb": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-mobile-2.jpg",
+              "pos_img": "center center",
+              "cl_img": "rgba(0,0,0,0)",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "tran_ef",
+              "ani_txt": "left_right",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "subhd_arpDFa": {
+            "type": "subhd",
+            "disabled": true,
+            "settings": {
+              "font": "f_body",
+              "title": "NEW FASHION",
+              "color": "#666666",
+              "fw_text": 800,
+              "fs_text": 16,
+              "lh_text": 0,
+              "ls_text": 10,
+              "fs_mb_text": 10,
+              "lh_mb_text": 0,
+              "ls_mb_text": 2,
+              "hide": false
+            }
+          },
+          "space_VNDVWA": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "hd_nwgfib": {
+            "type": "hd",
+            "disabled": true,
+            "settings": {
+              "title": "Spring Summer<br>\nCollection",
+              "color": "#333333",
+              "fw_text": 800,
+              "fs_text": 55,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 25,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_TFpGGn": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "btn_Fx4mbr": {
+            "type": "btn",
+            "disabled": true,
+            "settings": {
+              "title": "SHOP NOW",
+              "btn_link": "shopify:\/\/collections\/fashion",
+              "title2": "",
+              "btn_link2": "",
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "#f76b6a",
+              "cl_bd": "#f76b6a",
+              "fs_text": 12,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 2,
+              "bdr": 0,
+              "pd": 38,
+              "fs_mb_text": 12,
+              "h_mb": 40,
+              "ls_mb_text": 2,
+              "bdr_mb": 0,
+              "pd_mb": 15
+            }
+          },
+          "img_eykYeh": {
+            "type": "img",
+            "disabled": true,
+            "settings": {
+              "pos_img": "center center",
+              "cl_img": "rgba(0,0,0,0)",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "tran_ef",
+              "ani_txt": "left_right",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "subhd_exhaBV": {
+            "type": "subhd",
+            "disabled": true,
+            "settings": {
+              "font": "f_body",
+              "title": "ELESSI STORE",
+              "color": "#666666",
+              "fw_text": 800,
+              "fs_text": 16,
+              "lh_text": 0,
+              "ls_text": 10,
+              "fs_mb_text": 10,
+              "lh_mb_text": 0,
+              "ls_mb_text": 1.9,
+              "hide": false
+            }
+          },
+          "space_dPeX3G": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "hd_mDyJhU": {
+            "type": "hd",
+            "disabled": true,
+            "settings": {
+              "title": "Looking for<br>\nthe best price",
+              "color": "#333333",
+              "fw_text": 800,
+              "fs_text": 55,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 25,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_VJYeka": {
+            "type": "space",
+            "disabled": true,
+            "settings": {
+              "sp": 42,
+              "sp_mb": 15
+            }
+          },
+          "btn_BkghaV": {
+            "type": "btn",
+            "disabled": true,
+            "settings": {
+              "title": "SHOP NOW",
+              "btn_link": "shopify:\/\/collections\/fashion",
+              "title2": "",
+              "btn_link2": "",
+              "btn_icon": false,
+              "cl_txt": "#ffffff",
+              "cl_bg": "#f76b6a",
+              "cl_bd": "#f76b6a",
+              "fs_text": 12,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 2,
+              "bdr": 0,
+              "pd": 38,
+              "fs_mb_text": 12,
+              "h_mb": 40,
+              "ls_mb_text": 2,
+              "bdr_mb": 0,
+              "pd_mb": 15
+            }
+          }
+        },
+        "block_order": [
+          "img_BLrWiW",
+          "subhd_nfpmnb",
+          "space_mpQ3b6",
+          "hd_4B8waD",
+          "space_MNFCjV",
+          "btn_gp7b7n",
+          "img_En8mLR",
+          "subhd_arpDFa",
+          "space_VNDVWA",
+          "hd_nwgfib",
+          "space_TFpGGn",
+          "btn_Fx4mbr",
+          "img_eykYeh",
+          "subhd_exhaBV",
+          "space_dPeX3G",
+          "hd_mDyJhU",
+          "space_VJYeka",
+          "btn_BkghaV"
+        ],
+        "settings": {
+          "se_height": "adapt_f",
+          "use_custom_h": "1",
+          "h_des": "666px",
+          "h_tb": "500px",
+          "h_mb": "250px",
+          "effect": "1",
+          "loop": true,
+          "autoplay": false,
+          "au_time": 8,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "2",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "3",
+          "dot_color": "3",
+          "layout": "nt_full",
+          "cl_bg": "#efefef",
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -4988,6 +5371,7 @@
       "1609319010ff225412",
       "1609319025ad9ef8b0",
       "sec_deal3_R4BNMy",
+      "slideshow_8naTkB",
       "image_text_overlay_hfTeWh"
     ],
     "blocks": {
@@ -4995,6 +5379,13 @@
         "type": "shopify:\/\/apps\/ecomposer-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
         "disabled": false,
         "settings": {
+        }
+      },
+      "4571859552318407796": {
+        "type": "shopify:\/\/apps\/glo-color-swatch\/blocks\/app-embed-block\/4394f710-096c-4021-bbde-8ebb26057c11",
+        "disabled": false,
+        "settings": {
+          "customCssGCW": ""
         }
       }
     }

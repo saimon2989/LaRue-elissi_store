@@ -1,0 +1,68 @@
+{
+  "layout": "theme",
+  "sections": {
+    "rich_text_CfJqKp": {
+      "type": "rich_text",
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "content": "<h3>Políticas de envíos<\/h3><p>La Rue llega a todos los municipios de Colombia.<\/p><p>Realiza tus compras on-line de manera fácil, rápida y desde cualquier lugar.<\/p><p>Las prendas se despacharán una vez se haya confirmado el pago y llegarán en un tiempo aproximado de 2 a 5 días hábiles para las ciudades principales y 5-8 días hábiles para el resto del país.<\/p><p>El costo de envío será determinado en cada caso particular dependiendo del destino, peso y volumen del paquete. Este valor se calculará en el proceso de la compra y será informado en el momento de la liquidación de la orden, antes de realizar el pago.<\/p>",
+        "align": "tl",
+        "layout": "container",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "image_text_overlay_yNAwcA": {
+      "type": "image_text_overlay",
+      "settings": {
+        "se_height": "adapt",
+        "use_custom_h": "1",
+        "h_des": "600px",
+        "h_tb": "500px",
+        "h_mb": "350px",
+        "image": "shopify:\/\/shop_images\/POLITICAS-DE-ENVIO_Mesa-de-trabajo-1-scaled.jpg",
+        "use_pr": false,
+        "img_align": "center",
+        "caption_w": "2",
+        "cap_v_pos": 50,
+        "cap_h_pos": 50,
+        "txt_align": "tc_md",
+        "cap_v_pos_mb": 50,
+        "cap_h_pos_mb": 50,
+        "txt_align_mb": "tl",
+        "use_shadow": false,
+        "cl_overlay": "#000000",
+        "cl_opacity": 0,
+        "layout": "nt_full",
+        "mg": "",
+        "pd": "1%, 10%, 1%, 10%",
+        "mg_mb": "",
+        "pd_mb": "5px"
+      }
+    },
+    "custom_html_tJybMw": {
+      "type": "custom_html",
+      "disabled": true,
+      "settings": {
+        "code": "<div class=\"tc\">This is an advanced section. Knowledge of web design languages such as HTML, CSS is required.<\/div>",
+        "layout": "container",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "rich_text_CfJqKp",
+    "image_text_overlay_yNAwcA",
+    "custom_html_tJybMw"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "layout": "theme",
+  "sections": {
+    "rich_text_86E3Qb": {
+      "type": "rich_text",
+      "settings": {
+        "title": "<img style=\"width: 120px\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0872\/6796\/7266\/files\/Larue-Logo-2x.png?v=1717127436\" alt=\"la rue logo\">",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "content": "<p>La Rue es una palabra Francesa que significa “la Calle”, y escoger su nombre surgió porque en la calle es el lugar donde confluyen todo tipo de mujeres, la trabajadora, ama de casa, modelo, la empresaria, emprendedora, etc., con sus diferentes contexturas, tipo de piel y diferentes culturas, logrando el objetivo de que esta marca se identifique como una marca, moderna, seductora que reúne todo tipo de mujer resaltando su bella, personalizada y ofreciendo seguridad, confianza y confort. Además que todas se sientan identificadas, independientemente si quieren usar las prendas o no, pero que sientan un lazo, unión y\/o adn con la marca .<\/p><p>Nuestra marca es una marca 100% colombiana, trabajada, creada y confeccionada en Colombia, con productos 100% de la casa, telas, manufactura, confección 100% hecha a mano de mujeres cabeza de hogar, que representan la belleza, diversidad, empuje y empeño de la marca.<\/p>",
+        "align": "tc",
+        "layout": "container",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "custom_html_DWbwFX": {
+      "type": "custom_html",
+      "settings": {
+        "code": "<div class=\"container-image-guia-tallas\">\n        <div class=\"image-wrapper\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0872\/6796\/7266\/files\/FB_0909-scaled.jpg?v=1717130901\" alt=\"Guía de tallas LaRue\">\n        <\/div>\n    <\/div>",
+        "layout": "nt_full",
+        "mg": "",
+        "pd": "10%, 10%, 10%, 10%",
+        "mg_mb": "",
+        "pd_mb": "10px, 10px, 10px, 10px"
+      }
+    }
+  },
+  "order": [
+    "rich_text_86E3Qb",
+    "custom_html_DWbwFX"
+  ]
+}
