@@ -1,37 +1,36 @@
 {
   "layout": "theme",
   "sections": {
-    "image_text_eGUqpq": {
-      "type": "image_text",
+    "image_text_overlay_yNAwcA": {
+      "type": "image_text_overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PUBLICIDAD-05-scaled.jpg",
+        "se_height": "adapt",
+        "use_custom_h": "1",
+        "h_des": "600px",
+        "h_tb": "500px",
+        "h_mb": "350px",
+        "image": "shopify:\/\/shop_images\/POLITICAS-DE-ENVIO_Mesa-de-trabajo-1-scaled.jpg",
+        "use_pr": false,
         "img_align": "center",
-        "img_position": "1",
-        "image_ratio": "auto",
-        "text_size": "60,18",
-        "title": "Si quieres saber más acerca de nuestras políticas",
-        "text": "",
-        "button_label": "Clic aquí para más información",
-        "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0872\/6796\/7266\/files\/POLITICAS-DE-CAMBIOS-Y-DEVOLUCIONES-2021-1.pdf?v=1717123054",
-        "open_link": "_blank",
-        "txt_align": "tc",
+        "caption_w": "2",
+        "cap_v_pos": 50,
+        "cap_h_pos": 50,
+        "txt_align": "tc_md",
+        "cap_v_pos_mb": 50,
+        "cap_h_pos_mb": 50,
+        "txt_align_mb": "tl",
         "use_shadow": false,
-        "cl_txt": "dark",
-        "layout": "container",
-        "mg": "50px,,50px,",
+        "cl_overlay": "#000",
+        "cl_opacity": 0,
+        "layout": "nt_full",
+        "mg": "50px,50px,50px,50px",
         "pd": "",
         "mg_mb": "",
         "pd_mb": ""
       }
-    },
-    "ecom-politicas-de-devolucion-page": {
-      "type": "ecom-politicas-de-devolucion-page",
-      "settings": {
-      }
     }
   },
   "order": [
-    "image_text_eGUqpq",
-    "ecom-politicas-de-devolucion-page"
+    "image_text_overlay_yNAwcA"
   ]
 }
