@@ -3372,6 +3372,7 @@
           },
           "contact_heading-1": {
             "type": "2",
+            "disabled": true,
             "settings": {
               "color": "#333333"
             }
@@ -3803,8 +3804,8 @@
             "type": "1",
             "settings": {
               "col": "12",
-              "title": "Our Store",
-              "description": "<p>6th Forrest Ray,<br\/>Manhattan NYC 10001, USA<\/p>"
+              "title": "Nuestra Tienda",
+              "description": "<p><a href=\"https:\/\/www.google.com\/maps\/place\/La+Rue\/@6.2081937,-75.5668177,15z\/data=!4m2!3m1!1s0x0:0x9abc5fdd11bd1c5c?sa=X&ved=2ahUKEwj4mIPA0fr1AhU9RDABHRceDNQQ_BJ6BAg1EAU\">Cra 37 # 8a – 110 Avenida Primavera<\/a><\/p><p>Poblado – Medellín<\/p>"
             }
           },
           "f732404c-ceb8-4620-9c07-8cd14851c4a9": {
@@ -3818,8 +3819,8 @@
             "type": "1",
             "settings": {
               "col": "12",
-              "title": "Mobile",
-              "description": "<p>Mobile 1: (+01)-212-33-6789<br\/>Mobile 2: (+01)-212-66-8888<br\/>Hotline: 1900 888 888<\/p>"
+              "title": "Contacto",
+              "description": "<p>La Rue SAS – NIT. 901453613-7<\/p><p><a href=\"https:\/\/wa.me\/message\/YPVMQFESZDDAA1\">+57 3145082362<\/a><\/p><p><a href=\"http:\/\/wa.me\/+573145083643\">+57 314 5083643<\/a><\/p>"
             }
           },
           "contact_page2-2": {
@@ -3827,7 +3828,7 @@
             "settings": {
               "col": "12",
               "title": "Email",
-              "description": "<p>Contact@sample.com<br\/>Support@sample.com<\/p>"
+              "description": "<p>contactolarue@gmail.com<\/p>"
             }
           }
         },
@@ -3849,42 +3850,42 @@
           "b54912d1-beee-43d9-a544-7b59ec52dad7": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/brand-1_9debe743-717c-40f2-b474-a888dc744e6f.jpg",
+              "url": "",
               "open_link": "_blank"
             }
           },
           "82770a8e-9b39-4aff-baba-4e5d775d3c5b": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/brand-6_342017a4-70fe-46e6-9c1c-bf1d8db3c9cf.jpg",
+              "url": "",
               "open_link": "_blank"
             }
           },
           "087fee6a-e36d-41e1-94af-2f326f8d1603": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/brand-5_bd1a3c14-996c-4a7f-bb0e-d764f1f056fd.jpg",
+              "url": "",
               "open_link": "_blank"
             }
           },
           "2ed1d6ef-1e4d-4f4f-806d-2779a4774d4e": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/brand-4_99e7cbc9-be9e-41c0-ad56-bb2f7e156fa9.jpg",
+              "url": "",
               "open_link": "_blank"
             }
           },
           "12b31410-f254-4071-983a-a8fab4559bc5": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/brand-3_248d37d6-8fd4-4c9f-8385-a392cbb0c2a1.jpg",
+              "url": "",
               "open_link": "_blank"
             }
           },
           "371ed74c-8dbb-4560-af8c-0764aa7de9a8": {
             "type": "brand",
             "settings": {
-              "image": "shopify:\/\/shop_images\/brand-2_89c3eef1-638f-42c5-99ab-2e77feff1066.jpg",
+              "url": "",
               "open_link": "_blank"
             }
           }
