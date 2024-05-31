@@ -4,14 +4,14 @@
     "rich_text_CfJqKp": {
       "type": "rich_text",
       "settings": {
-        "title": "Políticas de envíos",
+        "title": "",
         "sub_title": "",
         "sub_font": "2",
         "style_title": "title_1",
         "ic_tt": "gem",
         "show_clpr": false,
-        "content": "<p>La Rue llega a todos los municipios de Colombia.<\/p><p>Realiza tus compras on-line de manera fácil, rápida y desde cualquier lugar.<\/p><p>Las prendas se despacharán una vez se haya confirmado el pago y llegarán en un tiempo aproximado de 2 a 5 días hábiles para las ciudades principales y 5-8 días hábiles para el resto del país.<\/p><p>El costo de envío será determinado en cada caso particular dependiendo del destino, peso y volumen del paquete. Este valor se calculará en el proceso de la compra y será informado en el momento de la liquidación de la orden, antes de realizar el pago.<\/p>",
-        "align": "tc",
+        "content": "<h3>Políticas de envíos<\/h3><p>La Rue llega a todos los municipios de Colombia.<\/p><p>Realiza tus compras on-line de manera fácil, rápida y desde cualquier lugar.<\/p><p>Las prendas se despacharán una vez se haya confirmado el pago y llegarán en un tiempo aproximado de 2 a 5 días hábiles para las ciudades principales y 5-8 días hábiles para el resto del país.<\/p><p>El costo de envío será determinado en cada caso particular dependiendo del destino, peso y volumen del paquete. Este valor se calculará en el proceso de la compra y será informado en el momento de la liquidación de la orden, antes de realizar el pago.<\/p>",
+        "align": "tl",
         "layout": "container",
         "mg": "50px,,50px,",
         "pd": "",
