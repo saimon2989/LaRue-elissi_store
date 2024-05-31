@@ -540,34 +540,6 @@
               "col": "12"
             }
           },
-          "mega_HqeXzN": {
-            "type": "mega",
-            "settings": {
-              "title": "Beauty",
-              "url": "#",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": false,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 200
-            }
-          },
-          "cat_Eg9Caf": {
-            "type": "cat",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/MG_0723-min-scaled.jpg",
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "body",
-              "title": "",
-              "col": "12"
-            }
-          },
           "simple_naPUfY": {
             "type": "simple",
             "settings": {
@@ -909,8 +881,6 @@
           "mega_nRwDVM",
           "cat_AAVeL7",
           "link_Q4qXXq",
-          "mega_HqeXzN",
-          "cat_Eg9Caf",
           "simple_naPUfY",
           "dropdown_BH8QGV",
           "dropdown_JXDnkF",
