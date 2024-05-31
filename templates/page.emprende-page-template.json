@@ -41,7 +41,7 @@
         "cl_overlay": "#000",
         "cl_opacity": 0,
         "layout": "nt_full",
-        "mg": "50px,,50px,",
+        "mg": "50px,50px,50px,50px",
         "pd": "",
         "mg_mb": "",
         "pd_mb": ""
