@@ -1271,8 +1271,8 @@
           "menu_pEgqmp": {
             "type": "menu",
             "settings": {
-              "title": "<spam style=\"color:#f76b6a;\">SALE <i class=\"las la-ticket-alt\"><\/i> <\/spam>",
-              "url": "",
+              "title": "<spam style=\"color:#f76b6a; font-style: bold;\">SALE <i class=\"las la-ticket-alt\"><\/i> <\/spam>",
+              "url": "#",
               "open_link": "_self",
               "menu": "",
               "icon": "",
