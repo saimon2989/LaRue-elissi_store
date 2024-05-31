@@ -28,9 +28,22 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "custom_html_tJybMw": {
+      "type": "custom_html",
+      "disabled": true,
+      "settings": {
+        "code": "<div class=\"tc\">This is an advanced section. Knowledge of web design languages such as HTML, CSS is required.<\/div>",
+        "layout": "container",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
-    "image_text_overlay_yNAwcA"
+    "image_text_overlay_yNAwcA",
+    "custom_html_tJybMw"
   ]
 }
