@@ -54,7 +54,7 @@
       "select_options": "Selecciona opciones",
       "read_more": "Leer más",
       "view": "Ver productos",
-      "add_to_cart": "Agregar a la bolsa",
+      "add_to_cart": "Agregar al carrito",
       "share_fb": "Compartir en Facebook",
       "share_tw": "Compartir en Twitter",
       "share_em": "Compartir por email",
@@ -339,11 +339,11 @@
       "text_1_html": "Envío gratis en órdenes mayores a <span class=\"cr fwm mn_thres_js\">{{ money }}<\/span>\n"
     },
     "cart_page": {
-      "empty_html": "Antes de proceder al checkout, debes agregar algunos productos a tu bolsa de compras.<br \/>",
-      "empty": "Tu bolsa de compras está vacía."
+      "empty_html": "Antes de proceder al checkout, debes agregar algunos productos a tu carrito de compras.<br \/>",
+      "empty": "Tu carrito de compras está vacío."
     },
     "general": {
-      "countdown_text": "Debido a la alta demanda, tu bolsa de compras expira en:",
+      "countdown_text": "Debido a la alta demanda, tu carrito de compras expira en:",
       "add_gift_wrap": "Agrega nuestra caja especial de regalo",
       "gift_wrap_html": "<span class=\"cd\">¿Quieres empacarlo en nuestra caja especial de regalo?<\/span> Por solo {{ money }}",
       "placeholder_coupon": "Código de cupón",
@@ -358,13 +358,13 @@
       "save": "Guardar",
       "edit_item": "Editar este ítem",
       "remove_item": "Eliminar este ítem",
-      "cookies_required": "Habilita las cookies para usar la bolsa de compras",
+      "cookies_required": "Habilita las cookies para usar tu carrito de compras",
       "savings": "Estás ahorrando",
-      "close_cart": "Cerrar bolsa de compras",
-      "empty": "Tu bolsa de compras está vacía.",
-      "view": "Ver bolsa de compras",
+      "close_cart": "Cerrar carrito de compras",
+      "empty": "Tu carrito de compras está vacío.",
+      "view": "Ver carrito de compras",
       "checkout": "Checkout",
-      "update": "Actualizar bolsa de compras",
+      "update": "Actualizar carrito de compras",
       "terms_and_conditions": "Acepto los términos y condiciones.",
       "terms_and_conditions_html": "Acepto los <a href=\"{{link}}\" target=\"_blank\">términos y condiciones<\/a>.",
       "taxes_included_discounts_and_shipping_policy_html": "IVA incluido. <a href=\"{{ link }}\" target=\"_blank\">Envío<\/a> y descuentos agregados en el checkout.\n",
@@ -382,7 +382,7 @@
       "edit_note": "Editar notas de la orden",
       "note": "Agregar notas a la orden",
       "remove": "Eliminar",
-      "title": "Bolsa de compras",
+      "title": "Carrito de compras",
       "rate_value": "[rate_title] en [rate]",
       "fbt_title": "",
       "recurring_mess": ""
@@ -419,7 +419,7 @@
       "product_sku": "SKU:",
       "product_vendor": "Marca:",
       "pre_orders": "Pre-orden",
-      "add_to_cart": "Agregar a la bolsa",
+      "add_to_cart": "Agregar a la carrito",
       "outofstock": "Sin existencias",
       "in_stock": "En existencias",
       "pick_a": "Elige {{option}}",
@@ -441,7 +441,7 @@
     },
     "fbt": {
       "this_item": "Este ítem:",
-      "add_tc": "Agregar selección a la bolsa",
+      "add_tc": "Agregar selección al carrito",
       "tt_price": "Precio total:",
       "title": "Comprados frecuentemente juntos"
     },
@@ -468,8 +468,8 @@
       "flash_hours": "horas"
     },
     "popup": {
-      "added_to_cart": "El producto se agregado a la bolsa de compras.",
-      "view_cart": "Ver bolsa de compras",
+      "added_to_cart": "El producto se agregado al carrito de compras.",
+      "view_cart": "Ver carrito de compras",
       "login": "Ingresar",
       "info_wishlist": "Ingresa para sincronizar tus favoritos en todos tus dispositivos.",
       "continue_shopping": "Continúa comprando"
@@ -529,35 +529,35 @@
         "address_province_blank": "Selecciona un departamento"
       },
       "general": {
-        "cart": "Bolsa de compras",
-        "back_to_cart": "Volver a la bolsa de compras"
+        "cart": "Carrito de compras",
+        "back_to_cart": "Volver al carrito de compras"
       },
       "stock": {
-        "removed_from_cart_notice": "Retirado de la bolsa de compras",
-        "remove_from_cart_button_label": "Retirar de la bolsa de compras",
-        "go_back_to_cart_button_label": "Volver a mi bolsa de compras"
+        "removed_from_cart_notice": "Retirado del carrito de compras",
+        "remove_from_cart_button_label": "Retirar del carrito de compras",
+        "go_back_to_cart_button_label": "Volver a mi carrito de compras"
       },
       "order_summary": {
-        "shopping_cart_label": "Bolsa de compras",
-        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong>{{ code }}<\/strong> no es válido para los artículos en tu bolsa de compras"
+        "shopping_cart_label": "Carrito de compras",
+        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong>{{ code }}<\/strong> no es válido para los artículos en tu carrito de compras"
       },
       "shipping": {
         "no_rates_for_cart_or_destination_notice": "No hay métodos de envío disponibles para tu compra o dirección",
         "free_rate_label": "Incluido"
       },
       "payment_errors": {
-        "order_total_changed": "El total de tu pedido ha cambiado. Actualiza tu bolsa de compras e inténtalo de nuevo."
+        "order_total_changed": "El total de tu pedido ha cambiado. Actualiza tu carrito de compras e inténtalo de nuevo."
       },
       "shipping_errors": {
-        "shipping_method": "Se ha actualizado tu bolsa de compras y la tarifa de envío anterior ya no es válida. Selecciona una nueva tarifa.",
-        "shipping_method_not_available": "Tu bolsa de compras se ha actualizado y los artículos que agregaste no pueden enviarse a tu dirección. Elimina los artículos para completar tu pedido.",
+        "shipping_method": "Se ha actualizado tu carrito de compras y la tarifa de envío anterior ya no es válida. Selecciona una nueva tarifa.",
+        "shipping_method_not_available": "Tu carrito de compras se ha actualizado y los artículos que agregaste no pueden enviarse a tu dirección. Elimina los artículos para completar tu pedido.",
         "shipping_method_not_available_generic": {
-          "other": "Algunos artículos en tu bolsa de compras no se pueden enviar a tu ubicación. Contacta a la tienda para más información."
+          "other": "Algunos artículos en tu carrito de compras no se pueden enviar a tu ubicación. Contacta a la tienda para más información."
         }
       },
       "failed_payment": {
-        "payment_not_processed_text": "No se te ha cobrado. Regresa a tu bolsa de compras para finalizar la transacción.",
-        "return_to_cart_button_label": "Volver a la bolsa de compras"
+        "payment_not_processed_text": "No se te ha cobrado. Regresa a tu carrito de compras para finalizar la transacción.",
+        "return_to_cart_button_label": "Volver al carrito de compras"
       }
     },
     "addresses": {
@@ -567,19 +567,19 @@
     },
     "notices": {
       "cart": {
-        "only_n_items_available": "Solo puedes añadir {{ count }} {{ name }} a la bolsa de compras.",
-        "too_many_items_in_cart": "No puedes agregar más {{ name }} a la bolsa de compras.",
-        "all_items_in_cart": "Tu bolsa de compras contiene: {{ count }} {{ name }}.",
-        "empty_update": "No se puede actualizar una bolsa de compras vacía",
-        "generic_error": "Error en la bolsa de compras",
-        "too_many_line_items_error": "La bolsa de compras no puede contener más de {{ max }} artículos.",
-        "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos actualizado tu <a href='{{ link }}'>bolsa de compras<\/a>.",
-        "changed": "La bolsa de compras se ha modificado",
+        "only_n_items_available": "Solo puedes añadir {{ count }} {{ name }} al carrito de compras.",
+        "too_many_items_in_cart": "No puedes agregar más {{ name }} al carrito de compras.",
+        "all_items_in_cart": "Tu carrito de compras contiene: {{ count }} {{ name }}.",
+        "empty_update": "No se puede actualizar un carrito de compras vacío",
+        "generic_error": "Error en el carrito de compras",
+        "too_many_line_items_error": "El carrito de compras no puede contener más de {{ max }} artículos.",
+        "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos actualizado tu <a href='{{ link }}'>carrito de compras<\/a>.",
+        "changed": "El carrito de compras se ha modificado",
         "shipping_address_not_required": "Esta compra no requiere envío"
       }
     },
     "page_titles": {
-      "shopping_cart": "Tu bolsa de compras"
+      "shopping_cart": "Tu carrito de compras"
     },
     "challenge": {
       "message": "Para continuar, demuéstranos que no eres un robot (además, los robots no toman café)."
