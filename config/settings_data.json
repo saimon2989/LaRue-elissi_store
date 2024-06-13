@@ -988,6 +988,24 @@
               "cl_tb": "6",
               "cl_mb": "12"
             }
+          },
+          "instagram2_QgEFJ9": {
+            "type": "instagram2",
+            "disabled": true,
+            "settings": {
+              "title": "Instagram",
+              "limit": 9,
+              "open_link": "_self",
+              "space": "2",
+              "rounded_ins": "0",
+              "col_pr": "4",
+              "col_pr_tb": "4",
+              "col_pr_mb": "4",
+              "order": "1",
+              "cl": "3",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
           }
         },
         "block_order": [
@@ -995,7 +1013,8 @@
           "1581507828337",
           "instagram_7nVeKr",
           "44f4ac33-b3f0-48d0-96e4-3752cd1c79a4",
-          "1581507835369"
+          "1581507835369",
+          "instagram2_QgEFJ9"
         ],
         "settings": {
           "sticky": false,
