@@ -220,7 +220,7 @@
     "style_color": "1",
     "swatch_style": "1",
     "swatch_size": "medium",
-    "show_pr_color": true,
+    "show_pr_color": false,
     "show_color_type": "1",
     "pr_swatch_setting": "1",
     "swatch_home_size": "small",
