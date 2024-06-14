@@ -1018,7 +1018,7 @@
         ],
         "settings": {
           "sticky": false,
-          "accordions": true,
+          "accordions": false,
           "border": true,
           "bd_cl": "#ececec",
           "cl_h": "#333333",
