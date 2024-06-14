@@ -979,7 +979,7 @@
               "newl_des": "3",
               "btn_icon": false,
               "title": "Suscríbete a LaRue",
-              "sub_title": "Suscríbete y obtén 15% OFF en tu primera compra",
+              "sub_title": "Suscríbete y obtén 10% OFF en tu primera compra",
               "source": "1",
               "svg": "amazon_payments,american_express,bitcoin,paypal,shopify_pay,visa",
               "height": 30,
@@ -1648,8 +1648,8 @@
           "1585640159361": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-desktop-2.jpg",
-              "image_mb": "shopify:\/\/shop_images\/Banner-ppal-home-Larue-mobile-2.jpg",
+              "image": "shopify:\/\/shop_images\/BANNER_NUEVA_COLECCION_4b70838f-d351-45b3-9a8a-f1ce8eb45b74.png",
+              "image_mb": "shopify:\/\/shop_images\/banner_nueva_coleccion_3.png",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
               "link_img1": "",
