@@ -1329,6 +1329,19 @@
               "icon": "female"
             }
           },
+          "cat_pnhbCh": {
+            "type": "cat",
+            "settings": {
+              "cat": "vestidos",
+              "title": "Vestidos",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "female"
+            }
+          },
           "cat_RVpJph": {
             "type": "cat",
             "settings": {
@@ -1497,6 +1510,7 @@
         },
         "block_order": [
           "1585641915360",
+          "cat_pnhbCh",
           "cat_RVpJph",
           "cat_3dPLpV",
           "cat_3MPJjq",
