@@ -514,7 +514,7 @@
           "cat_AAVeL7": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Set-Tayra-scaled_16fb2b0d-3cfa-467e-88b0-7b18bc50c257.gif",
+              "image": "shopify:\/\/shop_images\/VESTIDO_CELINE_NEGRO_2.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "vestidos",
@@ -1228,8 +1228,8 @@
           "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Set's",
-              "url": "shopify:\/\/collections\/sets",
+              "title": "Vestidos",
+              "url": "shopify:\/\/collections\/vestidos",
               "open_link": "_self",
               "menu": "",
               "icon": "",
