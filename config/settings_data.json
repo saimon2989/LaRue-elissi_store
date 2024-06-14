@@ -263,7 +263,7 @@
     "currency_format": "money_format",
     "round_currency": false,
     "notify_currency": true,
-    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"><\/span>, the checkout will use {{ currency }} at the most current exchange rate.",
+    "mess_currency": "Todos los cargos se facturan en {{ currency }}.. Si bien el contenido de su carrito se muestra actualmente en <span class=\"selected-currency\"><\/span>, el pago utilizará {{ currency }} al tipo de cambio más actual.",
     "hover_currency": false,
     "t4s_custom_css": false,
     "custom_js": false,
@@ -1189,11 +1189,11 @@
         ],
         "settings": {
           "style": "1",
-          "pos": "2",
+          "pos": "1",
           "enable_pr": true,
           "calc_ship": true,
           "show_note": true,
-          "show_rates": true,
+          "show_rates": false,
           "show_discount": true,
           "show_gift_wrap": true
         }
