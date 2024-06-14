@@ -3148,7 +3148,7 @@
         "type": "banner_collection2",
         "settings": {
           "title": "Beachwear",
-          "image": "shopify:\/\/shop_images\/Larue_Banner_collection_2_copia.jpg",
+          "image": "shopify:\/\/shop_images\/Banner-Larue-collection.jpg",
           "img_pos": "right",
           "se_height": "default",
           "se_height_tb": "700px",
@@ -3168,7 +3168,7 @@
           "use_eq_height": true,
           "image_ratio": "ratio_nt",
           "image_size": "nt_cover",
-          "image_position": "8",
+          "image_position": "5",
           "cl_bg": "",
           "mg": "34px,,50px,",
           "pd": "",
@@ -4744,7 +4744,7 @@
           "collection_aTJDPx": {
             "type": "collection",
             "settings": {
-              "collection": "",
+              "collection": "sets",
               "image": "shopify:\/\/shop_images\/VESTIDO_CELINE_NEGRO_2.jpg",
               "img_align": "top",
               "title": "Set's",
