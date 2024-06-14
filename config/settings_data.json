@@ -1240,8 +1240,8 @@
           "mb_nav-2": {
             "type": "menu",
             "settings": {
-              "title": "Beachwear",
-              "url": "shopify:\/\/collections\/beachwear",
+              "title": "Set's",
+              "url": "shopify:\/\/collections\/sets",
               "open_link": "_self",
               "menu": "beachwear",
               "icon": "",
