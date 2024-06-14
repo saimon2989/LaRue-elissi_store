@@ -2210,13 +2210,13 @@
           "pr_description-0": {
             "type": "des",
             "settings": {
-              "title": "Description"
+              "title": "Descripción"
             }
           },
           "pr_description-1": {
             "type": "add",
             "settings": {
-              "title": "Additional Information"
+              "title": "Información Adicional"
             }
           },
           "1585724379549": {
@@ -2264,7 +2264,7 @@
         "type": "product-recommendations",
         "settings": {
           "show": true,
-          "title": "You may also like",
+          "title": "Tambien te puede interesar",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
@@ -2302,7 +2302,7 @@
         "settings": {
           "show": true,
           "unavailable_prs": "show",
-          "title": "Recently viewed products",
+          "title": "Productos vistos recientemente",
           "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
