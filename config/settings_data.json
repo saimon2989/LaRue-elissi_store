@@ -991,7 +991,6 @@
           },
           "instagram2_QgEFJ9": {
             "type": "instagram2",
-            "disabled": true,
             "settings": {
               "title": "Instagram",
               "limit": 9,
