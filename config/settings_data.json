@@ -2092,7 +2092,7 @@
           "color": "#ffffff",
           "overlay": 100,
           "padding": 10,
-          "paddingmb": 15,
+          "paddingmb": 5,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
