@@ -198,7 +198,7 @@
     "pr_incoming_mess": false,
     "date_in": "3",
     "remove_sold_out": false,
-    "use_notify_me": true,
+    "use_notify_me": false,
     "back_next_pr": true,
     "ratio_img_main": "ratio_imgtrue",
     "img_size_main": "nt_contain",
