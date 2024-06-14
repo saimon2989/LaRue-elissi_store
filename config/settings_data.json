@@ -429,17 +429,6 @@
       "header_3": {
         "type": "header_3",
         "blocks": {
-          "cat_iXfwf8": {
-            "type": "cat",
-            "disabled": true,
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "beachwear",
-              "title": "",
-              "col": "4"
-            }
-          },
           "a18c31d2-aa93-4782-a618-bd2bb356cd56": {
             "type": "simple",
             "settings": {
@@ -875,7 +864,6 @@
           }
         },
         "block_order": [
-          "cat_iXfwf8",
           "a18c31d2-aa93-4782-a618-bd2bb356cd56",
           "simple_kc8AVV",
           "mega_cexptF",
