@@ -2086,7 +2086,7 @@
           "cat_heading-1"
         ],
         "settings": {
-          "shown": true,
+          "shown": false,
           "use_specify_image": false,
           "parallax": false,
           "color": "#ffffff",
