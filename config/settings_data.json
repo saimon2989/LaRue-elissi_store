@@ -1331,6 +1331,45 @@
           "1585641915360": {
             "type": "cat",
             "settings": {
+              "cat": "nueva-coleccion",
+              "title": "Nueva Colección",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "female"
+            }
+          },
+          "cat_RVpJph": {
+            "type": "cat",
+            "settings": {
+              "cat": "body",
+              "title": "Body's",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "female"
+            }
+          },
+          "cat_3dPLpV": {
+            "type": "cat",
+            "settings": {
+              "cat": "lingerie",
+              "title": "Lingerie",
+              "url": "",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "female"
+            }
+          },
+          "cat_3MPJjq": {
+            "type": "cat",
+            "settings": {
               "cat": "beachwear",
               "title": "Beachwear",
               "url": "",
@@ -1470,6 +1509,9 @@
         },
         "block_order": [
           "1585641915360",
+          "cat_RVpJph",
+          "cat_3dPLpV",
+          "cat_3MPJjq",
           "1585642780875",
           "1585642130935",
           "1585642450066",
