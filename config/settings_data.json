@@ -508,8 +508,8 @@
           "mega_nRwDVM": {
             "type": "mega",
             "settings": {
-              "title": "Beachwear",
-              "url": "shopify:\/\/collections\/beachwear",
+              "title": "Set's",
+              "url": "shopify:\/\/collections\/sets",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -525,10 +525,10 @@
           "cat_AAVeL7": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DSC0465-scaled.jpg",
+              "image": "shopify:\/\/shop_images\/Set-Tayra-scaled_16fb2b0d-3cfa-467e-88b0-7b18bc50c257.gif",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "beachwear",
+              "collection": "sets",
               "title": "",
               "col": "12"
             }
