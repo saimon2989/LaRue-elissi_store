@@ -4715,7 +4715,7 @@
             "type": "collection",
             "settings": {
               "collection": "body",
-              "image": "shopify:\/\/shop_images\/DSC9559-1365x2048.jpg",
+              "image": "shopify:\/\/shop_images\/BODY_JOLIE_NEGRO_1.jpg",
               "img_align": "center",
               "title": "Body's",
               "url": "shopify:\/\/collections\/body"
@@ -4724,9 +4724,9 @@
           "collection_UMR4Aq": {
             "type": "collection",
             "settings": {
-              "collection": "",
-              "image": "shopify:\/\/shop_images\/Larue_Banner_collection_2_a36df538-4a6c-4941-9cc7-3e016b05fc29.jpg",
-              "img_align": "center",
+              "collection": "origen",
+              "image": "shopify:\/\/shop_images\/ENTERIZO_CHARLOTTE_NEGRO_1.jpg",
+              "img_align": "bottom",
               "title": "Nueva Colección",
               "url": "shopify:\/\/collections\/nueva-coleccion"
             }
