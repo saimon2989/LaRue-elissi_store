@@ -498,7 +498,7 @@
             "type": "mega",
             "settings": {
               "title": "Vestidos",
-              "url": "shopify:\/\/collections\/sets",
+              "url": "shopify:\/\/collections\/vestidos",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -517,7 +517,7 @@
               "image": "shopify:\/\/shop_images\/Set-Tayra-scaled_16fb2b0d-3cfa-467e-88b0-7b18bc50c257.gif",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "sets",
+              "collection": "vestidos",
               "title": "",
               "col": "12"
             }
