@@ -1243,7 +1243,7 @@
               "title": "Set's",
               "url": "shopify:\/\/collections\/sets",
               "open_link": "_self",
-              "menu": "beachwear",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -1251,6 +1251,7 @@
           },
           "1585642908420": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "Beauty",
               "url": "",
