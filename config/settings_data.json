@@ -434,7 +434,7 @@
             "settings": {
               "title": "Nueva Colección",
               "url": "shopify:\/\/collections\/nueva-coleccion",
-              "open_link": "_blank",
+              "open_link": "_self",
               "icon": "",
               "cus_cl": true,
               "cl": "#da524c",
