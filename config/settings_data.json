@@ -497,8 +497,8 @@
           "mega_nRwDVM": {
             "type": "mega",
             "settings": {
-              "title": "Vestidos",
-              "url": "shopify:\/\/collections\/vestidos",
+              "title": "Ropa",
+              "url": "shopify:\/\/collections\/vestidos-enterizos",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
