@@ -1702,8 +1702,8 @@
           "1585640159361": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BANNER_NUEVA_COLECCION_4b70838f-d351-45b3-9a8a-f1ce8eb45b74.png",
-              "image_mb": "shopify:\/\/shop_images\/banner_nueva_coleccion_3.png",
+              "image": "shopify:\/\/shop_images\/BANNER_NUEVA_COLECCION_15.png",
+              "image_mb": "shopify:\/\/shop_images\/banner_nueva_coleccion_8.png",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
               "link_img1": "shopify:\/\/collections\/nueva-coleccion",
@@ -1806,12 +1806,13 @@
           },
           "1585640162346": {
             "type": "img",
-            "disabled": true,
             "settings": {
+              "image": "shopify:\/\/shop_images\/BANNER_NUEVA_COLECCION_17.png",
+              "image_mb": "shopify:\/\/shop_images\/banner_nueva_coleccion_12.png",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
-              "link_img1": "",
-              "open_link": "_blank",
+              "link_img1": "shopify:\/\/collections\/nueva-coleccion",
+              "open_link": "_self",
               "caption_w": "1",
               "cap_v_pos": 50,
               "cap_h_pos": 5,
