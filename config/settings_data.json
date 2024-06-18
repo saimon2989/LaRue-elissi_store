@@ -5442,9 +5442,15 @@
           "style_colors_text": "#000000"
         }
       },
+      "16963237191767492405": {
+        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "17646240911419608881": {
         "type": "shopify:\/\/apps\/geolocation-redirects-xapps\/blocks\/app-embed\/99c42a40-4a88-4244-a03e-a752a0b4e07d",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "ngr_test_mode": false,
           "ngr_disable_widget": false,
@@ -5454,12 +5460,6 @@
           "ngr_auto_bots": true,
           "ngr_auto_foot": false,
           "ngr_disable_overlay": false
-        }
-      },
-      "16963237191767492405": {
-        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
-        "disabled": false,
-        "settings": {
         }
       }
     }
