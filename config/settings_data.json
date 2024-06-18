@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "purchase_code": "32817414-7144-403b-99ee-b6ed56aa035d",
@@ -4790,7 +4799,7 @@
             "type": "collection",
             "settings": {
               "collection": "sets",
-              "image": "shopify:\/\/shop_images\/SET_PETRA_1.jpg",
+              "image": "shopify:\/\/shop_images\/portada-set.jpg",
               "img_align": "top",
               "title": "Set's",
               "url": "shopify:\/\/collections\/sets"
