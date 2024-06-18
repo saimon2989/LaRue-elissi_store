@@ -1697,7 +1697,7 @@
               "image_mb": "shopify:\/\/shop_images\/banner_nueva_coleccion_3.png",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
-              "link_img1": "",
+              "link_img1": "shopify:\/\/collections\/nueva-coleccion",
               "open_link": "_blank",
               "caption_w": "1",
               "cap_v_pos": 50,
