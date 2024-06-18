@@ -1,37 +1,182 @@
 {
   "layout": "theme",
   "sections": {
-    "collection_packery_f6gcMi": {
-      "type": "collection_packery",
+    "rich_text_7bCHkP": {
+      "type": "rich_text",
       "settings": {
         "title": "Outfits La Rue",
         "sub_title": "Siéntete hermosa siempre utilizando nuestras prendas para exterior con estas ideas de looks.",
         "sub_font": "2",
-        "btn_title": "See all products",
         "style_title": "title_1",
         "ic_tt": "gem",
         "show_clpr": false,
-        "collection": "corset",
-        "limit": 14,
-        "space": 30,
-        "use_pagination": "none",
-        "use_bar_lm": false,
-        "btn_rd": false,
-        "btn_icon": false,
-        "btn_style": "primary",
-        "col_pr": "3",
-        "col_pr_tb": "3",
-        "col_pr_mb": "6",
-        "show_vendor": false,
-        "use_cdt": false,
-        "round_cd": false,
-        "cdt_des": "1",
-        "use_eq_height": false,
-        "image_ratio": "ratio_nt",
-        "image_size": "nt_contain",
-        "image_position": "8",
-        "layout": "wrap",
-        "cl_bg": "",
+        "content": "",
+        "align": "tc",
+        "layout": "container",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "gallery_Qar4bF": {
+      "type": "gallery",
+      "blocks": {
+        "image_BTmK3p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BODY_ALMA_BLANCO_2.jpg"
+          }
+        },
+        "image_yRYymh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CF1397EE-C8B2-43E3-9F6F-C85B2241B053-682x1024_bc7a7798-6862-4059-9a70-f594d2764c64.jpg"
+          }
+        },
+        "image_XDUeHP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0384_8c2d5a94-e6dd-4763-9d18-0f7e9e6c114a.jpg"
+          }
+        },
+        "image_PyMrgD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0813_cd2d1459-d2eb-408e-837c-b915527c1fbe.jpg"
+          }
+        },
+        "image_miCfcP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4551_f3be1f8e-a8de-47fb-a2e9-b0b23e562632.jpg"
+          }
+        },
+        "image_MVE4xA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BODY_ALMA_BLANCO_1.jpg"
+          }
+        },
+        "image_K4EA8W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MG_0767-min-683x1024_84e9a298-749d-4591-86ee-f0ab9d592c52.jpg"
+          }
+        },
+        "image_nMbAWW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MG_5833-683x1024_d402c53a-7add-4d05-8acc-460ed7bc969d.jpg"
+          }
+        },
+        "image_3MmiD7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/portada-set.jpg"
+          }
+        },
+        "image_d6BQHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tezza-0253_b8fe35f3-c90f-4a48-b9b5-2ab30049e08e.jpg"
+          }
+        },
+        "image_NUTUdx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tezza-3392_bbabae34-f675-41ef-af76-d05bd0a98db3.jpg"
+          }
+        },
+        "image_9Enrx8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tezza-3445_e819e7f5-f965-46e0-ba2a-559354aa0ba0.jpg"
+          }
+        },
+        "image_JqxHhB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tezza-4894_6f1c8a4b-dd4b-4912-8348-df156cdd3dd1.jpg"
+          }
+        },
+        "image_XA6iiX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tezza-5979_16e4c9ba-6fe2-4200-bab5-198f4c187d7a.jpg"
+          }
+        },
+        "image_g6y9XU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tezza-6098_7a2c006e-82fd-44c6-a3a5-6b9e8b555cac.jpg"
+          }
+        },
+        "image_JYjaPV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tezza-8499_60f65195-ccaa-4e6e-8178-fe15f77714f8.jpg"
+          }
+        },
+        "image_HR3ygF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tezza-8813_52b7340e-238e-47af-8871-d03d90e88228.jpg"
+          }
+        },
+        "image_majgCe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp-Image-2022-07-09-at-9.53.40-AM-682x1024_a2cbf754-a4ef-46d4-a7b9-e6e1ca6791b3.jpg"
+          }
+        },
+        "image_iUQtDW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp-Image-2022-07-09-at-9.53.42-AM-1-682x1024_71e80b61-9943-4200-96ce-784613790e94.jpg"
+          }
+        },
+        "image_rtJ3eq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp-Image-2022-07-09-at-9.53.43-AM-1-682x1024_25b08809-b0c1-4f93-88cb-e4452b024d2d.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_BTmK3p",
+        "image_yRYymh",
+        "image_XDUeHP",
+        "image_PyMrgD",
+        "image_miCfcP",
+        "image_MVE4xA",
+        "image_K4EA8W",
+        "image_nMbAWW",
+        "image_3MmiD7",
+        "image_d6BQHF",
+        "image_NUTUdx",
+        "image_9Enrx8",
+        "image_JqxHhB",
+        "image_XA6iiX",
+        "image_g6y9XU",
+        "image_JYjaPV",
+        "image_HR3ygF",
+        "image_majgCe",
+        "image_iUQtDW",
+        "image_rtJ3eq"
+      ],
+      "settings": {
+        "des_layout": "2",
+        "action": "1",
+        "image_ratio": "auto",
+        "img_align": "center",
+        "cat_space": "2",
+        "col": "4",
+        "col_md": "6",
+        "col_mb": "6",
+        "hidden": false,
+        "cp_code": false,
+        "layout": "container",
         "mg": "50px,,50px,",
         "pd": "",
         "mg_mb": "",
@@ -40,6 +185,7 @@
     }
   },
   "order": [
-    "collection_packery_f6gcMi"
+    "rich_text_7bCHkP",
+    "gallery_Qar4bF"
   ]
 }
