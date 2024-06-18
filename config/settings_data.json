@@ -4652,29 +4652,6 @@
               "product": "body-ari"
             }
           },
-          "img_9cXmNQ": {
-            "type": "img",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/SET-LA-RUE---ROSA---1.jpg",
-              "col_pr": "3",
-              "col_pr_tb": "3",
-              "col_pr_mb": "6"
-            }
-          },
-          "pr_jm4mC4": {
-            "type": "pr",
-            "settings": {
-              "pos_t": 50,
-              "pos_l": 60,
-              "type": "1",
-              "shorttxt": "",
-              "pos_pin": "top",
-              "pos_size": "medium",
-              "effect": "fade",
-              "bg_cl": "#f76b6a",
-              "product": "set-la-rue"
-            }
-          },
           "img_K7daPR": {
             "type": "img",
             "settings": {
@@ -4720,17 +4697,40 @@
               "bg_cl": "#f76b6a",
               "product": "enterizo-bruna"
             }
+          },
+          "img_9cXmNQ": {
+            "type": "img",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SET-LA-RUE---ROSA---1.jpg",
+              "col_pr": "3",
+              "col_pr_tb": "3",
+              "col_pr_mb": "6"
+            }
+          },
+          "pr_jm4mC4": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 60,
+              "type": "1",
+              "shorttxt": "",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#f76b6a",
+              "product": "set-la-rue"
+            }
           }
         },
         "block_order": [
           "img_pNfWGp",
           "pr_Jw7FnN",
-          "img_9cXmNQ",
-          "pr_jm4mC4",
           "img_K7daPR",
           "pr_axAPTa",
           "img_fAhg7Q",
-          "pr_Eq73if"
+          "pr_Eq73if",
+          "img_9cXmNQ",
+          "pr_jm4mC4"
         ],
         "settings": {
           "title": "Outfits La Rue",
