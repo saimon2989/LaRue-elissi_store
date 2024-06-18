@@ -4655,7 +4655,7 @@
           "img_9cXmNQ": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BODY-ADELE---ROJO---1_b8f70386-9739-48e5-9fbf-36c11874c1ba.jpg",
+              "image": "shopify:\/\/shop_images\/SET-LA-RUE---ROSA---1.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
@@ -4672,13 +4672,13 @@
               "pos_size": "medium",
               "effect": "fade",
               "bg_cl": "#f76b6a",
-              "product": "body-adele"
+              "product": "set-la-rue"
             }
           },
           "img_K7daPR": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BODY-VENUS---ROSA---1.jpg",
+              "image": "shopify:\/\/shop_images\/SET-OASIS---NEGRO---1.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
@@ -4695,13 +4695,13 @@
               "pos_size": "medium",
               "effect": "fade",
               "bg_cl": "#f76b6a",
-              "product": "body-venus"
+              "product": "set-oasis"
             }
           },
           "img_fAhg7Q": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/BODY-LEAH---VERDE---1.jpg",
+              "image": "shopify:\/\/shop_images\/ENTERIZO_BRUNA_NEGRO_1.jpg",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
@@ -4718,7 +4718,7 @@
               "pos_size": "medium",
               "effect": "fade",
               "bg_cl": "#f76b6a",
-              "product": "body-leah"
+              "product": "enterizo-bruna"
             }
           }
         },
