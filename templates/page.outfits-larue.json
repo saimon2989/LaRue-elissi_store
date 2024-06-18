@@ -22,12 +22,6 @@
     "gallery_Qar4bF": {
       "type": "gallery",
       "blocks": {
-        "image_BTmK3p": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BODY_ALMA_BLANCO_2.jpg"
-          }
-        },
         "image_yRYymh": {
           "type": "image",
           "settings": {
@@ -52,12 +46,6 @@
             "image": "shopify:\/\/shop_images\/IMG_4551_f3be1f8e-a8de-47fb-a2e9-b0b23e562632.jpg"
           }
         },
-        "image_MVE4xA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BODY_ALMA_BLANCO_1.jpg"
-          }
-        },
         "image_K4EA8W": {
           "type": "image",
           "settings": {
@@ -68,6 +56,12 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/MG_5833-683x1024_d402c53a-7add-4d05-8acc-460ed7bc969d.jpg"
+          }
+        },
+        "image_BTmK3p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BODY_ALMA_BLANCO_2.jpg"
           }
         },
         "image_3MmiD7": {
@@ -98,6 +92,12 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Tezza-4894_6f1c8a4b-dd4b-4912-8348-df156cdd3dd1.jpg"
+          }
+        },
+        "image_MVE4xA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BODY_ALMA_BLANCO_1.jpg"
           }
         },
         "image_XA6iiX": {
@@ -144,19 +144,19 @@
         }
       },
       "block_order": [
-        "image_BTmK3p",
         "image_yRYymh",
         "image_XDUeHP",
         "image_PyMrgD",
         "image_miCfcP",
-        "image_MVE4xA",
         "image_K4EA8W",
         "image_nMbAWW",
+        "image_BTmK3p",
         "image_3MmiD7",
         "image_d6BQHF",
         "image_NUTUdx",
         "image_9Enrx8",
         "image_JqxHhB",
+        "image_MVE4xA",
         "image_XA6iiX",
         "image_g6y9XU",
         "image_JYjaPV",
