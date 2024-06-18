@@ -4810,7 +4810,7 @@
           "style_title": "title_2",
           "ic_tt": "gem",
           "show_clpr": false,
-          "hoverz": true,
+          "hoverz": false,
           "cat_design": "1",
           "cat_space": "30",
           "pr_txt": "products",
