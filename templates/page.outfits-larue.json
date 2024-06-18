@@ -182,10 +182,100 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "lookbook_packery_p7LYTk": {
+      "type": "lookbook_packery",
+      "blocks": {
+        "img_QXJ6nh": {
+          "type": "img",
+          "settings": {
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "url_cqHeRJ": {
+          "type": "url",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "3",
+            "shorttxt": "COMPRAR AHORA",
+            "pos_pin": "right",
+            "pos_size": "large",
+            "effect": "fade",
+            "bg_cl": "#65affa",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "img_xqqNTP": {
+          "type": "img",
+          "settings": {
+            "col_pr": "6",
+            "col_pr_tb": "6",
+            "col_pr_mb": "12"
+          }
+        },
+        "img_xkebAN": {
+          "type": "img",
+          "settings": {
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "img_dxWngJ": {
+          "type": "img",
+          "settings": {
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "img_ejjAL8": {
+          "type": "img",
+          "settings": {
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        }
+      },
+      "block_order": [
+        "img_QXJ6nh",
+        "url_cqHeRJ",
+        "img_xqqNTP",
+        "img_xkebAN",
+        "img_dxWngJ",
+        "img_ejjAL8"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Lookbook Collection",
+        "sub_title": "Spring summer 2020 lookbook",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "space": "15",
+        "use_eq_height": false,
+        "image_ratio": "ratio_nt",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "hidden": false,
+        "cp_code": false,
+        "layout": "container",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "rich_text_7bCHkP",
-    "gallery_Qar4bF"
+    "gallery_Qar4bF",
+    "lookbook_packery_p7LYTk"
   ]
 }
