@@ -5386,14 +5386,14 @@
       "cookies_law": {
         "type": "cookies_law",
         "settings": {
-          "text": "We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.",
-          "accept": "Accept",
-          "more": "More info",
+          "text": "Usamos cookies para mejorar tu experiencia en nuestro sitio web. Al navegar por este sitio web, aceptas nuestro uso de cookies.",
+          "accept": "Aceptar",
+          "more": "",
           "links": "",
           "pp_version": 1,
           "day_next": 30,
-          "cl_btn": "#f76b6a",
-          "cl_btn_hover": "#007e91"
+          "cl_btn": "#da524c",
+          "cl_btn_hover": "#606850"
         }
       }
     },
