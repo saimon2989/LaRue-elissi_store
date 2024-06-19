@@ -5349,8 +5349,8 @@
           "newsletter_pp-1": {
             "type": "content",
             "settings": {
-              "title": "Sign up our newsletter and save 25% off for the next purchase!",
-              "sub": "Subscribe to our newsletters and don’t miss new arrivals, the latest fashion updates and our promotions.",
+              "title": "¡Suscríbete a nuestro boletín y ahorra un 10% en tu próxima compra!",
+              "sub": "Suscríbete a nuestros boletines y no te pierdas las nuevas llegadas, las últimas actualizaciones de moda y nuestras promociones.",
               "newl_des": "1",
               "btn_icon": false,
               "txt": "Your Information will never be shared with any third party.",
