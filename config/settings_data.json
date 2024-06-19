@@ -26,9 +26,9 @@
     "falling_snow": false,
     "catalog_mode": false,
     "enable_toolbar": true,
-    "enable_new_pp": false,
+    "enable_new_pp": true,
     "enable_pro_pr_pp": false,
-    "enable_ck_pp": false,
+    "enable_ck_pp": true,
     "enable_age_pp": false,
     "enable_salse_pp": false,
     "enable_salse_pp_mb": false,
@@ -225,7 +225,7 @@
     "hover_img": "2",
     "pr_overlay": 0,
     "use_quickshop": true,
-    "use_buy_qs": true,
+    "use_buy_qs": false,
     "swatch_design": "2",
     "style_color": "1",
     "swatch_style": "1",
@@ -235,7 +235,7 @@
     "pr_swatch_setting": "1",
     "swatch_home_size": "small",
     "swatch_style_settings": "rounded",
-    "show_pr_size": true,
+    "show_pr_size": false,
     "show_size_type": "1",
     "size_ck": "size",
     "min_qty": "0",
@@ -5336,6 +5336,64 @@
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
           "bg_att": "scroll"
+        }
+      },
+      "newsletter_pp": {
+        "type": "newsletter_pp",
+        "blocks": {
+          "newsletter_pp-0": {
+            "type": "img",
+            "settings": {
+            }
+          },
+          "newsletter_pp-1": {
+            "type": "content",
+            "settings": {
+              "title": "Sign up our newsletter and save 25% off for the next purchase!",
+              "sub": "Subscribe to our newsletters and don’t miss new arrivals, the latest fashion updates and our promotions.",
+              "newl_des": "1",
+              "btn_icon": false,
+              "txt": "Your Information will never be shared with any third party.",
+              "btn_ck": true,
+              "txt2": "Do not show it anymore."
+            }
+          }
+        },
+        "block_order": [
+          "newsletter_pp-0",
+          "newsletter_pp-1"
+        ],
+        "settings": {
+          "des": "2",
+          "fix_h": false,
+          "fix_h_mb": false,
+          "mb": false,
+          "index": true,
+          "product": false,
+          "collection": false,
+          "article": false,
+          "blog": false,
+          "cart": false,
+          "page": false,
+          "number_pages": 0,
+          "pp_version": 1,
+          "day_next": 7,
+          "after": "scroll",
+          "time_delay": 2,
+          "scroll_delay": 800
+        }
+      },
+      "cookies_law": {
+        "type": "cookies_law",
+        "settings": {
+          "text": "We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.",
+          "accept": "Accept",
+          "more": "More info",
+          "links": "",
+          "pp_version": 1,
+          "day_next": 30,
+          "cl_btn": "#f76b6a",
+          "cl_btn_hover": "#007e91"
         }
       }
     },
