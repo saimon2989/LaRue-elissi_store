@@ -10,24 +10,6 @@
 {
   "layout": "theme",
   "sections": {
-    "rich_text_7bCHkP": {
-      "type": "rich_text",
-      "settings": {
-        "title": "Outfits La Rue",
-        "sub_title": "Siéntete hermosa siempre utilizando nuestras prendas para exterior con estas ideas de looks.",
-        "sub_font": "2",
-        "style_title": "title_1",
-        "ic_tt": "gem",
-        "show_clpr": false,
-        "content": "",
-        "align": "tc",
-        "layout": "container",
-        "mg": "50px,,50px,",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "gallery_Qar4bF": {
       "type": "gallery",
       "blocks": {
@@ -675,7 +657,6 @@
     }
   },
   "order": [
-    "rich_text_7bCHkP",
     "gallery_Qar4bF",
     "lookbook_packery_p7LYTk",
     "lookbook_packery_QER6RG"
