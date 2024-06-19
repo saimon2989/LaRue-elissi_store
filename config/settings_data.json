@@ -5353,9 +5353,9 @@
               "sub": "Suscríbete a nuestros boletines y no te pierdas las nuevas llegadas, las últimas actualizaciones de moda y nuestras promociones.",
               "newl_des": "1",
               "btn_icon": false,
-              "txt": "Your Information will never be shared with any third party.",
-              "btn_ck": true,
-              "txt2": "Do not show it anymore."
+              "txt": "Tu información nunca será compartida con terceros.",
+              "btn_ck": false,
+              "txt2": "No lo muestres más."
             }
           }
         },
