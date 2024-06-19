@@ -1,15 +1,11 @@
-/* Publish by EComposer at 2024-06-18 02:56:49*/
+/* Publish by EComposer at 2024-06-19 03:01:09*/
                 (function(){
                     const Func = (function() {
                         'use strict';
-window.__ectimmers = window.__ectimmers ||{};window.__ectimmers["ecom-0p040s5knyzk"]=  window.__ectimmers["ecom-0p040s5knyzk"] || {};
+window.__ectimmers = window.__ectimmers ||{};window.__ectimmers["ecom-88x6jbtzqtl"]=  window.__ectimmers["ecom-88x6jbtzqtl"] || {};
 if(!this.$el)return;const e=this.$el,i=e.querySelector(".ecom-text_view-more-btn"),t=e.querySelector(".ecom-text_view-less-btn"),n=e.querySelector(".text-content.ecom-html");!n||(i&&i.addEventListener("click",()=>{n.classList.remove("ecom-text--is-mark"),n.style.maxHeight="",i.style.display="none",t.style.display=""}),t&&t.addEventListener("click",()=>{n.classList.add("ecom-text--is-mark"),n.style.maxHeight="var(--ecom-text-height)",t.style.display="none",i.style.display=""}))
 
                     });
-                    
-                        document.querySelectorAll('.ecom-0p040s5knyzk').forEach(function(el){
-                            Func.call({$el: el, id: 'ecom-0p040s5knyzk', settings: {},isLive: true});
-                        });
                     
                         document.querySelectorAll('.ecom-88x6jbtzqtl').forEach(function(el){
                             Func.call({$el: el, id: 'ecom-88x6jbtzqtl', settings: {},isLive: true});
@@ -19,6 +15,10 @@ if(!this.$el)return;const e=this.$el,i=e.querySelector(".ecom-text_view-more-btn
                             Func.call({$el: el, id: 'ecom-wcwluj0j72j', settings: {},isLive: true});
                         });
                     
+                        document.querySelectorAll('.ecom-0p040s5knyzk').forEach(function(el){
+                            Func.call({$el: el, id: 'ecom-0p040s5knyzk', settings: {},isLive: true});
+                        });
+                    
 
                 })();
             
@@ -26,7 +26,7 @@ if(!this.$el)return;const e=this.$el,i=e.querySelector(".ecom-text_view-more-btn
                     const Func = (function() {
                         'use strict';
 window.__ectimmers = window.__ectimmers ||{};window.__ectimmers["ecom-pkhoyz6atu"]=  window.__ectimmers["ecom-pkhoyz6atu"] || {};
-if(!this.$el)return!1;const e=this.$el;this.settings.animation&&function(t){if(!e)return;const n=e.querySelector(".ecom__element--button");if(!n)return;let s=parseInt(t.settings.animation_loop_time)*1e3||6e3,o=1e3;window.__ectimmers["ecom-pkhoyz6atu"]["k1wpdbvej"] = setInterval(function(){n.classList.add("animated"),setTimeout(function(){n.classList.remove("animated")},o)},s)}(this);var i=e.querySelector(".ecom__element--button");this.isLive&&i&&i.dataset.ecTrackingId&&i.addEventListener("click",function(t){if(window.Shopify.analytics){t.preventDefault();let n=document.createElement("div");document.body.appendChild(n),n.click(),Shopify.analytics.publish("ec_custom_events",{button_id:i.id,tracking_id:i.dataset.ecTrackingId}),i.cloneNode(!0).click()}},{once:!0}),this.isLive&&i&&i.dataset.eventTrackingFb&&i.addEventListener("click",function(t){window.fbq&&window.fbq("track",`${i.dataset.eventTrackingFb}`)},{once:!0})
+if(!this.$el)return!1;const e=this.$el;this.settings.animation&&function(t){if(!e)return;const n=e.querySelector(".ecom__element--button");if(!n)return;let s=parseInt(t.settings.animation_loop_time)*1e3||6e3,o=1e3;window.__ectimmers["ecom-pkhoyz6atu"]["1mc0h8ega"] = setInterval(function(){n.classList.add("animated"),setTimeout(function(){n.classList.remove("animated")},o)},s)}(this);var i=e.querySelector(".ecom__element--button");this.isLive&&i&&i.dataset.ecTrackingId&&i.addEventListener("click",function(t){if(window.Shopify.analytics){t.preventDefault();let n=document.createElement("div");document.body.appendChild(n),n.click(),Shopify.analytics.publish("ec_custom_events",{button_id:i.id,tracking_id:i.dataset.ecTrackingId}),i.cloneNode(!0).click()}},{once:!0}),this.isLive&&i&&i.dataset.eventTrackingFb&&i.addEventListener("click",function(t){window.fbq&&window.fbq("track",`${i.dataset.eventTrackingFb}`)},{once:!0})
 
                     });
                     
