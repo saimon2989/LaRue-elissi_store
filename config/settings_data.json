@@ -542,6 +542,19 @@
               "col": "12"
             }
           },
+          "simple_cbzeQ8": {
+            "type": "simple",
+            "settings": {
+              "title": "Outfits",
+              "url": "shopify:\/\/pages\/outfits-larue",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "simple_naPUfY": {
             "type": "simple",
             "settings": {
@@ -882,6 +895,7 @@
           "mega_nRwDVM",
           "cat_AAVeL7",
           "link_Q4qXXq",
+          "simple_cbzeQ8",
           "simple_naPUfY",
           "dropdown_BH8QGV",
           "dropdown_JXDnkF",
