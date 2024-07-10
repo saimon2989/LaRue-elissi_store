@@ -2794,7 +2794,7 @@
             "type": "pricereview",
             "settings": {
               "price": "0",
-              "rating": true
+              "rating": false
             }
           },
           "product-template-2": {
