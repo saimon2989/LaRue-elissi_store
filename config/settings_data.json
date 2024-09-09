@@ -5489,6 +5489,14 @@
           "ngr_auto_foot": false,
           "ngr_disable_overlay": false
         }
+      },
+      "4912811683585195618": {
+        "type": "shopify:\/\/apps\/smartpopup-promotion-popup\/blocks\/app-embed\/6b7effb0-33e7-433c-acc7-0a98ef2f9da6",
+        "disabled": false,
+        "settings": {
+          "popups": "{}",
+          "filter": "{}"
+        }
       }
     }
   }
