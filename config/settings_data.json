@@ -1617,7 +1617,7 @@
               "image_mb": "shopify:\/\/shop_images\/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_29.png",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
-              "link_img1": "shopify:\/\/collections\/nueva-coleccion",
+              "link_img1": "",
               "open_link": "_blank",
               "caption_w": "1",
               "cap_v_pos": 50,
