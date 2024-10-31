@@ -399,7 +399,6 @@
         "blocks": {
           "header_top-0": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "text": "<div style=\"display: flex; justify-content: center;\"> Envío gratis por compras iguales o superiores a $300.000. Aplican T&amp;C</div>",
               "hide": false,
