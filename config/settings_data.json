@@ -72,7 +72,7 @@
     "sticky_header": true,
     "scroll_header": false,
     "header_design": "3",
-    "h_transparent": true,
+    "h_transparent": false,
     "h_tr_top": false,
     "h_chan_space": false,
     "h_navmb": 62,
@@ -418,9 +418,12 @@
           "header_top-0",
           "header_top-2"
         ],
+        "custom_css": [
+
+        ],
         "settings": {
           "height": 20,
-          "fontsize": 14.5,
+          "fontsize": 15,
           "cl": "#555555",
           "cl_a": "#222222",
           "cl_cr": "#ec0101",
@@ -923,7 +926,7 @@
           "cat_QQBirP"
         ],
         "settings": {
-          "height": 80,
+          "height": 94,
           "arrow": true,
           "align": "tc",
           "hover": "hover_fade_in"
