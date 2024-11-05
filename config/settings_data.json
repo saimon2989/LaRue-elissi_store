@@ -1664,6 +1664,7 @@
           },
           "img_DRDW8j": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_35.png",
               "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_36.png",
