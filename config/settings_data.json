@@ -1648,11 +1648,11 @@
           "img_DRDW8j": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_9.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_48.png",
+              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_2_0692b7f7-ab02-4b95-824c-4cc38ee84510.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_2.png",
               "pos_img": "center center",
               "cl_img": "",
-              "link_img1": "https://laruecol.com.co/collections/sale",
+              "link_img1": "",
               "open_link": "_blank",
               "caption_w": "2",
               "cap_v_pos": 50,
