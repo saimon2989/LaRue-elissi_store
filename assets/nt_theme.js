@@ -1565,3 +1565,17 @@ jQuery_T4NT( window ).on( "load", function($) {
 //           }
 //       };
 //   } 
+
+document.addEventListener("DOMContentLoaded", function() {
+    let companyField = document.querySelector('input[name="address[company]"]');
+    if (companyField) {
+        companyField.setAttribute("type", "number");
+        companyField.setAttribute("placeholder", "Número de Cédula");
+        companyField.setAttribute("id", "Cedula");
+        let label = document.querySelector('label[for="Company"]');
+        if (label) {
+            label.innerText = "Cédula";
+            label.setAttribute("for", "Cedula");
+        }
+    }
+});
