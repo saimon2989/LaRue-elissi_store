@@ -1567,20 +1567,27 @@ jQuery_T4NT( window ).on( "load", function($) {
 //   }
 
 document.addEventListener("DOMContentLoaded", function() {
-    let empresaField = document.querySelector('input[name="company"]');
-    if (empresaField) {
-        empresaField.setAttribute("type", "number");
-        empresaField.setAttribute("placeholder", "Número de Cédula");
-        empresaField.setAttribute("id", "cedula");
-        
-        // Cambiar la etiqueta del campo
-        let label = document.querySelector('label[for="TextField2"]');
-        if (label) {
-            label.innerText = "Cédula";
-            label.setAttribute("for", "cedula");
+    setTimeout(function() { 
+        let empresaField = document.querySelector('#TextField2');
+
+        if (empresaField) {
+            empresaField.setAttribute("type", "tel"); // Evita restricciones de Safari con type="number"
+            empresaField.setAttribute("inputmode", "numeric"); // Activa teclado numérico en móviles
+            empresaField.setAttribute("placeholder", "Cédula");
+
+            empresaField.addEventListener("input", function() {
+                this.value = this.value.replace(/\D/g, ''); // Solo permite números
+            });
+
+            // Cambiar la etiqueta asociada al campo
+            let label = document.querySelector('label[for="TextField2"]');
+            if (label) {
+                label.innerText = "Cédula";
+            }
         }
-    }
+    }, 2000); // Espera a que Shopify cargue los campos
 });
+
 
 
 
