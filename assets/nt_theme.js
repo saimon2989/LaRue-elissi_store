@@ -1564,6 +1564,23 @@ jQuery_T4NT( window ).on( "load", function($) {
 //               e.preventDefault();
 //           }
 //       };
-//   } 
+//   }
+
+document.addEventListener("DOMContentLoaded", function() {
+    let empresaField = document.querySelector('input[name="company"]');
+    if (empresaField) {
+        empresaField.setAttribute("type", "number");
+        empresaField.setAttribute("placeholder", "Número de Cédula");
+        empresaField.setAttribute("id", "cedula");
+        
+        // Cambiar la etiqueta del campo
+        let label = document.querySelector('label[for="TextField2"]');
+        if (label) {
+            label.innerText = "Cédula";
+            label.setAttribute("for", "cedula");
+        }
+    }
+});
+
 
 
