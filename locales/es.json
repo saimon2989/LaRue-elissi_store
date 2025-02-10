@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "404": {
       "subtext": "¡Estamos tostados! No encontramos esa página",
-      "link_html": "Regresar al <a href=\"{{link}}\" rel=\"home\">inicio<\/a>",
+      "link_html": "Regresar al <a href=\"{{link}}\" rel=\"home\">inicio</a>",
       "title": "Error 404: ¿Dónde está mi café?"
     },
     "mobile_menu": {
@@ -10,7 +19,7 @@
       "categories": "Categorías",
       "wishlist": "Favoritos",
       "search": "Buscar",
-      "login_register": "Ingreso \/ Registro",
+      "login_register": "Ingreso / Registro",
       "my_account": "Mi cuenta",
       "compare": ""
     },
@@ -21,7 +30,7 @@
       "login_form_password_placeholder": "Tu contraseña",
       "login_form_submit": "Entrar",
       "signup_form_success": "Te enviaremos un correo cuando abramos.",
-      "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"\/admin\" class=\"text-link\">Ingresa aquí<\/a>",
+      "admin_link_html": "¿Eres el dueño de la tienda? <a href=\"/admin\" class=\"text-link\">Ingresa aquí</a>",
       "password_link": "Ingresa usando contraseña"
     },
     "account_text": {
@@ -90,7 +99,7 @@
     },
     "agree_mail": {
       "conditions": "Debes aceptar los términos y condiciones para registrarte.",
-      "link_conditions_html": "Acepto los <a href=\"{{link}}\" class=\"text-link\">términos y condiciones<\/a>.",
+      "link_conditions_html": "Acepto los <a href=\"{{link}}\" class=\"text-link\">términos y condiciones</a>.",
       "link_conditions_emty": "Acepto los términos y condiciones."
     },
     "wishlist": {
@@ -194,7 +203,7 @@
   },
   "customer": {
     "register": {
-      "privacy_policy_html": "Tus datos personales serán usados para mejorar la experiencia en nuestro sitio web, para acceder a tu cuenta y para otros propósitos descritos en nuestra <a href=\"{{link}}\" class=\"privacy-policy-link fwm\" target=\"_blank\">política de privacidad<\/a>.\n",
+      "privacy_policy_html": "Tus datos personales serán usados para mejorar la experiencia en nuestro sitio web, para acceder a tu cuenta y para otros propósitos descritos en nuestra <a href=\"{{link}}\" class=\"privacy-policy-link fwm\" target=\"_blank\">política de privacidad</a>.\n",
       "privacy_policy": "Tus datos personales serán usados para mejorar la experiencia en nuestro sitio web, para acceder a tu cuenta y para otros propósitos descritos en nuestra política de privacidad.",
       "submit": "Registrarse",
       "password": "Contraseña",
@@ -275,7 +284,7 @@
       "province": "Departamento",
       "country": "País",
       "city": "Ciudad",
-      "address2": "Apartamento, interior, edificio\/unidad residencial, etc.",
+      "address2": "Apartamento, interior, edificio/unidad residencial, etc.",
       "address1": "Dirección",
       "company": "Empresa",
       "last_name": "Apellidos",
@@ -307,7 +316,7 @@
       "wishlist": "Favoritos",
       "dashboard": "Centro de control",
       "title": "Mi cuenta",
-      "hello_html": "Hola <strong>{{name}}<\/strong> (¿no eres <strong>{{name}}<\/strong>? <a href=\"{{link}}\">Salir<\/a>)\n",
+      "hello_html": "Hola <strong>{{name}}</strong> (¿no eres <strong>{{name}}</strong>? <a href=\"{{link}}\">Salir</a>)\n",
       "manage_subs": ""
     },
     "make_order": "Haz tu primera orden",
@@ -335,17 +344,17 @@
     },
     "shipping_threshold": {
       "text_3": "¡Felicitaciones! Tienes envío gratis",
-      "text_2_html": "Casi, casi... compra <span class=\"cr fwm mn_thres_js\">{{ money }}<\/span> más para <span class=\"cr fwm\">obtener envío gratis.<\/span>",
-      "text_1_html": "Envío gratis en órdenes mayores a <span class=\"cr fwm mn_thres_js\">{{ money }}<\/span>\n"
+      "text_2_html": "Casi, casi... compra <span class=\"cr fwm mn_thres_js\">{{ money }}</span> más para <span class=\"cr fwm\">obtener envío gratis.</span>",
+      "text_1_html": "Envío gratis en órdenes mayores a <span class=\"cr fwm mn_thres_js\">{{ money }}</span>\n"
     },
     "cart_page": {
-      "empty_html": "Antes de proceder al checkout, debes agregar algunos productos a tu carrito de compras.<br \/>",
+      "empty_html": "Antes de proceder al checkout, debes agregar algunos productos a tu carrito de compras.<br />",
       "empty": "Tu carrito de compras está vacío."
     },
     "general": {
       "countdown_text": "Debido a la alta demanda, tu carrito de compras expira en:",
       "add_gift_wrap": "Agrega nuestra caja especial de regalo",
-      "gift_wrap_html": "<span class=\"cd\">¿Quieres empacarlo en nuestra caja especial de regalo?<\/span> Por solo {{ money }}",
+      "gift_wrap_html": "<span class=\"cd\">¿Quieres empacarlo en nuestra caja especial de regalo?</span> Por solo {{ money }}",
       "placeholder_coupon": "Código de cupón",
       "info_coupon": "Tu código de cupón se aplicará en el checkout",
       "add_coupon": "Agregar un cupón",
@@ -366,14 +375,14 @@
       "checkout": "Checkout",
       "update": "Actualizar carrito de compras",
       "terms_and_conditions": "Acepto los términos y condiciones.",
-      "terms_and_conditions_html": "Acepto los <a href=\"{{link}}\" target=\"_blank\">términos y condiciones<\/a>.",
-      "taxes_included_discounts_and_shipping_policy_html": "IVA incluido. <a href=\"{{ link }}\" target=\"_blank\">Envío<\/a> y descuentos agregados en el checkout.\n",
+      "terms_and_conditions_html": "Acepto los <a href=\"{{link}}\" target=\"_blank\">términos y condiciones</a>.",
+      "taxes_included_discounts_and_shipping_policy_html": "IVA incluido. <a href=\"{{ link }}\" target=\"_blank\">Envío</a> y descuentos agregados en el checkout.\n",
       "taxes_included_discounts_but_shipping_at_checkout": "IVA incluido. Envío y descuentos agregados en el checkout.\n",
-      "taxes_discounts_and_shipping_policy_at_checkout_html": "Impuestos, <a href=\"{{ link }}\" target=\"_blank\">envío<\/a> y descuentos calculados en el checkout.",
+      "taxes_discounts_and_shipping_policy_at_checkout_html": "Impuestos, <a href=\"{{ link }}\" target=\"_blank\">envío</a> y descuentos calculados en el checkout.",
       "taxes_discounts_and_shipping_at_checkout": "Impuestos, envío y descuentos calculados en el checkout.",
-      "taxes_included_and_shipping_policy_html": "IVA incluido. <a href=\"{{ link }}\" target=\"_blank\">Envío<\/a> calculado en el checkout.",
+      "taxes_included_and_shipping_policy_html": "IVA incluido. <a href=\"{{ link }}\" target=\"_blank\">Envío</a> calculado en el checkout.",
       "taxes_included_but_shipping_at_checkout": "IVA incluido y envíos calculados en el checkout.",
-      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\" target=\"_blank\">envío<\/a> calculados en el checkout.",
+      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\" target=\"_blank\">envío</a> calculados en el checkout.",
       "taxes_and_shipping_at_checkout": "Impuestos y envío calculados en el checkout",
       "subtotal": "Subtotal:",
       "calculate_ship": "Calcular envío",
@@ -395,14 +404,14 @@
       "please_notify_me": "Por favor notifícame cuando {{title}}{{variant}} esté disponible - {{shop_url}}{{url}}",
       "title_notify_me": "Notifícame cuando este producto esté disponible:",
       "email_address": "Email",
-      "low_stock_message_html": "Apúrate, solo quedan <span class=\"jsnt\">{{quantity}}<\/span>disponibles!",
-      "only_left_html": "Apúrate, solo quedan <span class=\"jsnt\">{{count}}<\/span>disponibles!",
-      "will_be_in_stock_after_html": "Estarán disponibles a partir de <span class=\"jsnt\">{{date}}<\/span>",
-      "will_not_ship_until_html": "Se enviarán después de <span class=\"jsnt\">{{date}}<\/span>",
+      "low_stock_message_html": "Apúrate, solo quedan <span class=\"jsnt\">{{quantity}}</span>disponibles!",
+      "only_left_html": "Apúrate, solo quedan <span class=\"jsnt\">{{count}}</span>disponibles!",
+      "will_be_in_stock_after_html": "Estarán disponibles a partir de <span class=\"jsnt\">{{date}}</span>",
+      "will_not_ship_until_html": "Se enviarán después de <span class=\"jsnt\">{{date}}</span>",
       "notice_only_stock": "No hay suficientes ítems disponibles. Solo quedan {{max}}.",
       "order_monthNames": "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre",
       "order_dayNames": "domingo,lunes,martes,miércoles,jueves,viernes,sábado",
-      "instagram_intro_html": "Etiquetas tus fotos con <span>{{has_tag}}<\/span> en Instagram.",
+      "instagram_intro_html": "Etiquetas tus fotos con <span>{{has_tag}}</span> en Instagram.",
       "click_zoom": "Clic para ampliar",
       "view_360": "Vista de 360 grados",
       "view_in_space_label": "Ver en tu espacio. Carga en una ventana de realidad aumentada.",
@@ -490,11 +499,11 @@
     },
     "general": {
       "results_with_count_html": {
-        "other": "<span class=\"cp\">{{count}}<\/span> productos encontrados",
-        "one": "<span class=\"cp\">1<\/span> producto encontrado",
-        "zero": "<span class=\"cp\">0<\/span> productos encontrados"
+        "other": "<span class=\"cp\">{{count}}</span> productos encontrados",
+        "one": "<span class=\"cp\">1</span> producto encontrado",
+        "zero": "<span class=\"cp\">0</span> productos encontrados"
       },
-      "bar_with_count_html": "Has visto <span class=\"js_current_bar\">{{current_count}}<\/span> {{total_count}} productos\n",
+      "bar_with_count_html": "Has visto <span class=\"js_current_bar\">{{current_count}}</span> {{total_count}} productos\n",
       "no_matches": "No hay productos que concuerden con tu selección.",
       "clear_filter": "Borrar filtros",
       "filter": "Filtrar",
@@ -521,9 +530,10 @@
         "governorate_placeholder": "Departamento",
         "state_and_territory_label": "Departamento",
         "state_and_territory_placeholder": "Departamento",
-        "address2_label": "Número o interior de casa\/apartamento, nombre de unidad o conjunto...",
-        "optional_address2_label": "Número o interior de casa\/apartamento, nombre de unidad o conjunto...",
-        "company_label": "Cédula"
+        "address2_label": "Número o interior de casa/apartamento, nombre de unidad o conjunto...",
+        "optional_address2_label": "Número o interior de casa/apartamento, nombre de unidad o conjunto...",
+        "company_label": "Cédula",
+        "optional_company_label": "Cedula"
       },
       "field_errors": {
         "address_province_blank": "Selecciona un departamento"
@@ -539,7 +549,7 @@
       },
       "order_summary": {
         "shopping_cart_label": "Carrito de compras",
-        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong>{{ code }}<\/strong> no es válido para los artículos en tu carrito de compras"
+        "cart_does_not_meet_discount_requirements_notice": "El código de descuento <strong>{{ code }}</strong> no es válido para los artículos en tu carrito de compras"
       },
       "shipping": {
         "no_rates_for_cart_or_destination_notice": "No hay métodos de envío disponibles para tu compra o dirección",
@@ -573,7 +583,7 @@
         "empty_update": "No se puede actualizar un carrito de compras vacío",
         "generic_error": "Error en el carrito de compras",
         "too_many_line_items_error": "El carrito de compras no puede contener más de {{ max }} artículos.",
-        "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos actualizado tu <a href='{{ link }}'>carrito de compras<\/a>.",
+        "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos actualizado tu <a href='{{ link }}'>carrito de compras</a>.",
         "changed": "El carrito de compras se ha modificado",
         "shipping_address_not_required": "Esta compra no requiere envío"
       }
@@ -589,7 +599,7 @@
     "section": {
       "view_all": "Ver todo",
       "load_more": "Cargar más entradas",
-      "bar_with_count_html": "Has visto <span class = \"js_current_bar\"> {{current_count}} <\/span> de {{total_count}} publicaciones",
+      "bar_with_count_html": "Has visto <span class = \"js_current_bar\"> {{current_count}} </span> de {{total_count}} publicaciones",
       "read_more": ""
     },
     "blog": {
