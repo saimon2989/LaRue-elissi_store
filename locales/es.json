@@ -286,7 +286,7 @@
       "city": "Ciudad",
       "address2": "Apartamento, interior, edificio/unidad residencial, etc.",
       "address1": "Dirección",
-      "company": "Empresa",
+      "company": "Documento",
       "last_name": "Apellidos",
       "edit_address": "Editar dirección",
       "first_name": "Nombres",
@@ -303,7 +303,7 @@
       "title": "Activar cuenta"
     },
     "account": {
-      "company": "Empresa:",
+      "company": "Documento:",
       "phone": "Teléfono:",
       "zip": "Código postal:",
       "country": "País",
@@ -538,7 +538,8 @@
       },
       "field_errors": {
         "address_province_blank": "Selecciona un departamento",
-        "address_company_blank": "Introduce tu número de documento"
+        "address_company_blank": "Introduce tu número de documento",
+        "address_company_too_long": "El numero de documento es demasiado largo "
       },
       "general": {
         "cart": "Carrito de compras",
@@ -680,5 +681,10 @@
     "day_month_year": "",
     "month_day_year": "",
     "full_day": ""
+  },
+  "customer_accounts": {
+    "order_details": {
+      "company": "Documento"
+    }
   }
 }
