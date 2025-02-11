@@ -537,7 +537,8 @@
         "change_company_location_link_label": "Cambiar cédula"
       },
       "field_errors": {
-        "address_province_blank": "Selecciona un departamento"
+        "address_province_blank": "Selecciona un departamento",
+        "address_company_blank": "Introduce tu número de documento"
       },
       "general": {
         "cart": "Carrito de compras",
