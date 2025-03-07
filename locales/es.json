@@ -532,9 +532,10 @@
         "state_and_territory_placeholder": "Departamento",
         "address2_label": "Número o interior de casa/apartamento, nombre de unidad o conjunto...",
         "optional_address2_label": "Número o interior de casa/apartamento, nombre de unidad o conjunto...",
-        "company_label": "Cédula",
-        "optional_company_label": "Cédula",
-        "change_company_location_link_label": "Cambiar cédula"
+        "company_label": "Cédula ó NIT",
+        "optional_company_label": "Cédula ó NIT",
+        "change_company_location_link_label": "Cédula ó NIT",
+        "company_contact_info": "Cédula ó NIT"
       },
       "field_errors": {
         "address_province_blank": "Selecciona un departamento",
