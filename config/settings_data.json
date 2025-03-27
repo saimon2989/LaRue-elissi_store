@@ -273,8 +273,8 @@
     "supported_currencies": "EUR - EUR | USD - USD | GBP - GBP| SEK -SEK",
     "currency_format": "money_format",
     "round_currency": false,
-    "notify_currency": true,
-    "mess_currency": "Todos los cargos se facturan en {{ currency }}.. Si bien el contenido de su carrito se muestra actualmente en <span class=\"selected-currency\"></span>, el pago utilizará {{ currency }} al tipo de cambio más actual.",
+    "notify_currency": false,
+    "mess_currency": "",
     "hover_currency": false,
     "t4s_custom_css": false,
     "custom_js": false,
@@ -957,23 +957,6 @@
               "cl_mb": "12"
             }
           },
-          "instagram2_QgEFJ9": {
-            "type": "instagram2",
-            "settings": {
-              "title": "Instagram",
-              "limit": 9,
-              "open_link": "_self",
-              "space": "2",
-              "rounded_ins": "0",
-              "col_pr": "4",
-              "col_pr_tb": "4",
-              "col_pr_mb": "4",
-              "order": "1",
-              "cl": "3",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
           "instagram_7nVeKr": {
             "type": "instagram",
             "disabled": true,
@@ -1025,7 +1008,6 @@
         "block_order": [
           "1581507819652",
           "1581507828337",
-          "instagram2_QgEFJ9",
           "instagram_7nVeKr",
           "44f4ac33-b3f0-48d0-96e4-3752cd1c79a4",
           "1581507835369"
@@ -1209,11 +1191,11 @@
           "style": "1",
           "pos": "1",
           "enable_pr": true,
-          "calc_ship": true,
-          "show_note": true,
+          "calc_ship": false,
+          "show_note": false,
           "show_rates": false,
-          "show_discount": true,
-          "show_gift_wrap": true
+          "show_discount": false,
+          "show_gift_wrap": false
         }
       },
       "mb_nav": {
@@ -1270,6 +1252,7 @@
           },
           "menu_pEgqmp": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "title": "<spam style=\"color:#f76b6a; font-style: bold;\">SALE <i class=\"las la-ticket-alt\"></i> </spam>",
               "url": "shopify://collections/sale",
@@ -2323,6 +2306,7 @@
             "type": "btn",
             "settings": {
               "title": "Return To Shop",
+              "url": "",
               "style": "primary tu"
             }
           }
@@ -4032,13 +4016,13 @@
           "cart_heading-0": {
             "type": "1",
             "settings": {
-              "color": "#333"
+              "color": "#333333"
             }
           },
           "cart_heading-1": {
             "type": "2",
             "settings": {
-              "color": "#333"
+              "color": "#333333"
             }
           }
         },
@@ -4051,6 +4035,7 @@
           "color": "#f7f7f7",
           "overlay": 54,
           "padding": 50,
+          "paddingmb": 15,
           "bg_pos": "center center",
           "bg_repeat": "no-repeat",
           "bg_size": "cover",
