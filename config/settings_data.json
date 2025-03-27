@@ -397,36 +397,26 @@
       "header_top": {
         "type": "header_top",
         "blocks": {
-          "header_top-0": {
+          "text_DbMjir": {
             "type": "text",
-            "disabled": true,
             "settings": {
-              "text": "<div style=\"display: flex; justify-content: center;\"> Envío gratis por compras iguales o superiores a $300.000. Aplican T&amp;C</div>",
+              "text": "Envío <span class=\"cr\"><strong>GRATIS</strong></span> en compras a partir de $300.000.",
               "hide": false,
-              "col": "12"
-            }
-          },
-          "header_top-2": {
-            "type": "cur",
-            "disabled": true,
-            "settings": {
-              "hide": true,
-              "col": "6"
+              "col": "4"
             }
           }
         },
         "block_order": [
-          "header_top-0",
-          "header_top-2"
+          "text_DbMjir"
         ],
         "custom_css": [],
         "settings": {
           "height": 20,
           "fontsize": 15,
-          "cl": "#555555",
+          "cl": "#ffffff",
           "cl_a": "#222222",
           "cl_cr": "#ec0101",
-          "bg": "#ffffff",
+          "bg": "#000",
           "bg_op": 100,
           "show_border": true,
           "bd_cl": "#ececec",
@@ -2150,8 +2140,15 @@
           "text_gx7GFH": {
             "type": "text",
             "settings": {
-              "title": "TIEMPO DE ENVÍO",
+              "title": "Tiempo de envío",
               "text": "<p>El tiempo de envío varía entre 1 y 4 días hábiles, dependiendo de la empresa transportadora y la ubicación de entrega.</p>"
+            }
+          },
+          "text_LRaVeY": {
+            "type": "text",
+            "settings": {
+              "title": "Garantía",
+              "text": "<p>Todas nuestras prendas están fabricadas bajo los más altos estándares de calidad y cuentan con garantía en sus materiales, elaboración, originalidad y durabilidad.</p>"
             }
           }
         },
@@ -2159,7 +2156,8 @@
           "pr_description-0",
           "pr_description-1",
           "a5bc4ea3-52af-41dd-96fb-a99e092623d0",
-          "text_gx7GFH"
+          "text_gx7GFH",
+          "text_LRaVeY"
         ],
         "settings": {
           "show": true,
@@ -2724,12 +2722,12 @@
           },
           "product-template-4": {
             "type": "size",
+            "disabled": true,
             "settings": {
               "size_chart": "3",
               "pos_sizeg": "1",
               "sc_type": "1",
               "page": "size-guide",
-              "image": "shopify://shop_images/No_es_un_rumor.png",
               "size_ck": "",
               "delivery": true,
               "page_dr": "delivery-return",
@@ -2749,8 +2747,27 @@
           },
           "product-template-6": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "class": "tdf"
+            }
+          },
+          "order_dVd6CX": {
+            "type": "order",
+            "settings": {
+              "hide_pre": true,
+              "icon": "2",
+              "icon_name": "truck",
+              "fade": true,
+              "txt": "Haz tu pedido ahora y recíbelo entre [date_start] y [date_end]",
+              "ds": 1,
+              "de": 4,
+              "mode": "1",
+              "cut": "SAT,SUN",
+              "frm": "12",
+              "time": "17:00:00",
+              "hr": "horas",
+              "min": "minutos"
             }
           }
         },
@@ -2762,7 +2779,8 @@
           "09d16bdb-7862-4108-a823-76f32fc699f0",
           "product-template-4",
           "84d0ecf0-c5c1-4c2f-b7ce-ce9d2abb689f",
-          "product-template-6"
+          "product-template-6",
+          "order_dVd6CX"
         ],
         "settings": {}
       },
