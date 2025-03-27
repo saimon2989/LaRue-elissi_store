@@ -2322,9 +2322,9 @@
         ],
         "settings": {
           "ajax_enable": true,
-          "calc_ship": true,
+          "calc_ship": false,
           "show_note": true,
-          "show_rates": true,
+          "show_rates": false,
           "show_discount": true,
           "show_gift_wrap": true
         }
