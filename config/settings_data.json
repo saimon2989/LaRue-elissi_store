@@ -2140,35 +2140,26 @@
               "title": "Información Adicional"
             }
           },
-          "1585724379549": {
-            "type": "html",
-            "disabled": true,
-            "settings": {
-              "title": "Custom tab",
-              "page": "custom-tab-shopify"
-            }
-          },
-          "pr_description-2": {
-            "type": "rivui",
-            "disabled": true,
-            "settings": {
-              "title": "Reviews"
-            }
-          },
           "a5bc4ea3-52af-41dd-96fb-a99e092623d0": {
             "type": "size_pr",
             "disabled": true,
             "settings": {
               "title": "Size guide"
             }
+          },
+          "text_gx7GFH": {
+            "type": "text",
+            "settings": {
+              "title": "TIEMPO DE ENVÍO",
+              "text": "<p>El tiempo de envío varía entre 1 y 4 días hábiles, dependiendo de la empresa transportadora y la ubicación de entrega.</p>"
+            }
           }
         },
         "block_order": [
           "pr_description-0",
           "pr_description-1",
-          "1585724379549",
-          "pr_description-2",
-          "a5bc4ea3-52af-41dd-96fb-a99e092623d0"
+          "a5bc4ea3-52af-41dd-96fb-a99e092623d0",
+          "text_gx7GFH"
         ],
         "settings": {
           "show": true,
@@ -2738,6 +2729,7 @@
               "pos_sizeg": "1",
               "sc_type": "1",
               "page": "size-guide",
+              "image": "shopify://shop_images/No_es_un_rumor.png",
               "size_ck": "",
               "delivery": true,
               "page_dr": "delivery-return",
