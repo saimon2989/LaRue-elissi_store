@@ -460,7 +460,7 @@
             "disabled": true,
             "settings": {
               "title": "Inicio",
-              "url": "shopify://collections/frontpage",
+              "url": "https://laruecol.com.co/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
