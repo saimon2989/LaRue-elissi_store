@@ -399,6 +399,7 @@
         "blocks": {
           "text_DbMjir": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "Envío <span class=\"cr\"><strong>GRATIS</strong></span> en compras a partir de $300.000.",
               "hide": false,
@@ -416,7 +417,7 @@
           "cl": "#ffffff",
           "cl_a": "#222222",
           "cl_cr": "#ec0101",
-          "bg": "#000",
+          "bg": "#ffffff",
           "bg_op": 100,
           "show_border": true,
           "bd_cl": "#ececec",
@@ -2124,24 +2125,11 @@
               "title": "Descripción"
             }
           },
-          "pr_description-1": {
-            "type": "add",
-            "settings": {
-              "title": "Información Adicional"
-            }
-          },
           "a5bc4ea3-52af-41dd-96fb-a99e092623d0": {
             "type": "size_pr",
             "disabled": true,
             "settings": {
               "title": "Size guide"
-            }
-          },
-          "text_gx7GFH": {
-            "type": "text",
-            "settings": {
-              "title": "Tiempo de envío",
-              "text": "<p>El tiempo de envío varía entre 1 y 4 días hábiles, dependiendo de la empresa transportadora y la ubicación de entrega.</p>"
             }
           },
           "text_LRaVeY": {
@@ -2154,9 +2142,7 @@
         },
         "block_order": [
           "pr_description-0",
-          "pr_description-1",
           "a5bc4ea3-52af-41dd-96fb-a99e092623d0",
-          "text_gx7GFH",
           "text_LRaVeY"
         ],
         "settings": {
