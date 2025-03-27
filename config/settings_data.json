@@ -2655,6 +2655,12 @@
       "product-template": {
         "type": "product-template",
         "blocks": {
+          "text_R8f8C3": {
+            "type": "text",
+            "settings": {
+              "text": ""
+            }
+          },
           "product-template-0": {
             "type": "title",
             "settings": {
@@ -2676,6 +2682,18 @@
               "length": 31,
               "readm": false,
               "readm_txt": "Read more"
+            }
+          },
+          "time_qVdqxD": {
+            "type": "time",
+            "settings": {
+              "icon": "2",
+              "icon_name": "eye",
+              "fade": true,
+              "min": 1,
+              "max": 20,
+              "time": 2,
+              "text": "[count] <span class=\"cd fwm\">Personas</span> están viendo esta prenda."
             }
           },
           "product-template-3": {
@@ -2708,7 +2726,6 @@
           },
           "product-template-4": {
             "type": "size",
-            "disabled": true,
             "settings": {
               "size_chart": "3",
               "pos_sizeg": "1",
@@ -2758,9 +2775,11 @@
           }
         },
         "block_order": [
+          "text_R8f8C3",
           "product-template-0",
           "product-template-1",
           "product-template-2",
+          "time_qVdqxD",
           "product-template-3",
           "09d16bdb-7862-4108-a823-76f32fc699f0",
           "product-template-4",
