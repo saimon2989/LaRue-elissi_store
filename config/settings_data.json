@@ -1223,7 +1223,7 @@
             "type": "menu",
             "settings": {
               "title": "Inicio",
-              "url": "shopify://collections/frontpage",
+              "url": "https://laruecol.com.co/",
               "open_link": "_self",
               "menu": "",
               "icon": "",
