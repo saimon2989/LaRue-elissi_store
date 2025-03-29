@@ -399,7 +399,6 @@
         "blocks": {
           "text_DbMjir": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "text": "Envío <span class=\"cr\"><strong>GRATIS</strong></span> en compras a partir de $300.000.",
               "hide": false,
@@ -417,7 +416,7 @@
           "cl": "#ffffff",
           "cl_a": "#222222",
           "cl_cr": "#ec0101",
-          "bg": "#ffffff",
+          "bg": "#000",
           "bg_op": 100,
           "show_border": true,
           "bd_cl": "#ececec",
