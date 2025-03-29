@@ -402,7 +402,7 @@
             "settings": {
               "text": "Envío <span class=\"cr\"><strong>GRATIS</strong></span> en compras a partir de $300.000.",
               "hide": false,
-              "col": "4"
+              "col": "6"
             }
           }
         },
@@ -416,7 +416,7 @@
           "cl": "#ffffff",
           "cl_a": "#222222",
           "cl_cr": "#ec0101",
-          "bg": "#000",
+          "bg": "#000000",
           "bg_op": 100,
           "show_border": true,
           "bd_cl": "#ececec",
