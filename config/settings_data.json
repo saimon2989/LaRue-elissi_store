@@ -400,9 +400,9 @@
           "text_DbMjir": {
             "type": "text",
             "settings": {
-              "text": "Envío <span class=\"cr\"><strong>GRATIS</strong></span> en compras a partir de $300.000.",
+              "text": "<center> Envío <span class=\"cr\"><strong>GRATIS</strong></span> en compras a partir de $300.000.</center>",
               "hide": false,
-              "col": "6"
+              "col": "12"
             }
           }
         },
