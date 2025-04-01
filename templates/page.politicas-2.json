@@ -1,0 +1,50 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-politicas-de-devolucion-page": {
+      "type": "ecom-politicas-de-devolucion-page",
+      "settings": {}
+    },
+    "image_text_overlay_DDLRNa": {
+      "type": "image_text_overlay",
+      "settings": {
+        "se_height": "cus_h",
+        "use_custom_h": "1",
+        "h_des": "600px",
+        "h_tb": "500px",
+        "h_mb": "350px",
+        "image": "shopify://shop_images/POLITICAS_1280_x_600_px_2.png",
+        "use_pr": false,
+        "img_align": "center",
+        "caption_w": "2",
+        "cap_v_pos": 50,
+        "cap_h_pos": 50,
+        "txt_align": "tc_md",
+        "cap_v_pos_mb": 50,
+        "cap_h_pos_mb": 50,
+        "txt_align_mb": "tl",
+        "use_shadow": false,
+        "cl_overlay": "#000",
+        "cl_opacity": 0,
+        "layout": "nt_full",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "ecom-politicas-de-devolucion-page",
+    "image_text_overlay_DDLRNa"
+  ]
+}
