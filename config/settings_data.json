@@ -2725,7 +2725,6 @@
           },
           "product-template-4": {
             "type": "size",
-            "disabled": true,
             "settings": {
               "size_chart": "3",
               "pos_sizeg": "1",
@@ -2739,20 +2738,12 @@
           },
           "84d0ecf0-c5c1-4c2f-b7ce-ce9d2abb689f": {
             "type": "meta",
-            "disabled": true,
             "settings": {
               "show_pr_vendor": true,
               "show_sku": true,
               "show_available": true,
               "show_category_product": true,
               "show_tag_product": true
-            }
-          },
-          "product-template-6": {
-            "type": "social",
-            "disabled": true,
-            "settings": {
-              "class": "tdf"
             }
           },
           "order_dVd6CX": {
@@ -2763,7 +2754,7 @@
               "icon_name": "truck",
               "fade": true,
               "txt": "Haz tu pedido ahora y recíbelo entre [date_start] y [date_end]",
-              "ds": 1,
+              "ds": 2,
               "de": 4,
               "mode": "1",
               "cut": "SAT,SUN",
@@ -2784,7 +2775,6 @@
           "09d16bdb-7862-4108-a823-76f32fc699f0",
           "product-template-4",
           "84d0ecf0-c5c1-4c2f-b7ce-ce9d2abb689f",
-          "product-template-6",
           "order_dVd6CX"
         ],
         "settings": {}
