@@ -1569,6 +1569,38 @@
       "1581505806578": {
         "type": "slideshow",
         "blocks": {
+          "1585640162346": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_49.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_77.png",
+              "pos_img": "center center",
+              "cl_img": "rgba(0,0,0,0)",
+              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion",
+              "open_link": "_self",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "tran_ef",
+              "ani_txt": "left_right",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
           "1585640443284": {
             "type": "subhd",
             "disabled": true,
@@ -1621,8 +1653,8 @@
             "type": "img",
             "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_48.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_76.png",
+              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_51.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_78.png",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "shopify://collections/all",
@@ -1747,41 +1779,10 @@
               "br_pd": 20,
               "br_pd_mb": 10
             }
-          },
-          "1585640162346": {
-            "type": "img",
-            "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_49.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_77.png",
-              "pos_img": "center center",
-              "cl_img": "rgba(0,0,0,0)",
-              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion",
-              "open_link": "_self",
-              "caption_w": "1",
-              "cap_v_pos": 50,
-              "cap_h_pos": 5,
-              "txt_align": "tl_md",
-              "cap_v_pos_mb": 50,
-              "cap_h_pos_mb": 10,
-              "txt_align_mb": "tl",
-              "cl_overlay": "#000000",
-              "cl_opacity": 0,
-              "ani_img": "tran_ef",
-              "ani_txt": "left_right",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#222222",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
           }
         },
         "block_order": [
+          "1585640162346",
           "1585640443284",
           "1585640460694",
           "1585640447349",
@@ -1789,8 +1790,7 @@
           "img_gMXM8b",
           "1585640159361",
           "img_DRDW8j",
-          "img_qXqmTa",
-          "1585640162346"
+          "img_qXqmTa"
         ],
         "settings": {
           "se_height": "adapt_f",
