@@ -1751,11 +1751,11 @@
           "1585640162346": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_43.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_71.png",
+              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_49.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_77.png",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
-              "link_img1": "shopify://collections/nueva-coleccion",
+              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion",
               "open_link": "_self",
               "caption_w": "1",
               "cap_v_pos": 50,
