@@ -4610,31 +4610,31 @@
       "collection_list_packery_t3jwfT": {
         "type": "collection-list_packery",
         "blocks": {
-          "collection_hGC79M": {
-            "type": "collection",
-            "settings": {
-              "collection": "body",
-              "image": "shopify://shop_images/WhatsApp_Image_2024-11-30_at_5.45.44_PM.jpg",
-              "img_align": "center",
-              "title": "Body's",
-              "url": "shopify://collections/body"
-            }
-          },
           "collection_UMR4Aq": {
             "type": "collection",
             "settings": {
               "collection": "origen",
-              "image": "shopify://shop_images/WhatsApp_Image_2024-11-30_at_5.46.13_PM.jpg",
+              "image": "shopify://shop_images/WhatsApp_Image_2025-06-07_at_11.18.26_AM.jpg",
               "img_align": "bottom",
               "title": "Nueva Colección",
               "url": "shopify://collections/nueva-coleccion"
+            }
+          },
+          "collection_hGC79M": {
+            "type": "collection",
+            "settings": {
+              "collection": "body",
+              "image": "shopify://shop_images/WhatsApp_Image_2025-06-07_at_11.20.21_AM.jpg",
+              "img_align": "center",
+              "title": "Body's",
+              "url": "shopify://collections/body"
             }
           },
           "collection_Rc9byK": {
             "type": "collection",
             "settings": {
               "collection": "corset",
-              "image": "shopify://shop_images/WhatsApp_Image_2024-11-30_at_5.36.58_PM.jpg",
+              "image": "shopify://shop_images/WhatsApp_Image_2025-06-07_at_11.15.16_AM.jpg",
               "img_align": "center",
               "title": "Corset's",
               "url": "shopify://collections/corset"
@@ -4652,8 +4652,8 @@
           }
         },
         "block_order": [
-          "collection_hGC79M",
           "collection_UMR4Aq",
+          "collection_hGC79M",
           "collection_Rc9byK",
           "collection_aTJDPx"
         ],
