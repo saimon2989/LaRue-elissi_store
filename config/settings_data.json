@@ -1684,6 +1684,7 @@
           },
           "img_DRDW8j": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/banner_amor_y_amistad.jpg",
               "image_mb": "shopify://shop_images/banner_amor_y_amistad.png",
