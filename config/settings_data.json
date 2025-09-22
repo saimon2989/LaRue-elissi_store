@@ -2837,13 +2837,13 @@
         "type": "banner_collection2",
         "settings": {
           "title": "Vestidos & Enterizos",
-          "image": "shopify://shop_images/WhatsApp_Image_2025-06-07_at_11.32.06_AM.jpg",
+          "image": "shopify://shop_images/WhatsApp_Image_2025-09-22_at_4.00.32_PM.jpg",
           "img_pos": "right",
           "se_height": "default",
           "se_height_tb": "500px",
           "se_height_mb": "350px",
           "collection": "vestidos-enterizos",
-          "limit": 7,
+          "limit": 4,
           "space": 40,
           "col_pr": "4",
           "col_pr_tb": "4",
@@ -2856,7 +2856,7 @@
           "cdt_des": "1",
           "use_eq_height": true,
           "image_ratio": "ratio_nt",
-          "image_size": "nt_cover",
+          "image_size": "nt_contain",
           "image_position": "5",
           "cl_bg": "",
           "mg": "34px,,50px,",
@@ -4431,7 +4431,7 @@
             "type": "collection",
             "settings": {
               "collection": "sets",
-              "image": "shopify://shop_images/WhatsApp_Image_2025-06-07_at_11.28.51_AM.jpg",
+              "image": "shopify://shop_images/WhatsApp_Image_2025-09-22_at_3.49.40_PM.jpg",
               "img_align": "top",
               "title": "Vestidos y Enterizos",
               "url": "shopify://collections/vestidos-enterizos"
