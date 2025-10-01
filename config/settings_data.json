@@ -1650,14 +1650,14 @@
               "sp_mb": 15
             }
           },
-          "img_gMXM8b": {
+          "img_DRDW8j": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_59.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_85.png",
+              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_61.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_87.png",
               "pos_img": "center center",
               "cl_img": "",
-              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion",
+              "link_img1": "https://laruecol.com.co/collections/sale",
               "open_link": "_blank",
               "caption_w": "2",
               "cap_v_pos": 50,
@@ -1682,12 +1682,11 @@
               "br_pd_mb": 10
             }
           },
-          "img_DRDW8j": {
+          "img_gMXM8b": {
             "type": "img",
-            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/banner_amor_y_amistad.jpg",
-              "image_mb": "shopify://shop_images/banner_amor_y_amistad.png",
+              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_59.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_85.png",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "https://laruecol.com.co/collections/nueva-coleccion",
@@ -1818,8 +1817,8 @@
           "1585640460694",
           "1585640447349",
           "1585640466340",
-          "img_gMXM8b",
           "img_DRDW8j",
+          "img_gMXM8b",
           "img_Vc3qJi",
           "1585640159361",
           "img_qXqmTa"
