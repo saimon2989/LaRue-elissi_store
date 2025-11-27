@@ -2839,7 +2839,7 @@
           "title": "Vestidos & Enterizos",
           "image": "shopify://shop_images/WhatsApp_Image_2025-11-19_at_8.23.46_AM.jpg",
           "img_pos": "right",
-          "se_height": "default",
+          "se_height": "full",
           "se_height_tb": "300px",
           "se_height_mb": "150px",
           "collection": "vestidos-enterizos",
