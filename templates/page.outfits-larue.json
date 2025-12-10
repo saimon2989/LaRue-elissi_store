@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "layout": "theme",
   "sections": {
@@ -16,121 +16,121 @@
         "image_yRYymh": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CF1397EE-C8B2-43E3-9F6F-C85B2241B053-682x1024_bc7a7798-6862-4059-9a70-f594d2764c64.jpg"
+            "image": "shopify://shop_images/CF1397EE-C8B2-43E3-9F6F-C85B2241B053-682x1024_bc7a7798-6862-4059-9a70-f594d2764c64.jpg"
           }
         },
         "image_XDUeHP": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0384_8c2d5a94-e6dd-4763-9d18-0f7e9e6c114a.jpg"
+            "image": "shopify://shop_images/IMG_0384_8c2d5a94-e6dd-4763-9d18-0f7e9e6c114a.jpg"
           }
         },
         "image_PyMrgD": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0813_cd2d1459-d2eb-408e-837c-b915527c1fbe.jpg"
+            "image": "shopify://shop_images/IMG_0813_cd2d1459-d2eb-408e-837c-b915527c1fbe.jpg"
           }
         },
         "image_miCfcP": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4551_f3be1f8e-a8de-47fb-a2e9-b0b23e562632.jpg"
+            "image": "shopify://shop_images/IMG_4551_f3be1f8e-a8de-47fb-a2e9-b0b23e562632.jpg"
           }
         },
         "image_K4EA8W": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MG_0767-min-683x1024_84e9a298-749d-4591-86ee-f0ab9d592c52.jpg"
+            "image": "shopify://shop_images/MG_0767-min-683x1024_84e9a298-749d-4591-86ee-f0ab9d592c52.jpg"
           }
         },
         "image_nMbAWW": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MG_5833-683x1024_d402c53a-7add-4d05-8acc-460ed7bc969d.jpg"
+            "image": "shopify://shop_images/MG_5833-683x1024_d402c53a-7add-4d05-8acc-460ed7bc969d.jpg"
           }
         },
         "image_BTmK3p": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BODY_ALMA_BLANCO_2.jpg"
+            "image": "shopify://shop_images/BODY_ALMA_BLANCO_2.jpg"
           }
         },
         "image_3MmiD7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/portada-set.jpg"
+            "image": "shopify://shop_images/portada-set.jpg"
           }
         },
         "image_d6BQHF": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-0253_b8fe35f3-c90f-4a48-b9b5-2ab30049e08e.jpg"
+            "image": "shopify://shop_images/Tezza-0253_b8fe35f3-c90f-4a48-b9b5-2ab30049e08e.jpg"
           }
         },
         "image_NUTUdx": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-3392_bbabae34-f675-41ef-af76-d05bd0a98db3.jpg"
+            "image": "shopify://shop_images/Tezza-3392_bbabae34-f675-41ef-af76-d05bd0a98db3.jpg"
           }
         },
         "image_9Enrx8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-3445_e819e7f5-f965-46e0-ba2a-559354aa0ba0.jpg"
+            "image": "shopify://shop_images/Tezza-3445_e819e7f5-f965-46e0-ba2a-559354aa0ba0.jpg"
           }
         },
         "image_JqxHhB": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-4894_6f1c8a4b-dd4b-4912-8348-df156cdd3dd1.jpg"
+            "image": "shopify://shop_images/Tezza-4894_6f1c8a4b-dd4b-4912-8348-df156cdd3dd1.jpg"
           }
         },
         "image_MVE4xA": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BODY_ALMA_BLANCO_1.jpg"
+            "image": "shopify://shop_images/BODY_ALMA_BLANCO_1.jpg"
           }
         },
         "image_XA6iiX": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-5979_16e4c9ba-6fe2-4200-bab5-198f4c187d7a.jpg"
+            "image": "shopify://shop_images/Tezza-5979_16e4c9ba-6fe2-4200-bab5-198f4c187d7a.jpg"
           }
         },
         "image_g6y9XU": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-6098_7a2c006e-82fd-44c6-a3a5-6b9e8b555cac.jpg"
+            "image": "shopify://shop_images/Tezza-6098_7a2c006e-82fd-44c6-a3a5-6b9e8b555cac.jpg"
           }
         },
         "image_JYjaPV": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-8499_60f65195-ccaa-4e6e-8178-fe15f77714f8.jpg"
+            "image": "shopify://shop_images/Tezza-8499_60f65195-ccaa-4e6e-8178-fe15f77714f8.jpg"
           }
         },
         "image_HR3ygF": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-8813_52b7340e-238e-47af-8871-d03d90e88228.jpg"
+            "image": "shopify://shop_images/Tezza-8813_52b7340e-238e-47af-8871-d03d90e88228.jpg"
           }
         },
         "image_majgCe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp-Image-2022-07-09-at-9.53.40-AM-682x1024_a2cbf754-a4ef-46d4-a7b9-e6e1ca6791b3.jpg"
+            "image": "shopify://shop_images/WhatsApp-Image-2022-07-09-at-9.53.40-AM-682x1024_a2cbf754-a4ef-46d4-a7b9-e6e1ca6791b3.jpg"
           }
         },
         "image_iUQtDW": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp-Image-2022-07-09-at-9.53.42-AM-1-682x1024_71e80b61-9943-4200-96ce-784613790e94.jpg"
+            "image": "shopify://shop_images/WhatsApp-Image-2022-07-09-at-9.53.42-AM-1-682x1024_71e80b61-9943-4200-96ce-784613790e94.jpg"
           }
         },
         "image_rtJ3eq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp-Image-2022-07-09-at-9.53.43-AM-1-682x1024_25b08809-b0c1-4f93-88cb-e4452b024d2d.jpg"
+            "image": "shopify://shop_images/WhatsApp-Image-2022-07-09-at-9.53.43-AM-1-682x1024_25b08809-b0c1-4f93-88cb-e4452b024d2d.jpg"
           }
         }
       },
@@ -270,7 +270,7 @@
         "img_KRVdMj": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CF1397EE-C8B2-43E3-9F6F-C85B2241B053-682x1024_bc7a7798-6862-4059-9a70-f594d2764c64.jpg",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-12-09_at_1.56.39_PM.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -287,14 +287,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/body-adele",
+            "url": "https://laruecol.com.co/collections/nueva-coleccion/products/corset-serena",
             "open_link": "_self"
           }
         },
         "img_t436Qd": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-3445_e819e7f5-f965-46e0-ba2a-559354aa0ba0.jpg",
+            "image": "shopify://shop_images/Tezza-3445_e819e7f5-f965-46e0-ba2a-559354aa0ba0.jpg",
             "col_pr": "6",
             "col_pr_tb": "6",
             "col_pr_mb": "6"
@@ -311,14 +311,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/vestido-laila",
+            "url": "shopify://products/vestido-laila",
             "open_link": "_self"
           }
         },
         "img_wTBTDj": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0813_cd2d1459-d2eb-408e-837c-b915527c1fbe.jpg",
+            "image": "shopify://shop_images/IMG_0813_cd2d1459-d2eb-408e-837c-b915527c1fbe.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -335,14 +335,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/enterizo-marruecos",
+            "url": "shopify://products/enterizo-marruecos",
             "open_link": "_self"
           }
         },
         "img_txc3pU": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4551_f3be1f8e-a8de-47fb-a2e9-b0b23e562632.jpg",
+            "image": "shopify://shop_images/IMG_4551_f3be1f8e-a8de-47fb-a2e9-b0b23e562632.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -359,14 +359,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/enterizo-alahia",
+            "url": "shopify://products/enterizo-alahia",
             "open_link": "_self"
           }
         },
         "img_LryaLa": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0384_8c2d5a94-e6dd-4763-9d18-0f7e9e6c114a.jpg",
+            "image": "shopify://shop_images/IMG_0384_8c2d5a94-e6dd-4763-9d18-0f7e9e6c114a.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -383,14 +383,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/body-bali",
+            "url": "shopify://products/body-bali",
             "open_link": "_self"
           }
         },
         "img_AwB88m": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-3392_bbabae34-f675-41ef-af76-d05bd0a98db3.jpg",
+            "image": "shopify://shop_images/Tezza-3392_bbabae34-f675-41ef-af76-d05bd0a98db3.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -407,14 +407,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/vestido-atenea",
+            "url": "shopify://products/vestido-atenea",
             "open_link": "_self"
           }
         },
         "img_BxUmtJ": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MG_5833-683x1024_d402c53a-7add-4d05-8acc-460ed7bc969d.jpg",
+            "image": "shopify://shop_images/MG_5833-683x1024_d402c53a-7add-4d05-8acc-460ed7bc969d.jpg",
             "col_pr": "6",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -431,14 +431,14 @@
             "pos_size": "large",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/set-la-rue",
+            "url": "shopify://products/set-la-rue",
             "open_link": "_self"
           }
         },
         "img_r8RRjQ": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MG_0767-min-683x1024_84e9a298-749d-4591-86ee-f0ab9d592c52.jpg",
+            "image": "shopify://shop_images/MG_0767-min-683x1024_84e9a298-749d-4591-86ee-f0ab9d592c52.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -455,14 +455,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/body-zoe",
+            "url": "shopify://products/body-zoe",
             "open_link": "_self"
           }
         },
         "img_89hGxA": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-4894_6f1c8a4b-dd4b-4912-8348-df156cdd3dd1.jpg",
+            "image": "shopify://shop_images/Tezza-4894_6f1c8a4b-dd4b-4912-8348-df156cdd3dd1.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -479,14 +479,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/body-leah",
+            "url": "shopify://products/body-leah",
             "open_link": "_self"
           }
         },
         "img_6aRDx6": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-0253_b8fe35f3-c90f-4a48-b9b5-2ab30049e08e.jpg",
+            "image": "shopify://shop_images/Tezza-0253_b8fe35f3-c90f-4a48-b9b5-2ab30049e08e.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -503,14 +503,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/body-alba",
+            "url": "shopify://products/body-alba",
             "open_link": "_self"
           }
         },
         "img_KbmJiN": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-8499_60f65195-ccaa-4e6e-8178-fe15f77714f8.jpg",
+            "image": "shopify://shop_images/Tezza-8499_60f65195-ccaa-4e6e-8178-fe15f77714f8.jpg",
             "col_pr": "4",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -527,14 +527,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/trio-tayra",
+            "url": "shopify://products/trio-tayra",
             "open_link": "_self"
           }
         },
         "img_8TWmA9": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-5979_16e4c9ba-6fe2-4200-bab5-198f4c187d7a.jpg",
+            "image": "shopify://shop_images/Tezza-5979_16e4c9ba-6fe2-4200-bab5-198f4c187d7a.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -551,14 +551,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/vestido-atenea",
+            "url": "shopify://products/vestido-atenea",
             "open_link": "_self"
           }
         },
         "img_tUTktM": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-6098_7a2c006e-82fd-44c6-a3a5-6b9e8b555cac.jpg",
+            "image": "shopify://shop_images/Tezza-6098_7a2c006e-82fd-44c6-a3a5-6b9e8b555cac.jpg",
             "col_pr": "15",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -575,14 +575,14 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/body-venus",
+            "url": "shopify://products/body-venus",
             "open_link": "_self"
           }
         },
         "img_enG3Di": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tezza-8813.jpg",
+            "image": "shopify://shop_images/Tezza-8813.jpg",
             "col_pr": "15",
             "col_pr_tb": "3",
             "col_pr_mb": "6"
@@ -599,7 +599,7 @@
             "pos_size": "exmedium",
             "effect": "fade",
             "bg_cl": "#da524c",
-            "url": "shopify:\/\/products\/set-selene",
+            "url": "shopify://products/set-selene",
             "open_link": "_self"
           }
         }
