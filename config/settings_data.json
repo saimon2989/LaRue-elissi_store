@@ -1747,10 +1747,9 @@
           },
           "1585640159361": {
             "type": "img",
-            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_65.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_92.png",
+              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_3_eab8ff21-fb96-4af4-8557-36f761f8dcd9.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_2_803b9f6f-1ff3-4841-b225-f15ae4af1f3d.png",
               "pos_img": "center center",
               "cl_img": "rgba(0,0,0,0)",
               "link_img1": "shopify://collections/nueva-coleccion",
