@@ -1602,6 +1602,38 @@
               "br_pd_mb": 10
             }
           },
+          "img_qXqmTa": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_2_908eb0d2-b708-4778-bd30-032f17ede1b6.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_2_840d932d-a0b3-4166-8df6-55fc13714646.png",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/body-liana",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 39,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 39,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "none",
+              "ani_txt": "none",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
           "1585640159361": {
             "type": "img",
             "settings": {
@@ -1777,42 +1809,11 @@
               "sp": 42,
               "sp_mb": 15
             }
-          },
-          "img_qXqmTa": {
-            "type": "img",
-            "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_8_f9ea1adf-564f-4dea-a91e-e0b07d50c78a.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_6_e3f19bd1-5e9f-4276-9184-89490be2a8f6.png",
-              "pos_img": "center center",
-              "cl_img": "",
-              "link_img1": "https://laruecol.com.co/collections/sale",
-              "open_link": "_blank",
-              "caption_w": "2",
-              "cap_v_pos": 50,
-              "cap_h_pos": 39,
-              "txt_align": "tl_md",
-              "cap_v_pos_mb": 50,
-              "cap_h_pos_mb": 39,
-              "txt_align_mb": "tl",
-              "cl_overlay": "#000000",
-              "cl_opacity": 0,
-              "ani_img": "none",
-              "ani_txt": "none",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#222222",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
           }
         },
         "block_order": [
           "img_Vc3qJi",
+          "img_qXqmTa",
           "1585640159361",
           "img_DRDW8j",
           "img_gMXM8b",
@@ -1820,8 +1821,7 @@
           "1585640443284",
           "1585640460694",
           "1585640447349",
-          "1585640466340",
-          "img_qXqmTa"
+          "1585640466340"
         ],
         "settings": {
           "se_height": "adapt_f",
