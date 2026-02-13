@@ -2776,6 +2776,7 @@
           },
           "product-template-4": {
             "type": "size",
+            "disabled": true,
             "settings": {
               "size_chart": "3",
               "pos_sizeg": "1",
