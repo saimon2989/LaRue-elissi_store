@@ -2572,7 +2572,7 @@
       "sticky_atc": {
         "type": "sticky_atc",
         "settings": {
-          "mb": true,
+          "mb": false,
           "ani": "none",
           "time": 6
         }
