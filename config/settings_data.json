@@ -2164,6 +2164,7 @@
           },
           "text_LRaVeY": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "title": "Garantía",
               "text": "<p>Todas nuestras prendas están fabricadas bajo los más altos estándares de calidad y cuentan con garantía en sus materiales, elaboración, originalidad y durabilidad.</p>"
@@ -2744,6 +2745,7 @@
           },
           "order_dVd6CX": {
             "type": "order",
+            "disabled": true,
             "settings": {
               "hide_pre": true,
               "icon": "2",
