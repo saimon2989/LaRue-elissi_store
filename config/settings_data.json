@@ -202,7 +202,7 @@
     "social_pr": true,
     "enable_vlooping": true,
     "use_fimg": true,
-    "color_ck": "Color, Colors, Couleur, Colour",
+    "color_ck": "COLOR, TALLA",
     "use_clicking_vimg": false,
     "enable_his": false,
     "pr_incoming_mess": false,
