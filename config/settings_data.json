@@ -1601,6 +1601,38 @@
               "br_pd_mb": 10
             }
           },
+          "1585640162346": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/banner_horizontal_3.png",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_7_e8ba5108-3218-4049-8c4e-632f097541db.png",
+              "pos_img": "center center",
+              "cl_img": "rgba(0,0,0,0)",
+              "link_img1": "",
+              "open_link": "_self",
+              "caption_w": "1",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "tran_ef",
+              "ani_txt": "left_right",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
           "img_Vc3qJi": {
             "type": "img",
             "disabled": true,
@@ -1730,38 +1762,6 @@
               "br_pd_mb": 10
             }
           },
-          "1585640162346": {
-            "type": "img",
-            "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_1_838dc67b-6b8f-499c-9b79-d9b7f53c4cea.png",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_14_74389fb4-13a8-4ebc-9c90-822557b22f4d.png",
-              "pos_img": "center center",
-              "cl_img": "rgba(0,0,0,0)",
-              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion",
-              "open_link": "_self",
-              "caption_w": "1",
-              "cap_v_pos": 50,
-              "cap_h_pos": 5,
-              "txt_align": "tl_md",
-              "cap_v_pos_mb": 50,
-              "cap_h_pos_mb": 10,
-              "txt_align_mb": "tl",
-              "cl_overlay": "#000000",
-              "cl_opacity": 0,
-              "ani_img": "tran_ef",
-              "ani_txt": "left_right",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#222222",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
-          },
           "1585640443284": {
             "type": "subhd",
             "disabled": true,
@@ -1813,11 +1813,11 @@
         },
         "block_order": [
           "img_gMXM8b",
+          "1585640162346",
           "img_Vc3qJi",
           "img_qXqmTa",
           "1585640159361",
           "img_DRDW8j",
-          "1585640162346",
           "1585640443284",
           "1585640460694",
           "1585640447349",
