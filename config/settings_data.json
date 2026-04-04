@@ -1569,38 +1569,6 @@
       "1581505806578": {
         "type": "slideshow",
         "blocks": {
-          "img_gMXM8b": {
-            "type": "img",
-            "settings": {
-              "image": "shopify://shop_images/banner_horizontal_2.png",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_6_31fbb3cc-77a6-4a41-b233-3b7563d6a519.png",
-              "pos_img": "center center",
-              "cl_img": "",
-              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/body-elia",
-              "open_link": "_blank",
-              "caption_w": "2",
-              "cap_v_pos": 50,
-              "cap_h_pos": 39,
-              "txt_align": "tl_md",
-              "cap_v_pos_mb": 50,
-              "cap_h_pos_mb": 39,
-              "txt_align_mb": "tl",
-              "cl_overlay": "#000000",
-              "cl_opacity": 0,
-              "ani_img": "none",
-              "ani_txt": "none",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#222222",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
-          },
           "1585640162346": {
             "type": "img",
             "settings": {
@@ -1633,15 +1601,14 @@
               "br_pd_mb": 10
             }
           },
-          "img_Vc3qJi": {
+          "img_qXqmTa": {
             "type": "img",
-            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_4.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_3_91836109-ecaf-4bb8-96b9-bf0f7f39ba16.png",
+              "image": "shopify://shop_images/banner_horizontal.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_13_f07f208f-dbf0-45e7-8122-db89301b89b6.png",
               "pos_img": "center center",
               "cl_img": "",
-              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/vestido-lumina",
+              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/body-liana",
               "open_link": "_blank",
               "caption_w": "2",
               "cap_v_pos": 50,
@@ -1666,14 +1633,47 @@
               "br_pd_mb": 10
             }
           },
-          "img_qXqmTa": {
+          "img_gMXM8b": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/banner_horizontal.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_13_f07f208f-dbf0-45e7-8122-db89301b89b6.png",
+              "image": "shopify://shop_images/banner_horizontal_2.png",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_6_31fbb3cc-77a6-4a41-b233-3b7563d6a519.png",
               "pos_img": "center center",
               "cl_img": "",
-              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/body-liana",
+              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/body-elia",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 39,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 39,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "none",
+              "ani_txt": "none",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "img_Vc3qJi": {
+            "type": "img",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/banner_horizontal_2.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_15_721dbd8c-222b-413c-b5d4-f4690725fd2e.png",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/vestido-lumina",
               "open_link": "_blank",
               "caption_w": "2",
               "cap_v_pos": 50,
@@ -1812,10 +1812,10 @@
           }
         },
         "block_order": [
-          "img_gMXM8b",
           "1585640162346",
-          "img_Vc3qJi",
           "img_qXqmTa",
+          "img_gMXM8b",
+          "img_Vc3qJi",
           "1585640159361",
           "img_DRDW8j",
           "1585640443284",
