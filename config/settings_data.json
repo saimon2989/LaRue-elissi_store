@@ -1669,8 +1669,8 @@
           "img_qXqmTa": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_1800_x_600_px_2_908eb0d2-b708-4778-bd30-032f17ede1b6.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_2_840d932d-a0b3-4166-8df6-55fc13714646.png",
+              "image": "shopify://shop_images/banner_horizontal.jpg",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_13_f07f208f-dbf0-45e7-8122-db89301b89b6.png",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/body-liana",
