@@ -2848,7 +2848,7 @@
           "se_height_tb": "1000px",
           "se_height_mb": "1500px",
           "collection": "vestidos-enterizos",
-          "limit": 6,
+          "limit": 5,
           "space": 30,
           "col_pr": "4",
           "col_pr_tb": "4",
