@@ -267,6 +267,30 @@
     "lookbook_packery_QER6RG": {
       "type": "lookbook_packery",
       "blocks": {
+        "url_9zDHLd": {
+          "type": "url",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "3",
+            "shorttxt": "Ver",
+            "pos_pin": "top",
+            "pos_size": "exmedium",
+            "effect": "fade",
+            "bg_cl": "#da524c",
+            "url": "shopify://products/body-ayla",
+            "open_link": "_blank"
+          }
+        },
+        "img_yL8Lx8": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/bodyayla_2.png",
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
         "img_nqmixJ": {
           "type": "img",
           "settings": {
@@ -749,6 +773,8 @@
         }
       },
       "block_order": [
+        "url_9zDHLd",
+        "img_yL8Lx8",
         "img_nqmixJ",
         "url_pfRHjW",
         "img_ttmc8K",
