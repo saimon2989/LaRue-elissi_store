@@ -475,6 +475,17 @@
               "cus_wid": 200
             }
           },
+          "cat_RQbwhV": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_10.21.35_AM.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "lingerie",
+              "title": "",
+              "col": "4"
+            }
+          },
           "mega_cxDP7M": {
             "type": "mega",
             "settings": {
@@ -523,7 +534,7 @@
           "cat_AAVeL7": {
             "type": "cat",
             "settings": {
-              "image": "shopify://shop_images/VESTIDO_CELINE_NEGRO_2.jpg",
+              "image": "shopify://shop_images/WhatsApp_Image_2025-12-04_at_3.17.55_PM.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "vestidos",
@@ -889,6 +900,7 @@
           "a18c31d2-aa93-4782-a618-bd2bb356cd56",
           "simple_kc8AVV",
           "mega_cexptF",
+          "cat_RQbwhV",
           "mega_cxDP7M",
           "cat_wTrBJF",
           "mega_nRwDVM",
