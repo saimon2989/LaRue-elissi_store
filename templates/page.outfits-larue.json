@@ -267,6 +267,30 @@
     "lookbook_packery_QER6RG": {
       "type": "lookbook_packery",
       "blocks": {
+        "img_nqmixJ": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_9.51.59_AM.jpg",
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "url_pfRHjW": {
+          "type": "url",
+          "settings": {
+            "pos_t": 71,
+            "pos_l": 37,
+            "type": "3",
+            "shorttxt": "Ver",
+            "pos_pin": "top",
+            "pos_size": "exmedium",
+            "effect": "fade",
+            "bg_cl": "#da524c",
+            "url": "shopify://products/corset-serena",
+            "open_link": "_self"
+          }
+        },
         "img_ttmc8K": {
           "type": "img",
           "settings": {
@@ -725,6 +749,8 @@
         }
       },
       "block_order": [
+        "img_nqmixJ",
+        "url_pfRHjW",
         "img_ttmc8K",
         "url_74nXb9",
         "img_9LxRJd",
