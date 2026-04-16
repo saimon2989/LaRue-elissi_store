@@ -267,6 +267,30 @@
     "lookbook_packery_QER6RG": {
       "type": "lookbook_packery",
       "blocks": {
+        "img_LCjk86": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-04-14_at_12.55.02_PM.jpg",
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "url_Vir8JW": {
+          "type": "url",
+          "settings": {
+            "pos_t": 57,
+            "pos_l": 50,
+            "type": "3",
+            "shorttxt": "Ver",
+            "pos_pin": "top",
+            "pos_size": "exmedium",
+            "effect": "fade",
+            "bg_cl": "#da524c",
+            "url": "shopify://products/falda-lhia",
+            "open_link": "_self"
+          }
+        },
         "img_KRVdMj": {
           "type": "img",
           "settings": {
@@ -629,6 +653,8 @@
         }
       },
       "block_order": [
+        "img_LCjk86",
+        "url_Vir8JW",
         "img_KRVdMj",
         "url_cFYhP7",
         "img_GpfCmz",
