@@ -486,6 +486,16 @@
               "col": "12"
             }
           },
+          "link_NrLgen": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Heading",
+              "url": "shopify://collections/body",
+              "open_link": "_self",
+              "menu": "bodys-corsets",
+              "col": "12"
+            }
+          },
           "mega_cxDP7M": {
             "type": "mega",
             "settings": {
@@ -901,6 +911,7 @@
           "simple_kc8AVV",
           "mega_cexptF",
           "cat_RQbwhV",
+          "link_NrLgen",
           "mega_cxDP7M",
           "cat_wTrBJF",
           "mega_nRwDVM",
