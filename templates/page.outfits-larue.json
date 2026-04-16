@@ -267,6 +267,39 @@
     "lookbook_packery_QER6RG": {
       "type": "lookbook_packery",
       "blocks": {
+        "img_8eArFM": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_12.19.20_PM_3.jpg",
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "url_bg4UqC": {
+          "type": "url",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "3",
+            "shorttxt": "Ver",
+            "pos_pin": "top",
+            "pos_size": "exmedium",
+            "effect": "fade",
+            "bg_cl": "#da524c",
+            "url": "shopify://products/vestido-abba",
+            "open_link": "_blank"
+          }
+        },
+        "img_WbpP9D": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_12.19.21_PM_1.jpg",
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
         "url_7dkqwK": {
           "type": "url",
           "settings": {
@@ -280,15 +313,6 @@
             "bg_cl": "#da524c",
             "url": "shopify://products/vestido-largo-medio-beso",
             "open_link": "_blank"
-          }
-        },
-        "img_WbpP9D": {
-          "type": "img",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_12.19.21_PM_1.jpg",
-            "col_pr": "3",
-            "col_pr_tb": "3",
-            "col_pr_mb": "6"
           }
         },
         "img_nQTpcE": {
@@ -845,8 +869,10 @@
         }
       },
       "block_order": [
-        "url_7dkqwK",
+        "img_8eArFM",
+        "url_bg4UqC",
         "img_WbpP9D",
+        "url_7dkqwK",
         "img_nQTpcE",
         "url_R9kahT",
         "img_ig9g7K",
