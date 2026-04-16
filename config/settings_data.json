@@ -4272,6 +4272,29 @@
       "lookbook_packery_r8ciwR": {
         "type": "lookbook_packery",
         "blocks": {
+          "pr_QWK9gF": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "type": "1",
+              "shorttxt": "",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#da524c",
+              "product": "body-adele"
+            }
+          },
+          "img_HbX8wY": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/VESTIDO_MIA_NEGRO.png",
+              "col_pr": "3",
+              "col_pr_tb": "3",
+              "col_pr_mb": "6"
+            }
+          },
           "img_TgDPR4": {
             "type": "img",
             "settings": {
@@ -4412,6 +4435,8 @@
           }
         },
         "block_order": [
+          "pr_QWK9gF",
+          "img_HbX8wY",
           "img_TgDPR4",
           "pr_g6bVBD",
           "img_A7q6ce",
