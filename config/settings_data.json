@@ -4506,8 +4506,8 @@
             "type": "collection",
             "settings": {
               "collection": "origen",
-              "image": "shopify://shop_images/WhatsApp_Image_2025-11-26_at_3.03.25_PM_1.jpg",
-              "img_align": "bottom",
+              "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_9.56.51_AM.jpg",
+              "img_align": "top",
               "title": "Nueva Colección",
               "url": "shopify://collections/nueva-coleccion"
             }
@@ -4516,7 +4516,7 @@
             "type": "collection",
             "settings": {
               "collection": "body",
-              "image": "shopify://shop_images/BODYASHA.png",
+              "image": "shopify://shop_images/WhatsApp_Image_2025-12-03_at_4.03.36_PM.jpg",
               "img_align": "center",
               "title": "Body's",
               "url": "shopify://collections/body"
@@ -4526,7 +4526,7 @@
             "type": "collection",
             "settings": {
               "collection": "corset",
-              "image": "shopify://shop_images/WhatsApp_Image_2025-11-19_at_8.01.20_AM_4.jpg",
+              "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_9.51.59_AM.jpg",
               "img_align": "center",
               "title": "Corset's y Set's",
               "url": "shopify://collections/corset"
@@ -4536,8 +4536,8 @@
             "type": "collection",
             "settings": {
               "collection": "sets",
-              "image": "shopify://shop_images/WhatsApp_Image_2025-11-19_at_8.01.53_AM_4.jpg",
-              "img_align": "top",
+              "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_10.00.09_AM.jpg",
+              "img_align": "center",
               "title": "Vestidos y Enterizos",
               "url": "shopify://collections/vestidos-enterizos"
             }
