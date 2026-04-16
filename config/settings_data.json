@@ -489,7 +489,7 @@
           "link_NrLgen": {
             "type": "link",
             "settings": {
-              "tt_hd": "Heading",
+              "tt_hd": "",
               "url": "shopify://collections/body",
               "open_link": "_self",
               "menu": "bodys-corsets",
