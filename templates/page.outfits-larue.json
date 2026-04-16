@@ -267,6 +267,30 @@
     "lookbook_packery_QER6RG": {
       "type": "lookbook_packery",
       "blocks": {
+        "img_nQTpcE": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7563.heic",
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "url_R9kahT": {
+          "type": "url",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "3",
+            "shorttxt": "Ver",
+            "pos_pin": "top",
+            "pos_size": "exmedium",
+            "effect": "fade",
+            "bg_cl": "#da524c",
+            "url": "shopify://products/body-elia",
+            "open_link": "_blank"
+          }
+        },
         "img_ig9g7K": {
           "type": "img",
           "settings": {
@@ -797,6 +821,8 @@
         }
       },
       "block_order": [
+        "img_nQTpcE",
+        "url_R9kahT",
         "img_ig9g7K",
         "url_k6gtTE",
         "img_yL8Lx8",
