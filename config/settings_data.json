@@ -4298,7 +4298,7 @@
           "img_K7daPR": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/SET-OASIS---NEGRO---1.jpg",
+              "image": "shopify://shop_images/BODY_ASHA_NEGRO.png",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
@@ -4315,7 +4315,7 @@
               "pos_size": "medium",
               "effect": "fade",
               "bg_cl": "#f76b6a",
-              "product": "set-oasis"
+              "product": "body-asha"
             }
           },
           "img_fAhg7Q": {
