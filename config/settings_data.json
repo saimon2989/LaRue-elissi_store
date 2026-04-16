@@ -4275,7 +4275,7 @@
           "img_pNfWGp": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/BODY_ARI_-_ROJO_-_1.jpg",
+              "image": "shopify://shop_images/CORSET_SERENA_NEGRO.png",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
@@ -4292,7 +4292,7 @@
               "pos_size": "medium",
               "effect": "fade",
               "bg_cl": "#da524c",
-              "product": "body-ari"
+              "product": "corset-serena"
             }
           },
           "img_K7daPR": {
@@ -4321,7 +4321,7 @@
           "img_fAhg7Q": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/ENTERIZO_BRUNA_NEGRO_1.jpg",
+              "image": "shopify://shop_images/VESTIDO_LUMINA.png",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
@@ -4338,13 +4338,13 @@
               "pos_size": "medium",
               "effect": "fade",
               "bg_cl": "#f76b6a",
-              "product": "enterizo-bruna"
+              "product": "vestido-lumina"
             }
           },
           "img_9cXmNQ": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/SET-LA-RUE---ROSA---1.jpg",
+              "image": "shopify://shop_images/ENTERIZO_NOVA_CAFE.png",
               "col_pr": "3",
               "col_pr_tb": "3",
               "col_pr_mb": "6"
@@ -4361,7 +4361,7 @@
               "pos_size": "medium",
               "effect": "fade",
               "bg_cl": "#f76b6a",
-              "product": "set-la-rue"
+              "product": "enterizo-nova"
             }
           }
         },
