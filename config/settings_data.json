@@ -2839,14 +2839,14 @@
         "type": "banner_collection2",
         "settings": {
           "title": "Vestidos & Enterizos",
-          "image": "shopify://shop_images/WhatsApp_Image_2025-11-19_at_8.23.46_AM.jpg",
+          "image": "shopify://shop_images/Diseno_sin_titulo_5.png",
           "img_pos": "right",
-          "se_height": "full",
+          "se_height": "default",
           "se_height_tb": "300px",
           "se_height_mb": "150px",
           "collection": "vestidos-enterizos",
           "limit": 6,
-          "space": 20,
+          "space": 30,
           "col_pr": "4",
           "col_pr_tb": "4",
           "col_pr_mb": "6",
@@ -5273,5 +5273,8 @@
         "settings": {}
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": []
   }
 }
