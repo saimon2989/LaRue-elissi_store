@@ -4272,6 +4272,29 @@
       "lookbook_packery_r8ciwR": {
         "type": "lookbook_packery",
         "blocks": {
+          "img_TgDPR4": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/BODY_ARI_AMARILLO_3e76db6f-daf1-4fe7-9989-3a1422af31eb.png",
+              "col_pr": "3",
+              "col_pr_tb": "3",
+              "col_pr_mb": "6"
+            }
+          },
+          "pr_g6bVBD": {
+            "type": "pr",
+            "settings": {
+              "pos_t": 50,
+              "pos_l": 50,
+              "type": "1",
+              "shorttxt": "0",
+              "pos_pin": "top",
+              "pos_size": "medium",
+              "effect": "fade",
+              "bg_cl": "#da524c",
+              "product": "body-ari"
+            }
+          },
           "img_A7q6ce": {
             "type": "img",
             "settings": {
@@ -4389,6 +4412,8 @@
           }
         },
         "block_order": [
+          "img_TgDPR4",
+          "pr_g6bVBD",
           "img_A7q6ce",
           "pr_jfRTgz",
           "img_pNfWGp",
