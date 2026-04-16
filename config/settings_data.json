@@ -495,22 +495,12 @@
           "cat_wTrBJF": {
             "type": "cat",
             "settings": {
-              "image": "shopify://shop_images/BODY_AMY_NEGRO_3.jpg",
+              "image": "shopify://shop_images/WhatsApp_Image_2025-12-09_at_1.56.39_PM.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "lingerie",
+              "collection": "accesorios",
               "title": "",
               "col": "12"
-            }
-          },
-          "1585641102330": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "",
-              "url": "shopify://collections/lingerie",
-              "open_link": "_self",
-              "menu": "lingerie",
-              "col": "10"
             }
           },
           "mega_nRwDVM": {
@@ -901,7 +891,6 @@
           "mega_cexptF",
           "mega_cxDP7M",
           "cat_wTrBJF",
-          "1585641102330",
           "mega_nRwDVM",
           "cat_AAVeL7",
           "link_Q4qXXq",
