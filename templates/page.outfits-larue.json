@@ -270,6 +270,30 @@
         "img_KRVdMj": {
           "type": "img",
           "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_9.56.51_AM.jpg",
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
+        "url_cFYhP7": {
+          "type": "url",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "3",
+            "shorttxt": "Ver",
+            "pos_pin": "top",
+            "pos_size": "exmedium",
+            "effect": "fade",
+            "bg_cl": "#da524c",
+            "url": "shopify://products/enterizo-nova",
+            "open_link": "_self"
+          }
+        },
+        "img_GpfCmz": {
+          "type": "img",
+          "settings": {
             "image": "shopify://shop_images/WhatsApp_Image_2025-12-09_at_1.56.39_PM.jpg",
             "col_pr": "3",
             "col_pr_tb": "3",
@@ -606,6 +630,8 @@
       },
       "block_order": [
         "img_KRVdMj",
+        "url_cFYhP7",
+        "img_GpfCmz",
         "url_rfgcfB",
         "img_t436Qd",
         "url_LBRt37",
