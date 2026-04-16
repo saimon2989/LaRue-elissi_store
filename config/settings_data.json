@@ -475,6 +475,19 @@
               "cus_wid": 200
             }
           },
+          "simple_ncPUBy": {
+            "type": "simple",
+            "settings": {
+              "title": "Accesorios",
+              "url": "shopify://products/mangas-serena",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "cat_wTrBJF": {
             "type": "cat",
             "settings": {
@@ -882,6 +895,7 @@
           "a18c31d2-aa93-4782-a618-bd2bb356cd56",
           "simple_kc8AVV",
           "mega_cexptF",
+          "simple_ncPUBy",
           "cat_wTrBJF",
           "1585641102330",
           "mega_nRwDVM",
