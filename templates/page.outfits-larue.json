@@ -267,6 +267,30 @@
     "lookbook_packery_QER6RG": {
       "type": "lookbook_packery",
       "blocks": {
+        "url_YjQ9K6": {
+          "type": "url",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "3",
+            "shorttxt": "Ver",
+            "pos_pin": "top",
+            "pos_size": "exmedium",
+            "effect": "fade",
+            "bg_cl": "#da524c",
+            "url": "shopify://products/vestido-lumina",
+            "open_link": "_blank"
+          }
+        },
+        "img_9LxRJd": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-04-16_at_10.00.09_AM.jpg",
+            "col_pr": "3",
+            "col_pr_tb": "3",
+            "col_pr_mb": "6"
+          }
+        },
         "img_Dt9dYQ": {
           "type": "img",
           "settings": {
@@ -677,6 +701,8 @@
         }
       },
       "block_order": [
+        "url_YjQ9K6",
+        "img_9LxRJd",
         "img_Dt9dYQ",
         "url_JpQPmH",
         "img_LCjk86",
