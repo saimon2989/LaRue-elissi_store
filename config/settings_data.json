@@ -1697,10 +1697,9 @@
           },
           "img_Vc3qJi": {
             "type": "img",
-            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/banner_horizontal_2.jpg",
-              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_15_721dbd8c-222b-413c-b5d4-f4690725fd2e.png",
+              "image": "shopify://shop_images/Banner_horizontal.png",
+              "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_c0c42641-850b-4493-b016-fefc83b25951.png",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "https://laruecol.com.co/collections/nueva-coleccion/products/vestido-lumina",
