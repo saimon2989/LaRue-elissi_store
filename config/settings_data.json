@@ -1601,6 +1601,7 @@
         "blocks": {
           "img_Vc3qJi": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Banner_horizontal.png",
               "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_c0c42641-850b-4493-b016-fefc83b25951.png",
