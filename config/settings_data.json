@@ -466,7 +466,7 @@
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
-              "cl": "#ec0101",
+              "cl": "#333333",
               "lb": "",
               "lb_cl": "",
               "lazy_mn": false,
@@ -583,7 +583,7 @@
               "open_link": "_self",
               "icon": "las la-ticket-alt",
               "cus_cl": true,
-              "cl": "#da524c",
+              "cl": "#000",
               "lb": "",
               "lb_cl": "#da524c"
             }
