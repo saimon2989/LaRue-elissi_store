@@ -1599,8 +1599,40 @@
       "1581505806578": {
         "type": "slideshow",
         "blocks": {
+          "img_L8ip9D": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/30.png",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 39,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 50,
+              "cap_h_pos_mb": 39,
+              "txt_align_mb": "tl",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "none",
+              "ani_txt": "none",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
           "img_qXqmTa": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/banner_horizontal.jpg",
               "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_13_f07f208f-dbf0-45e7-8122-db89301b89b6.png",
@@ -1633,6 +1665,7 @@
           },
           "1585640162346": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/banner_horizontal_1.jpg",
               "image_mb": "shopify://shop_images/Banner_web_horizontal_nueva_coleccion_centrado_lila_750_x_1100_px_14_b9659eda-f0d6-4cd2-bf7f-64d9536f73dc.png",
@@ -1713,6 +1746,7 @@
           }
         },
         "block_order": [
+          "img_L8ip9D",
           "img_qXqmTa",
           "1585640162346",
           "1585640443284",
