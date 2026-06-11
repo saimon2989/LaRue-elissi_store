@@ -577,6 +577,7 @@
           },
           "simple_naPUfY": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "SALE",
               "url": "shopify://collections/sale",
