@@ -1602,7 +1602,6 @@
         "blocks": {
           "img_keeynk": {
             "type": "img",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BANNER_NUEVA_COLECCION_NACIONAL.png",
               "pos_img": "center center",
