@@ -1340,7 +1340,7 @@
               "url": "",
               "menu": "",
               "lb": "",
-              "lb_cl": "#e91e63",
+              "lb_cl": "#000000",
               "icons_op": "2",
               "icon": "female"
             }
@@ -5112,7 +5112,7 @@
           "links": "",
           "pp_version": 1,
           "day_next": 30,
-          "cl_btn": "#da524c",
+          "cl_btn": "#000000",
           "cl_btn_hover": "#606850"
         }
       }
