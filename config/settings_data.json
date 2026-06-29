@@ -1602,6 +1602,7 @@
         "blocks": {
           "img_MCaMxm": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Banner_horizontal.png",
               "pos_img": "center center",
@@ -1633,7 +1634,6 @@
           },
           "img_keeynk": {
             "type": "img",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BANNER_NUEVA_COLECCION_NACIONAL.png",
               "pos_img": "center center",
@@ -1665,6 +1665,7 @@
           },
           "img_L8ip9D": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BANNER_GERA_OFI.png",
               "pos_img": "center center",
@@ -1696,6 +1697,7 @@
           },
           "img_LjEQiq": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/29_984695a0-e478-4ae4-b3a0-6cc3120ff2f5.png",
               "pos_img": "center center",
