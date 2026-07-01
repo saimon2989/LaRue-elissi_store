@@ -1600,13 +1600,13 @@
       "1581505806578": {
         "type": "slideshow",
         "blocks": {
-          "img_MCaMxm": {
+          "img_keeynk": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/BANNER_JULIETTE_NACIONAL.png",
+              "image": "shopify://shop_images/BANNER_NUEVA_COLECCION_NACIONAL.png",
               "pos_img": "center center",
               "cl_img": "",
-              "link_img1": "shopify://products/camiseta-seleccion",
+              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion",
               "open_link": "_blank",
               "caption_w": "2",
               "cap_v_pos": 50,
@@ -1631,13 +1631,13 @@
               "br_pd_mb": 10
             }
           },
-          "img_keeynk": {
+          "img_MCaMxm": {
             "type": "img",
             "settings": {
-              "image": "shopify://shop_images/BANNER_NUEVA_COLECCION_NACIONAL.png",
+              "image": "shopify://shop_images/BANNER_JULIETTE_NACIONAL.png",
               "pos_img": "center center",
               "cl_img": "",
-              "link_img1": "https://laruecol.com.co/collections/nueva-coleccion",
+              "link_img1": "shopify://products/camiseta-seleccion",
               "open_link": "_blank",
               "caption_w": "2",
               "cap_v_pos": 50,
@@ -1776,8 +1776,8 @@
           }
         },
         "block_order": [
-          "img_MCaMxm",
           "img_keeynk",
+          "img_MCaMxm",
           "img_L8ip9D",
           "img_LjEQiq",
           "1585640443284",
