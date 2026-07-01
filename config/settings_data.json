@@ -1602,9 +1602,8 @@
         "blocks": {
           "img_MCaMxm": {
             "type": "img",
-            "disabled": true,
             "settings": {
-              "image": "shopify://shop_images/Banner_horizontal.png",
+              "image": "shopify://shop_images/BANNER_JULIETTE_NACIONAL.png",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "shopify://products/camiseta-seleccion",
