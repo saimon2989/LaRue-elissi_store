@@ -1602,6 +1602,7 @@
         "blocks": {
           "img_9j9i3V": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/Banner_horizontal_48c1ecf8-a8bf-409e-a26c-f9e60d27928b.png",
               "pos_img": "center center",
