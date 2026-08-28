@@ -575,19 +575,6 @@
               "lb_cl": ""
             }
           },
-          "simple_xBewgt": {
-            "type": "simple",
-            "settings": {
-              "title": "Sale",
-              "url": "shopify://pages/outfits-larue",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "simple_naPUfY": {
             "type": "simple",
             "disabled": true,
@@ -932,7 +919,6 @@
           "cat_AAVeL7",
           "link_Q4qXXq",
           "simple_cbzeQ8",
-          "simple_xBewgt",
           "simple_naPUfY",
           "dropdown_BH8QGV",
           "dropdown_JXDnkF",
