@@ -1602,6 +1602,7 @@
         "blocks": {
           "img_TkA6yK": {
             "type": "img",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BANNER.png",
               "pos_img": "center center",
