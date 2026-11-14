@@ -1586,6 +1586,7 @@
           "img_HiC99D": {
             "type": "img",
             "name": "JARDÍN ROSÉ",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BANNER_JARDIN_ROSE_WEB.jpg",
               "image_mb": "shopify://shop_images/BANNER_JARDIN_ROSE_MOVIL.jpg",
@@ -1619,6 +1620,7 @@
           "img_GQMfg7": {
             "type": "img",
             "name": "BODYS",
+            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BANNER_BODY_WEB.jpg",
               "image_mb": "shopify://shop_images/BANNER_BODY_MOVIL.jpg",
@@ -1651,7 +1653,6 @@
           },
           "img_maTGJk": {
             "type": "img",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BANNER_PAGINA_WEB_CORSET.png",
               "pos_img": "center center",
@@ -1779,7 +1780,6 @@
           },
           "img_MCaMxm": {
             "type": "img",
-            "disabled": true,
             "settings": {
               "image": "shopify://shop_images/BANNER_JULIETTE_NACIONAL.png",
               "pos_img": "center center",
